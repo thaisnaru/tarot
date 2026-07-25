@@ -1,0 +1,918 @@
+[
+  {
+    "id": "agua",
+    "name": "Água",
+    "emoji": "💧",
+    "category": "paisagem",
+    "meaning": "Simboliza o inconsciente, as emoções e o fluxo da vida.",
+    "appears_in": [
+      "major_arcana_star",
+      "major_arcana_temperance"
+    ],
+    "contrast_with": [
+      "fogo"
+    ]
+  },
+  {
+    "id": "anjo",
+    "name": "Anjo",
+    "emoji": "🪽",
+    "category": "celestial",
+    "meaning": "Mensageiro divino que representa orientação espiritual, união de opostos e transcendência.",
+    "appears_in": [
+      "major_arcana_judgement",
+      "major_arcana_lovers",
+      "major_arcana_temperance"
+    ],
+    "contrast_with": [
+      "bode"
+    ]
+  },
+  {
+    "id": "armadura",
+    "name": "Armadura",
+    "emoji": "🛡️",
+    "category": "vestimenta",
+    "meaning": "Representa proteção, disciplina e vontade fortalecida diante dos desafios.",
+    "appears_in": [
+      "major_arcana_chariot",
+      "major_arcana_emperor"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "arvore",
+    "name": "Árvore",
+    "emoji": "🌳",
+    "category": "flora",
+    "meaning": "Simboliza crescimento, enraizamento e a conexão entre o mundo material e o espiritual.",
+    "appears_in": [
+      "major_arcana_hanged",
+      "major_arcana_lovers",
+      "major_arcana_star"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "balanca",
+    "name": "Balança",
+    "emoji": "⚖️",
+    "category": "objeto",
+    "meaning": "Simboliza equilíbrio, justiça e a ponderação imparcial entre causa e efeito.",
+    "appears_in": [
+      "major_arcana_justice"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "bandeira",
+    "name": "Bandeira",
+    "emoji": "🚩",
+    "category": "objeto",
+    "meaning": "Representa a passagem para uma nova fase, um estandarte de transição entre mundos.",
+    "appears_in": [
+      "major_arcana_death"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "bastao-levantado",
+    "name": "Bastão levantado",
+    "emoji": "🪄",
+    "category": "objeto",
+    "meaning": "Representa o poder de manifestação, canalizando energia entre o divino e o terreno (\"assim em cima, como embaixo\").",
+    "appears_in": [
+      "major_arcana_magician"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "bastoes",
+    "name": "Bastões",
+    "emoji": "🪄",
+    "category": "objeto",
+    "meaning": "Simbolizam domínio e equilíbrio sobre as ferramentas da criação e da vontade.",
+    "appears_in": [
+      "major_arcana_world"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "bode",
+    "name": "Bode",
+    "emoji": "🐐",
+    "category": "fauna",
+    "meaning": "Representa os instintos primitivos, o desejo desenfreado e a natureza material aprisionadora.",
+    "appears_in": [
+      "major_arcana_devil"
+    ],
+    "contrast_with": [
+      "anjo"
+    ]
+  },
+  {
+    "id": "cachorro",
+    "name": "Cachorro",
+    "emoji": "🐶",
+    "category": "fauna",
+    "meaning": "Simboliza lealdade, instinto protetor e companheirismo leal na jornada.",
+    "appears_in": [
+      "major_arcana_fool"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "cajado",
+    "name": "Cajado",
+    "emoji": "🦯",
+    "category": "objeto",
+    "meaning": "Representa introspecção, sabedoria conquistada e apoio na busca solitária pela verdade.",
+    "appears_in": [
+      "major_arcana_hermit"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "caminho",
+    "name": "Caminho",
+    "emoji": "🛤️",
+    "category": "paisagem",
+    "meaning": "Simboliza a jornada incerta rumo ao desconhecido, entre medos e ilusões.",
+    "appears_in": [
+      "major_arcana_moon"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "cao-e-lobo",
+    "name": "Cão e lobo",
+    "emoji": "🐺",
+    "category": "fauna",
+    "meaning": "Representam os instintos domesticado e selvagem reagindo ao chamado do inconsciente.",
+    "appears_in": [
+      "major_arcana_moon"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "carneiros",
+    "name": "Carneiros",
+    "emoji": "🐏",
+    "category": "fauna",
+    "meaning": "Simbolizam a energia de Áries, a liderança assertiva e a força de vontade.",
+    "appears_in": [
+      "major_arcana_emperor"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "carruagem",
+    "name": "Carruagem",
+    "emoji": "🎠",
+    "category": "objeto",
+    "meaning": "Representa a vontade em movimento, o domínio sobre forças opostas conduzidas em uma só direção.",
+    "appears_in": [
+      "major_arcana_chariot"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "casal",
+    "name": "Casal",
+    "emoji": "💑",
+    "category": "figura-humana",
+    "meaning": "Representam a união de opostos e as escolhas relacionadas ao amor e às tentações mundanas.",
+    "appears_in": [
+      "major_arcana_devil"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "cavalo",
+    "name": "Cavalo",
+    "emoji": "🐎",
+    "category": "fauna",
+    "meaning": "Simboliza força, movimento e a energia vital que conduz à transformação.",
+    "appears_in": [
+      "major_arcana_death",
+      "major_arcana_sun"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "cetro-e-esfera",
+    "name": "Cetro e esfera",
+    "emoji": "🔮",
+    "category": "objeto",
+    "meaning": "Símbolos de autoridade e domínio sobre o mundo material.",
+    "appears_in": [
+      "major_arcana_emperor"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "chaves",
+    "name": "Chaves",
+    "emoji": "🗝️",
+    "category": "objeto",
+    "meaning": "Simbolizam o acesso ao conhecimento sagrado e a autoridade para revelar ou guardar segredos.",
+    "appears_in": [
+      "major_arcana_hierophant"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "coracao-escudo",
+    "name": "Coração/escudo",
+    "emoji": "🛡️",
+    "category": "objeto",
+    "meaning": "Representa a proteção do amor, a fertilidade e a força criativa feminina.",
+    "appears_in": [
+      "major_arcana_empress"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "corda",
+    "name": "Corda",
+    "emoji": "🪢",
+    "category": "objeto",
+    "meaning": "Simboliza as amarras voluntárias e o sacrifício necessário para uma nova perspectiva.",
+    "appears_in": [
+      "major_arcana_hanged"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "coroa",
+    "name": "Coroa",
+    "emoji": "👑",
+    "category": "objeto",
+    "meaning": "Representa autoridade, poder conquistado e reconhecimento espiritual ou terreno.",
+    "appears_in": [
+      "major_arcana_hierophant",
+      "major_arcana_justice",
+      "major_arcana_tower"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "coroa-de-estrelas",
+    "name": "Coroa de estrelas",
+    "emoji": "🌟",
+    "category": "objeto",
+    "meaning": "Representa a coroação da abundância divina e o domínio sobre o cosmos e a fertilidade.",
+    "appears_in": [
+      "major_arcana_empress"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "coroa-de-louros",
+    "name": "Coroa de louros",
+    "emoji": "🏆",
+    "category": "objeto",
+    "meaning": "Simboliza vitória, conquista e a totalidade de um ciclo completado com sucesso.",
+    "appears_in": [
+      "major_arcana_world"
+    ],
+    "contrast_with": [
+      "correntes"
+    ]
+  },
+  {
+    "id": "correntes",
+    "name": "Correntes",
+    "emoji": "🔗",
+    "category": "objeto",
+    "meaning": "Representam prisões autoimpostas, vícios e apegos que limitam a liberdade.",
+    "appears_in": [
+      "major_arcana_devil"
+    ],
+    "contrast_with": [
+      "coroa-de-louros",
+      "infinito"
+    ]
+  },
+  {
+    "id": "crianca",
+    "name": "Criança",
+    "emoji": "🧒",
+    "category": "figura-humana",
+    "meaning": "Simboliza pureza, alegria espontânea e a inocência renovada pela vitalidade solar.",
+    "appears_in": [
+      "major_arcana_sun"
+    ],
+    "contrast_with": [
+      "esqueleto"
+    ]
+  },
+  {
+    "id": "dancarina",
+    "name": "Dançarina",
+    "emoji": "💃",
+    "category": "figura-humana",
+    "meaning": "Representa a totalidade alcançada, o movimento livre e a integração de todos os aspectos do ser.",
+    "appears_in": [
+      "major_arcana_world"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "discipulos",
+    "name": "Discípulos",
+    "emoji": "👥",
+    "category": "figura-humana",
+    "meaning": "Representam a transmissão de ensinamentos e a comunidade que segue uma tradição estabelecida.",
+    "appears_in": [
+      "major_arcana_hierophant"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "dois-calices",
+    "name": "Dois cálices",
+    "emoji": "🥂",
+    "category": "objeto",
+    "meaning": "Simbolizam a mistura e o equilíbrio harmonioso de opostos, como emoções e experiências.",
+    "appears_in": [
+      "major_arcana_temperance"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "esfinges",
+    "name": "Esfinges",
+    "emoji": "🗿",
+    "category": "objeto",
+    "meaning": "Guardiãs enigmáticas que representam mistérios não resolvidos e o equilíbrio entre forças opostas.",
+    "appears_in": [
+      "major_arcana_chariot",
+      "major_arcana_fortune"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "espada",
+    "name": "Espada",
+    "emoji": "⚔️",
+    "category": "objeto",
+    "meaning": "Representa o intelecto, a verdade cortante e a justiça imparcial.",
+    "appears_in": [
+      "major_arcana_justice"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "esqueleto",
+    "name": "Esqueleto",
+    "emoji": "💀",
+    "category": "figura-humana",
+    "meaning": "Simboliza o fim inevitável de um ciclo e a transformação através da morte simbólica.",
+    "appears_in": [
+      "major_arcana_death"
+    ],
+    "contrast_with": [
+      "crianca"
+    ]
+  },
+  {
+    "id": "estrelas",
+    "name": "Estrelas",
+    "emoji": "⭐",
+    "category": "celestial",
+    "meaning": "Simbolizam esperança, inspiração e orientação divina.",
+    "appears_in": [
+      "major_arcana_chariot",
+      "major_arcana_star"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "flores",
+    "name": "Flores",
+    "emoji": "🌸",
+    "category": "flora",
+    "meaning": "Representam o florescimento espiritual, a vitalidade domada e a beleza da força interior.",
+    "appears_in": [
+      "major_arcana_strength"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "floresta",
+    "name": "Floresta",
+    "emoji": "🌲",
+    "category": "flora",
+    "meaning": "Simboliza a abundância natural, a fertilidade selvagem e o crescimento exuberante.",
+    "appears_in": [
+      "major_arcana_empress"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "fogo",
+    "name": "Fogo",
+    "emoji": "🔥",
+    "category": "paisagem",
+    "meaning": "Representa transformação súbita, purificação e energia destrutiva ou vital.",
+    "appears_in": [
+      "major_arcana_devil",
+      "major_arcana_tower"
+    ],
+    "contrast_with": [
+      "agua"
+    ]
+  },
+  {
+    "id": "girassois",
+    "name": "Girassóis",
+    "emoji": "🌻",
+    "category": "flora",
+    "meaning": "Representam a alegria plena, a vitalidade e o alinhamento com a luz da consciência.",
+    "appears_in": [
+      "major_arcana_sun"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "halo",
+    "name": "Halo",
+    "emoji": "😇",
+    "category": "objeto",
+    "meaning": "Simboliza a iluminação espiritual alcançada através do sacrifício e da entrega.",
+    "appears_in": [
+      "major_arcana_hanged"
+    ],
+    "contrast_with": [
+      "pentagrama-invertido"
+    ]
+  },
+  {
+    "id": "infinito",
+    "name": "Símbolo do infinito",
+    "emoji": "♾️",
+    "category": "objeto",
+    "meaning": "Representa o potencial ilimitado, o domínio espiritual sobre a matéria e a continuidade eterna.",
+    "appears_in": [
+      "major_arcana_magician",
+      "major_arcana_strength"
+    ],
+    "contrast_with": [
+      "correntes"
+    ]
+  },
+  {
+    "id": "iris",
+    "name": "Íris",
+    "emoji": "🌷",
+    "category": "flora",
+    "meaning": "Simboliza mensagens divinas e a comunicação entre os mundos espiritual e material.",
+    "appears_in": [
+      "major_arcana_temperance"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "lagostim",
+    "name": "Lagostim",
+    "emoji": "🦞",
+    "category": "fauna",
+    "meaning": "Representa os medos primitivos e instintivos que emergem do inconsciente.",
+    "appears_in": [
+      "major_arcana_moon"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "lanterna",
+    "name": "Lanterna",
+    "emoji": "🔦",
+    "category": "objeto",
+    "meaning": "Simboliza a busca interior, a sabedoria que guia sozinha através da escuridão.",
+    "appears_in": [
+      "major_arcana_hermit"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "leao",
+    "name": "Leão",
+    "emoji": "🦁",
+    "category": "fauna",
+    "meaning": "Representa a força bruta e os instintos selvagens, domados pela coragem gentil e pela compaixão.",
+    "appears_in": [
+      "major_arcana_strength"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "livro-rolo",
+    "name": "Livro/rolo",
+    "emoji": "📜",
+    "category": "objeto",
+    "meaning": "Simboliza o conhecimento oculto, a sabedoria intuitiva ainda não revelada.",
+    "appears_in": [
+      "major_arcana_priestess"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "lua",
+    "name": "Lua",
+    "emoji": "🌙",
+    "category": "celestial",
+    "meaning": "Representa o inconsciente, a intuição e os mistérios ocultos da psique.",
+    "appears_in": [
+      "major_arcana_moon",
+      "major_arcana_priestess"
+    ],
+    "contrast_with": [
+      "sol"
+    ]
+  },
+  {
+    "id": "manto",
+    "name": "Manto",
+    "emoji": "🧥",
+    "category": "vestimenta",
+    "meaning": "Representa a proteção espiritual e o distanciamento do mundo material durante a introspecção.",
+    "appears_in": [
+      "major_arcana_hermit"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "mao-apontando-para-baixo",
+    "name": "Mão apontando para baixo",
+    "emoji": "👇",
+    "category": "figura-humana",
+    "meaning": "Simboliza o princípio hermético \"assim em cima, como embaixo\", unindo o divino e o terreno.",
+    "appears_in": [
+      "major_arcana_magician"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "mesa",
+    "name": "Mesa",
+    "emoji": "🧰",
+    "category": "objeto",
+    "meaning": "Representa o altar de manifestação, onde a intenção se transforma em ação através das ferramentas disponíveis.",
+    "appears_in": [
+      "major_arcana_magician"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "mochila",
+    "name": "Mochila",
+    "emoji": "🎒",
+    "category": "objeto",
+    "meaning": "Simboliza a bagagem de experiências, potenciais e recursos ainda não utilizados na jornada.",
+    "appears_in": [
+      "major_arcana_fool"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "montanhas",
+    "name": "Montanhas",
+    "emoji": "🏔️",
+    "category": "paisagem",
+    "meaning": "Representam desafios, obstáculos e o desconhecido a ser superado ou contemplado.",
+    "appears_in": [
+      "major_arcana_emperor",
+      "major_arcana_fool",
+      "major_arcana_hermit",
+      "major_arcana_judgement",
+      "major_arcana_lovers"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "mulher-tocando-o-leao",
+    "name": "Mulher tocando o leão",
+    "emoji": "🤲",
+    "category": "figura-humana",
+    "meaning": "Representa o domínio pela compaixão e gentileza, e não pela força bruta.",
+    "appears_in": [
+      "major_arcana_strength"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "muro",
+    "name": "Muro",
+    "emoji": "🧱",
+    "category": "arquitetura",
+    "meaning": "Simboliza os limites protetores e a estrutura que sustenta a vitalidade e a segurança.",
+    "appears_in": [
+      "major_arcana_sun"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "passaro",
+    "name": "Pássaro",
+    "emoji": "🐦",
+    "category": "fauna",
+    "meaning": "Representa a esperança que persiste mesmo em meio à escuridão ou incerteza.",
+    "appears_in": [
+      "major_arcana_star"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "pe-na-terra-pe-na-agua",
+    "name": "Um pé na terra e outro na água",
+    "emoji": "🦶",
+    "category": "figura-humana",
+    "meaning": "Simboliza o equilíbrio entre consciente e inconsciente, matéria e espírito, unidos com moderação.",
+    "appears_in": [
+      "major_arcana_temperance"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "pena",
+    "name": "Pena",
+    "emoji": "🪶",
+    "category": "objeto",
+    "meaning": "Simboliza a leveza do espírito, a verdade e a ausência de julgamento.",
+    "appears_in": [
+      "major_arcana_fool"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "pentagrama-invertido",
+    "name": "Pentagrama invertido",
+    "emoji": "🔻",
+    "category": "objeto",
+    "meaning": "Representa a matéria dominando o espírito, os instintos primitivos sobrepondo-se à razão.",
+    "appears_in": [
+      "major_arcana_devil"
+    ],
+    "contrast_with": [
+      "halo"
+    ]
+  },
+  {
+    "id": "perna-cruzada",
+    "name": "Perna cruzada",
+    "emoji": "🦵",
+    "category": "figura-humana",
+    "meaning": "Simboliza a rendição voluntária, uma pausa suspensa entre a ação e a contemplação.",
+    "appears_in": [
+      "major_arcana_hanged"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "pessoas-caindo",
+    "name": "Pessoas caindo",
+    "emoji": "💥",
+    "category": "figura-humana",
+    "meaning": "Representam o colapso repentino de estruturas e ilusões (ego) construídas sobre bases falsas.",
+    "appears_in": [
+      "major_arcana_tower"
+    ],
+    "contrast_with": [
+      "pessoas-ressurgindo"
+    ]
+  },
+  {
+    "id": "pessoas-ressurgindo",
+    "name": "Pessoas ressurgindo",
+    "emoji": "🙌",
+    "category": "figura-humana",
+    "meaning": "Simbolizam o despertar espiritual, o renascimento e o chamado para uma nova consciência.",
+    "appears_in": [
+      "major_arcana_judgement"
+    ],
+    "contrast_with": [
+      "pessoas-caindo"
+    ]
+  },
+  {
+    "id": "pilares",
+    "name": "Pilares",
+    "emoji": "🏛️",
+    "category": "arquitetura",
+    "meaning": "Representam os limites entre o conhecido e o oculto, a lei e o equilíbrio de forças opostas.",
+    "appears_in": [
+      "major_arcana_hierophant",
+      "major_arcana_justice",
+      "major_arcana_priestess"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "precipicio",
+    "name": "Precipício",
+    "emoji": "🕳️",
+    "category": "paisagem",
+    "meaning": "Representa o risco do desconhecido e a confiança necessária para o salto de fé.",
+    "appears_in": [
+      "major_arcana_fool"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "quatro-criaturas-fixas",
+    "name": "Quatro criaturas fixas",
+    "emoji": "🐂",
+    "category": "fauna",
+    "meaning": "Representam os quatro elementos fixos do zodíaco (touro, leão, águia e anjo) que sustentam o equilíbrio cósmico nas quatro direções.",
+    "appears_in": [
+      "major_arcana_fortune",
+      "major_arcana_world"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "quatro-simbolos",
+    "name": "Quatro símbolos",
+    "emoji": "🎴",
+    "category": "objeto",
+    "meaning": "Representam os quatro naipes do Tarot, ferramentas disponíveis para a manifestação da vontade.",
+    "appears_in": [
+      "major_arcana_magician"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "raio",
+    "name": "Raio",
+    "emoji": "⚡",
+    "category": "paisagem",
+    "meaning": "Simboliza a revelação súbita, o choque necessário para romper ilusões e estruturas falsas.",
+    "appears_in": [
+      "major_arcana_tower"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "rio",
+    "name": "Rio",
+    "emoji": "🌊",
+    "category": "paisagem",
+    "meaning": "Representa o fluxo constante da vida, da fertilidade e da abundância emocional.",
+    "appears_in": [
+      "major_arcana_empress"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "roda",
+    "name": "Roda",
+    "emoji": "☸️",
+    "category": "objeto",
+    "meaning": "Simboliza os ciclos inevitáveis da vida, o destino em movimento e as mudanças cíclicas.",
+    "appears_in": [
+      "major_arcana_fortune"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "romas",
+    "name": "Romãs",
+    "emoji": "🍇",
+    "category": "flora",
+    "meaning": "Simbolizam a fertilidade, a abundância e os mistérios femininos ocultos sob o véu.",
+    "appears_in": [
+      "major_arcana_priestess"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "rosa-branca",
+    "name": "Rosa branca",
+    "emoji": "🌹",
+    "category": "flora",
+    "meaning": "Representa a pureza de intenção e a inocência espontânea, livre de corrupção.",
+    "appears_in": [
+      "major_arcana_fool"
+    ],
+    "contrast_with": [
+      "serpente"
+    ]
+  },
+  {
+    "id": "rosas-e-lirios",
+    "name": "Rosas e lírios",
+    "emoji": "💮",
+    "category": "flora",
+    "meaning": "Representam o equilíbrio entre a paixão terrena (rosas) e a pureza espiritual (lírios) na manifestação da vontade.",
+    "appears_in": [
+      "major_arcana_magician"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "serpente",
+    "name": "Serpente",
+    "emoji": "🐍",
+    "category": "fauna",
+    "meaning": "Simboliza tentação, transformação e o conhecimento oculto.",
+    "appears_in": [
+      "major_arcana_fortune",
+      "major_arcana_lovers"
+    ],
+    "contrast_with": [
+      "rosa-branca"
+    ]
+  },
+  {
+    "id": "sol",
+    "name": "Sol",
+    "emoji": "☀️",
+    "category": "celestial",
+    "meaning": "Representa vitalidade, clareza, consciência e alegria plena.",
+    "appears_in": [
+      "major_arcana_fool",
+      "major_arcana_sun"
+    ],
+    "contrast_with": [
+      "lua"
+    ]
+  },
+  {
+    "id": "sol-entre-torres",
+    "name": "Sol entre torres",
+    "emoji": "🌅",
+    "category": "celestial",
+    "meaning": "Simboliza a promessa de renovação e vida eterna além da transformação da morte.",
+    "appears_in": [
+      "major_arcana_death"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "torre",
+    "name": "Torre",
+    "emoji": "🗼",
+    "category": "arquitetura",
+    "meaning": "Representa estruturas falsas, egos inflados e crenças rígidas que desmoronam repentinamente.",
+    "appears_in": [
+      "major_arcana_tower"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "torres",
+    "name": "Torres",
+    "emoji": "🏰",
+    "category": "arquitetura",
+    "meaning": "Representam o portal entre o consciente e o inconsciente, um limiar a ser atravessado com cautela.",
+    "appears_in": [
+      "major_arcana_moon"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "trigo",
+    "name": "Trigo",
+    "emoji": "🌾",
+    "category": "flora",
+    "meaning": "Simboliza a fartura, a fertilidade da terra e a colheita da abundância material.",
+    "appears_in": [
+      "major_arcana_empress"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "trombeta",
+    "name": "Trombeta",
+    "emoji": "🎺",
+    "category": "objeto",
+    "meaning": "Simboliza o chamado divino ao despertar, o anúncio de um novo ciclo de consciência.",
+    "appears_in": [
+      "major_arcana_judgement"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "trono",
+    "name": "Trono",
+    "emoji": "🪑",
+    "category": "objeto",
+    "meaning": "Representa a autoridade estabelecida, o poder estrutural e a estabilidade do governante.",
+    "appears_in": [
+      "major_arcana_emperor"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "veu",
+    "name": "Véu",
+    "emoji": "🫥",
+    "category": "vestimenta",
+    "meaning": "Representa o véu do mistério entre o consciente e o inconsciente, o conhecimento ainda oculto e não revelado.",
+    "appears_in": [
+      "major_arcana_priestess"
+    ],
+    "contrast_with": []
+  }
+]

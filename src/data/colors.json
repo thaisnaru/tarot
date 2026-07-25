@@ -1,0 +1,135 @@
+[
+  {
+    "id": "amarelo",
+    "name": "Amarelo",
+    "hex": "#E8B84B",
+    "meaning": "Intelecto, consciência, clareza mental e energia solar.",
+    "appears_in": [
+      "major_arcana_chariot",
+      "major_arcana_fool",
+      "major_arcana_fortune",
+      "major_arcana_justice",
+      "major_arcana_lovers",
+      "major_arcana_magician",
+      "major_arcana_moon",
+      "major_arcana_star",
+      "major_arcana_strength",
+      "major_arcana_sun",
+      "major_arcana_tower",
+      "major_arcana_world"
+    ]
+  },
+  {
+    "id": "azul",
+    "name": "Azul",
+    "hex": "#4A6FA5",
+    "meaning": "Emoção, intuição, espiritualidade e profundidade do inconsciente.",
+    "appears_in": [
+      "major_arcana_chariot",
+      "major_arcana_fortune",
+      "major_arcana_hanged",
+      "major_arcana_hermit",
+      "major_arcana_judgement",
+      "major_arcana_moon",
+      "major_arcana_priestess",
+      "major_arcana_star",
+      "major_arcana_temperance",
+      "major_arcana_world"
+    ]
+  },
+  {
+    "id": "branco",
+    "name": "Branco",
+    "hex": "#F5F1E6",
+    "meaning": "Pureza, espiritualidade e verdade não corrompida.",
+    "appears_in": [
+      "major_arcana_chariot",
+      "major_arcana_death",
+      "major_arcana_fool",
+      "major_arcana_hermit",
+      "major_arcana_hierophant",
+      "major_arcana_judgement",
+      "major_arcana_magician",
+      "major_arcana_priestess",
+      "major_arcana_strength",
+      "major_arcana_sun",
+      "major_arcana_temperance"
+    ]
+  },
+  {
+    "id": "cinza",
+    "name": "Cinza",
+    "hex": "#8C8C8C",
+    "meaning": "Neutralidade, sabedoria madura e distanciamento reflexivo.",
+    "appears_in": [
+      "major_arcana_devil",
+      "major_arcana_emperor",
+      "major_arcana_hermit",
+      "major_arcana_hierophant",
+      "major_arcana_justice",
+      "major_arcana_moon",
+      "major_arcana_priestess"
+    ]
+  },
+  {
+    "id": "dourado",
+    "name": "Dourado",
+    "hex": "#C9A227",
+    "meaning": "Divindade, realização espiritual e valor supremo conquistado.",
+    "appears_in": [
+      "major_arcana_emperor",
+      "major_arcana_empress"
+    ]
+  },
+  {
+    "id": "preto",
+    "name": "Preto",
+    "hex": "#2B2B2B",
+    "meaning": "Mistério, o desconhecido, o inconsciente profundo e, por vezes, medo ou fim de ciclo.",
+    "appears_in": [
+      "major_arcana_chariot",
+      "major_arcana_death",
+      "major_arcana_devil",
+      "major_arcana_tower"
+    ]
+  },
+  {
+    "id": "verde",
+    "name": "Verde",
+    "hex": "#6B8E4E",
+    "meaning": "Crescimento, fertilidade, natureza e renovação vital.",
+    "appears_in": [
+      "major_arcana_empress",
+      "major_arcana_fool",
+      "major_arcana_hanged",
+      "major_arcana_lovers",
+      "major_arcana_star",
+      "major_arcana_world"
+    ]
+  },
+  {
+    "id": "vermelho",
+    "name": "Vermelho",
+    "hex": "#C0392B",
+    "meaning": "Paixão, vitalidade, energia de ação e força vital.",
+    "appears_in": [
+      "major_arcana_death",
+      "major_arcana_devil",
+      "major_arcana_emperor",
+      "major_arcana_empress",
+      "major_arcana_fool",
+      "major_arcana_fortune",
+      "major_arcana_hanged",
+      "major_arcana_hierophant",
+      "major_arcana_judgement",
+      "major_arcana_justice",
+      "major_arcana_lovers",
+      "major_arcana_magician",
+      "major_arcana_strength",
+      "major_arcana_sun",
+      "major_arcana_temperance",
+      "major_arcana_tower",
+      "major_arcana_world"
+    ]
+  }
+]

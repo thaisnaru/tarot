@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ace",
+    "name": "Ás",
+    "theme": "Novo começo e potencial puro — a semente de tudo o que o naipe representa, ainda sem forma definida",
+    "keywords": ["início", "potencial", "semente"]
+  },
+  {
+    "id": "2",
+    "name": "Dois",
+    "theme": "Dualidade, equilíbrio e escolha — o encontro entre duas forças ou a primeira decisão a tomar",
+    "keywords": ["dualidade", "equilíbrio", "escolha"]
+  },
+  {
+    "id": "3",
+    "name": "Três",
+    "theme": "Crescimento e colaboração — a energia do naipe começa a se expressar e a se relacionar com o mundo",
+    "keywords": ["crescimento", "expressão", "colaboração"]
+  },
+  {
+    "id": "4",
+    "name": "Quatro",
+    "theme": "Estrutura e estabilidade — o momento de consolidar uma base sólida antes de seguir adiante",
+    "keywords": ["estrutura", "estabilidade", "fundação"]
+  },
+  {
+    "id": "5",
+    "name": "Cinco",
+    "theme": "Conflito e instabilidade — a estrutura anterior é desafiada, exigindo adaptação",
+    "keywords": ["conflito", "desafio", "instabilidade"]
+  },
+  {
+    "id": "6",
+    "name": "Seis",
+    "theme": "Harmonia e cura — depois do conflito, um reequilíbrio, ajuda mútua ou reconciliação",
+    "keywords": ["harmonia", "cura", "equilíbrio"]
+  },
+  {
+    "id": "7",
+    "name": "Sete",
+    "theme": "Introspecção e avaliação — pausa para refletir sobre o caminho percorrido até aqui",
+    "keywords": ["reflexão", "avaliação", "introspecção"]
+  },
+  {
+    "id": "8",
+    "name": "Oito",
+    "theme": "Domínio e movimento — a energia do naipe atinge maturidade prática e ganha força de ação",
+    "keywords": ["domínio", "movimento", "maestria"]
+  },
+  {
+    "id": "9",
+    "name": "Nove",
+    "theme": "Quase-conclusão — proximidade do fim de ciclo, com uma última prova a enfrentar sozinho",
+    "keywords": ["quase-fim", "resiliência", "solidão"]
+  },
+  {
+    "id": "10",
+    "name": "Dez",
+    "theme": "Culminação e fim de ciclo — o ápice do naipe, que se completa e abre espaço para um novo começo",
+    "keywords": ["conclusão", "plenitude", "ciclo completo"]
+  },
+  {
+    "id": "page",
+    "name": "Valete",
+    "theme": "Aprendizado e curiosidade — a energia do naipe como estudante, mensageiro, no início de sua jornada",
+    "keywords": ["aprendizado", "curiosidade", "mensageiro"]
+  },
+  {
+    "id": "knight",
+    "name": "Cavaleiro",
+    "theme": "Ação e busca — a energia do naipe em movimento, perseguindo um objetivo com impulso",
+    "keywords": ["ação", "impulso", "busca"]
+  },
+  {
+    "id": "queen",
+    "name": "Rainha",
+    "theme": "Domínio interior — a energia do naipe amadurecida e voltada para dentro, nutrindo com maestria emocional",
+    "keywords": ["maturidade", "acolhimento", "domínio interior"]
+  },
+  {
+    "id": "king",
+    "name": "Rei",
+    "theme": "Domínio exterior — a energia do naipe amadurecida e voltada para fora, exercendo autoridade prática",
+    "keywords": ["autoridade", "maestria", "domínio exterior"]
+  }
+]

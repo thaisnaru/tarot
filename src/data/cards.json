@@ -1,0 +1,2086 @@
+[
+  {
+    "id": "major_arcana_fool",
+    "name": "O Louco",
+    "number": 0,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 0,
+    "image": "major_arcana_fool.png",
+    "astro": "Urano / Aquário / Ar — liberdade, inovação, individualidade e quebra de padrões",
+    "keywords": [
+      "Novos começos",
+      "liberdade",
+      "espontaneidade",
+      "aventura",
+      "potencial"
+    ],
+    "meaning_upright": "Representa novos começos, liberdade, espontaneidade, aventura e potencial.",
+    "meaning_reversed": "Invertida, indica imprudência, ingenuidade, falta de planejamento e riscos desnecessários.",
+    "symbols": [
+      "Cachorro",
+      "Precipício",
+      "Rosa branca",
+      "Montanhas",
+      "Mochila",
+      "Pena",
+      "Sol"
+    ],
+    "dominant_colors": [
+      "Amarelo",
+      "Verde",
+      "Vermelho",
+      "Branco"
+    ]
+  },
+  {
+    "id": "major_arcana_magician",
+    "name": "O Mago",
+    "number": 1,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 1,
+    "image": "major_arcana_magician.png",
+    "astro": "Mercúrio — comunicação, inteligência, adaptação e habilidade",
+    "keywords": [
+      "Manifestação",
+      "iniciativa",
+      "habilidade",
+      "recursos",
+      "ação"
+    ],
+    "meaning_upright": "Representa manifestação, iniciativa, habilidade, recursos e ação.",
+    "meaning_reversed": "Invertida, indica manipulação, talento desperdiçado, engano e falta de direção.",
+    "symbols": [
+      "Mesa",
+      "Quatro símbolos",
+      "Bastão levantado",
+      "Mão apontando para baixo",
+      "Infinito",
+      "Rosas e lírios"
+    ],
+    "dominant_colors": [
+      "Vermelho",
+      "Branco",
+      "Amarelo"
+    ]
+  },
+  {
+    "id": "major_arcana_priestess",
+    "name": "A Sacerdotisa",
+    "number": 2,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 2,
+    "image": "major_arcana_priestess.png",
+    "astro": "Lua — ciclos, inconsciente, receptividade e mistério",
+    "keywords": [
+      "Intuição",
+      "mistério",
+      "sabedoria interior",
+      "inconsciente",
+      "silêncio"
+    ],
+    "meaning_upright": "Representa intuição, mistério, sabedoria interior, inconsciente e silêncio.",
+    "meaning_reversed": "Invertida, indica segredos ocultos, intuição bloqueada, confusão e informação reprimida.",
+    "symbols": [
+      "Pilares",
+      "Véu",
+      "Lua",
+      "Livro/rolo",
+      "Romãs"
+    ],
+    "dominant_colors": [
+      "Azul",
+      "Branco",
+      "Cinza"
+    ]
+  },
+  {
+    "id": "major_arcana_empress",
+    "name": "A Imperatriz",
+    "number": 3,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 3,
+    "image": "major_arcana_empress.png",
+    "astro": "Vênus — amor, beleza, prazer, criatividade e abundância",
+    "keywords": [
+      "Abundância",
+      "fertilidade",
+      "criatividade",
+      "nutrição",
+      "natureza"
+    ],
+    "meaning_upright": "Representa abundância, fertilidade, criatividade, nutrição e natureza.",
+    "meaning_reversed": "Invertida, indica bloqueio criativo, dependência, excesso e negligência.",
+    "symbols": [
+      "Coroa de estrelas",
+      "Trigo",
+      "Floresta",
+      "Rio",
+      "Coração/escudo"
+    ],
+    "dominant_colors": [
+      "Verde",
+      "Vermelho",
+      "Dourado"
+    ]
+  },
+  {
+    "id": "major_arcana_emperor",
+    "name": "O Imperador",
+    "number": 4,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 4,
+    "image": "major_arcana_emperor.png",
+    "astro": "Áries — iniciativa, liderança, coragem e impulso",
+    "keywords": [
+      "Estrutura",
+      "autoridade",
+      "estabilidade",
+      "liderança",
+      "disciplina"
+    ],
+    "meaning_upright": "Representa estrutura, autoridade, estabilidade, liderança e disciplina.",
+    "meaning_reversed": "Invertida, indica rigidez, controle, autoritarismo e falta de flexibilidade.",
+    "symbols": [
+      "Trono",
+      "Carneiros",
+      "Armadura",
+      "Montanhas",
+      "Cetro e esfera"
+    ],
+    "dominant_colors": [
+      "Vermelho",
+      "Cinza",
+      "Dourado"
+    ]
+  },
+  {
+    "id": "major_arcana_hierophant",
+    "name": "O Hierofante",
+    "number": 5,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 5,
+    "image": "major_arcana_hierophant.png",
+    "astro": "Touro — valores, tradição, estabilidade e materialização",
+    "keywords": [
+      "Tradição",
+      "ensinamento",
+      "instituições",
+      "valores",
+      "orientação"
+    ],
+    "meaning_upright": "Representa tradição, ensinamento, instituições, valores e orientação.",
+    "meaning_reversed": "Invertida, indica dogma, rebeldia, restrição e questionamento de autoridades.",
+    "symbols": [
+      "Chaves",
+      "Pilares",
+      "Coroa",
+      "Discípulos"
+    ],
+    "dominant_colors": [
+      "Vermelho",
+      "Branco",
+      "Cinza"
+    ]
+  },
+  {
+    "id": "major_arcana_lovers",
+    "name": "Os Enamorados",
+    "number": 6,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 6,
+    "image": "major_arcana_lovers.png",
+    "astro": "Gêmeos — dualidade, comunicação, curiosidade e escolha",
+    "keywords": [
+      "Escolha",
+      "união",
+      "valores",
+      "relacionamento",
+      "alinhamento"
+    ],
+    "meaning_upright": "Representa escolha, união, valores, relacionamento e alinhamento.",
+    "meaning_reversed": "Invertida, indica desalinhamento, conflito, indecisão e escolha baseada em desejo.",
+    "symbols": [
+      "Árvore",
+      "Serpente",
+      "Montanha",
+      "Anjo"
+    ],
+    "dominant_colors": [
+      "Vermelho",
+      "Verde",
+      "Amarelo"
+    ]
+  },
+  {
+    "id": "major_arcana_chariot",
+    "name": "O Carro",
+    "number": 7,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 7,
+    "image": "major_arcana_chariot.png",
+    "astro": "Câncer — proteção, emoção, instinto e direção",
+    "keywords": [
+      "Determinação",
+      "vitória",
+      "movimento",
+      "controle",
+      "direção"
+    ],
+    "meaning_upright": "Representa determinação, vitória, movimento, controle e direção.",
+    "meaning_reversed": "Invertida, indica falta de direção, perda de controle, agressividade e obstáculos.",
+    "symbols": [
+      "Esfinges",
+      "Carruagem",
+      "Estrelas",
+      "Armadura"
+    ],
+    "dominant_colors": [
+      "Azul",
+      "Preto e branco",
+      "Amarelo"
+    ]
+  },
+  {
+    "id": "major_arcana_strength",
+    "name": "A Força",
+    "number": 8,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 8,
+    "image": "major_arcana_strength.png",
+    "astro": "Leão — coragem, vitalidade, coração e expressão",
+    "keywords": [
+      "Coragem",
+      "compaixão",
+      "autocontrole",
+      "resiliência",
+      "força interior"
+    ],
+    "meaning_upright": "Representa coragem, compaixão, autocontrole, resiliência e força interior.",
+    "meaning_reversed": "Invertida, indica insegurança, exaustão, brutalidade e falta de confiança.",
+    "symbols": [
+      "Leão",
+      "Símbolo do infinito",
+      "Flores",
+      "Mulher tocando o leão"
+    ],
+    "dominant_colors": [
+      "Amarelo",
+      "Branco",
+      "Vermelho"
+    ]
+  },
+  {
+    "id": "major_arcana_hermit",
+    "name": "O Eremita",
+    "number": 9,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 9,
+    "image": "major_arcana_hermit.png",
+    "astro": "Virgem — análise, discernimento, serviço e aperfeiçoamento",
+    "keywords": [
+      "Introspecção",
+      "sabedoria",
+      "solidão",
+      "busca interior",
+      "orientação"
+    ],
+    "meaning_upright": "Representa introspecção, sabedoria, solidão, busca interior e orientação.",
+    "meaning_reversed": "Invertida, indica isolamento, solidão excessiva, retraimento e recusa de ajuda.",
+    "symbols": [
+      "Lanterna",
+      "Cajado",
+      "Montanha",
+      "Manto"
+    ],
+    "dominant_colors": [
+      "Cinza",
+      "Branco",
+      "Azul"
+    ]
+  },
+  {
+    "id": "major_arcana_fortune",
+    "name": "A Roda da Fortuna",
+    "number": 10,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 10,
+    "image": "major_arcana_fortune.png",
+    "astro": "Júpiter — expansão, sorte, crescimento e oportunidades",
+    "keywords": [
+      "Mudança",
+      "ciclos",
+      "destino",
+      "oportunidade",
+      "movimento"
+    ],
+    "meaning_upright": "Representa mudança, ciclos, destino, oportunidade e movimento.",
+    "meaning_reversed": "Invertida, indica resistência à mudança, azar temporário, repetição de padrões e falta de controle.",
+    "symbols": [
+      "Roda",
+      "Esfinge",
+      "Serpente",
+      "Quatro criaturas"
+    ],
+    "dominant_colors": [
+      "Azul",
+      "Vermelho",
+      "Amarelo"
+    ]
+  },
+  {
+    "id": "major_arcana_justice",
+    "name": "A Justiça",
+    "number": 11,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 11,
+    "image": "major_arcana_justice.png",
+    "astro": "Libra — equilíbrio, justiça, relações e avaliação",
+    "keywords": [
+      "Equilíbrio",
+      "verdade",
+      "responsabilidade",
+      "consequência",
+      "decisão"
+    ],
+    "meaning_upright": "Representa equilíbrio, verdade, responsabilidade, consequência e decisão.",
+    "meaning_reversed": "Invertida, indica injustiça, desequilíbrio, negação e falta de responsabilidade.",
+    "symbols": [
+      "Balança",
+      "Espada",
+      "Coroa",
+      "Colunas"
+    ],
+    "dominant_colors": [
+      "Vermelho",
+      "Amarelo",
+      "Cinza"
+    ]
+  },
+  {
+    "id": "major_arcana_hanged",
+    "name": "O Enforcado",
+    "number": 12,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 12,
+    "image": "major_arcana_hanged.png",
+    "astro": "Correspondência tradicional varia; frequentemente associada a água/Netuno em leituras modernas",
+    "keywords": [
+      "Pausa",
+      "entrega",
+      "nova perspectiva",
+      "sacrifício",
+      "suspensão"
+    ],
+    "meaning_upright": "Representa pausa, entrega, nova perspectiva, sacrifício e suspensão.",
+    "meaning_reversed": "Invertida, indica resistência, estagnação, sacrifício inútil e adiamento.",
+    "symbols": [
+      "Árvore",
+      "Halo",
+      "Perna cruzada",
+      "Corda"
+    ],
+    "dominant_colors": [
+      "Azul",
+      "Vermelho",
+      "Verde"
+    ]
+  },
+  {
+    "id": "major_arcana_death",
+    "name": "A Morte",
+    "number": 13,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 13,
+    "image": "major_arcana_death.png",
+    "astro": "Escorpião — intensidade, morte simbólica, regeneração e profundidade",
+    "keywords": [
+      "Transformação",
+      "fim",
+      "renascimento",
+      "transição",
+      "liberação"
+    ],
+    "meaning_upright": "Representa transformação, fim, renascimento, transição e liberação.",
+    "meaning_reversed": "Invertida, indica resistência, apego, estagnação e mudança adiada.",
+    "symbols": [
+      "Esqueleto",
+      "Cavalo",
+      "Bandeira",
+      "Sol entre torres"
+    ],
+    "dominant_colors": [
+      "Preto",
+      "Branco",
+      "Vermelho"
+    ]
+  },
+  {
+    "id": "major_arcana_temperance",
+    "name": "A Temperança",
+    "number": 14,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 14,
+    "image": "major_arcana_temperance.png",
+    "astro": "Sagitário — expansão, busca de sentido e integração",
+    "keywords": [
+      "Equilíbrio",
+      "moderação",
+      "integração",
+      "cura",
+      "paciência"
+    ],
+    "meaning_upright": "Representa equilíbrio, moderação, integração, cura e paciência.",
+    "meaning_reversed": "Invertida, indica excesso, desequilíbrio, impaciência e falta de integração.",
+    "symbols": [
+      "Anjo",
+      "Dois cálices",
+      "Água",
+      "Um pé na terra e outro na água",
+      "Íris"
+    ],
+    "dominant_colors": [
+      "Azul",
+      "Branco",
+      "Vermelho"
+    ]
+  },
+  {
+    "id": "major_arcana_devil",
+    "name": "O Diabo",
+    "number": 15,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 15,
+    "image": "major_arcana_devil.png",
+    "astro": "Capricórnio — ambição, materialidade, controle e desejo",
+    "keywords": [
+      "Apego",
+      "desejo",
+      "sombra",
+      "materialismo",
+      "tentação"
+    ],
+    "meaning_upright": "Representa apego, desejo, sombra, materialismo e tentação.",
+    "meaning_reversed": "Invertida, indica libertação, consciência, quebra de padrões e recuperação de poder.",
+    "symbols": [
+      "Bode",
+      "Correntes",
+      "Pentagrama invertido",
+      "Fogo",
+      "Casal"
+    ],
+    "dominant_colors": [
+      "Preto",
+      "Vermelho",
+      "Cinza"
+    ]
+  },
+  {
+    "id": "major_arcana_tower",
+    "name": "A Torre",
+    "number": 16,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 16,
+    "image": "major_arcana_tower.png",
+    "astro": "Marte — força, conflito, impulso e destruição",
+    "keywords": [
+      "Ruptura",
+      "revelação",
+      "crise",
+      "mudança súbita",
+      "libertação"
+    ],
+    "meaning_upright": "Representa ruptura, revelação, crise, mudança súbita e libertação.",
+    "meaning_reversed": "Invertida, indica evitar mudança, crise adiada, medo da ruptura e instabilidade interna.",
+    "symbols": [
+      "Torre",
+      "Raio",
+      "Coroa",
+      "Pessoas caindo",
+      "Fogo"
+    ],
+    "dominant_colors": [
+      "Vermelho",
+      "Preto",
+      "Amarelo"
+    ]
+  },
+  {
+    "id": "major_arcana_star",
+    "name": "A Estrela",
+    "number": 17,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 17,
+    "image": "major_arcana_star.png",
+    "astro": "Aquário — futuro, inovação, humanidade e visão",
+    "keywords": [
+      "Esperança",
+      "cura",
+      "inspiração",
+      "fé",
+      "renovação"
+    ],
+    "meaning_upright": "Representa esperança, cura, inspiração, fé e renovação.",
+    "meaning_reversed": "Invertida, indica desânimo, perda de fé, desconexão e pessimismo.",
+    "symbols": [
+      "Estrelas",
+      "Água",
+      "Árvore",
+      "Pássaro"
+    ],
+    "dominant_colors": [
+      "Azul",
+      "Amarelo",
+      "Verde"
+    ]
+  },
+  {
+    "id": "major_arcana_moon",
+    "name": "A Lua",
+    "number": 18,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 18,
+    "image": "major_arcana_moon.png",
+    "astro": "Peixes — imaginação, sensibilidade, intuição e dissolução de limites",
+    "keywords": [
+      "Inconsciente",
+      "ilusão",
+      "intuição",
+      "medo",
+      "incerteza"
+    ],
+    "meaning_upright": "Representa inconsciente, ilusão, intuição, medo e incerteza.",
+    "meaning_reversed": "Invertida, indica clareza, verdade revelada, medos superados e confusão diminuindo.",
+    "symbols": [
+      "Lua",
+      "Cão e lobo",
+      "Caminho",
+      "Torres",
+      "Lagostim"
+    ],
+    "dominant_colors": [
+      "Azul",
+      "Amarelo",
+      "Cinza"
+    ]
+  },
+  {
+    "id": "major_arcana_sun",
+    "name": "O Sol",
+    "number": 19,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 19,
+    "image": "major_arcana_sun.png",
+    "astro": "Sol — clareza, identidade, energia e sucesso",
+    "keywords": [
+      "Alegria",
+      "clareza",
+      "sucesso",
+      "vitalidade",
+      "verdade"
+    ],
+    "meaning_upright": "Representa alegria, clareza, sucesso, vitalidade e verdade.",
+    "meaning_reversed": "Invertida, indica alegria bloqueada, atraso, otimismo excessivo e falta de clareza.",
+    "symbols": [
+      "Sol",
+      "Criança",
+      "Cavalo",
+      "Girassóis",
+      "Muro"
+    ],
+    "dominant_colors": [
+      "Amarelo",
+      "Vermelho",
+      "Branco"
+    ]
+  },
+  {
+    "id": "major_arcana_judgement",
+    "name": "O Julgamento",
+    "number": 20,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 20,
+    "image": "major_arcana_judgement.png",
+    "astro": "Correspondência varia; frequentemente ligada a Plutão ou fogo em sistemas modernos",
+    "keywords": [
+      "Despertar",
+      "renascimento",
+      "avaliação",
+      "chamado",
+      "perdão"
+    ],
+    "meaning_upright": "Representa despertar, renascimento, avaliação, chamado e perdão.",
+    "meaning_reversed": "Invertida, indica autocrítica, culpa, resistência ao chamado e julgamento precipitado.",
+    "symbols": [
+      "Anjo",
+      "Trombeta",
+      "Pessoas ressurgindo",
+      "Montanhas"
+    ],
+    "dominant_colors": [
+      "Vermelho",
+      "Branco",
+      "Azul"
+    ]
+  },
+  {
+    "id": "major_arcana_world",
+    "name": "O Mundo",
+    "number": 21,
+    "arcana": "maior",
+    "suit": null,
+    "rank": null,
+    "element": null,
+    "numerology": 21,
+    "image": "major_arcana_world.png",
+    "astro": "Saturno — tempo, estrutura, limites e realização",
+    "keywords": [
+      "Conclusão",
+      "realização",
+      "integração",
+      "completude",
+      "celebração"
+    ],
+    "meaning_upright": "Representa conclusão, realização, integração, completude e celebração.",
+    "meaning_reversed": "Invertida, indica ciclo incompleto, atraso, falta de fechamento e dificuldade de concluir.",
+    "symbols": [
+      "Coroa de louros",
+      "Quatro figuras",
+      "Dançarina",
+      "Bastões"
+    ],
+    "dominant_colors": [
+      "Verde",
+      "Vermelho",
+      "Azul",
+      "Amarelo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_ace",
+    "name": "Ás de Paus",
+    "number": 1,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "ace",
+    "element": "fogo",
+    "numerology": 1,
+    "image": "minor_arcana_wands_ace.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "potencial criativo",
+      "impulso e nova iniciativa"
+    ],
+    "meaning_upright": "Representa potencial criativo e impulso e nova iniciativa.",
+    "meaning_reversed": "Invertida, indica bloqueio criativo e atraso e falta de energia.",
+    "symbols": [
+      "uma mão emerge oferecendo um bastão"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_2",
+    "name": "2 de Paus",
+    "number": 2,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "2",
+    "element": "fogo",
+    "numerology": 2,
+    "image": "minor_arcana_wands_2.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "planejamento",
+      "visão e escolha de direção"
+    ],
+    "meaning_upright": "Representa planejamento e visão e escolha de direção.",
+    "meaning_reversed": "Invertida, indica medo do desconhecido e falta de planejamento e indecisão.",
+    "symbols": [
+      "figura observando o horizonte com o mundo em mãos"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_3",
+    "name": "3 de Paus",
+    "number": 3,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "3",
+    "element": "fogo",
+    "numerology": 3,
+    "image": "minor_arcana_wands_3.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "expansão",
+      "expectativa e visão de futuro"
+    ],
+    "meaning_upright": "Representa expansão e expectativa e visão de futuro.",
+    "meaning_reversed": "Invertida, indica atraso e frustração e falta de progresso.",
+    "symbols": [
+      "figura observando navios no horizonte"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_4",
+    "name": "4 de Paus",
+    "number": 4,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "4",
+    "element": "fogo",
+    "numerology": 4,
+    "image": "minor_arcana_wands_4.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "celebração",
+      "estabilidade e comunidade"
+    ],
+    "meaning_upright": "Representa celebração e estabilidade e comunidade.",
+    "meaning_reversed": "Invertida, indica instabilidade e conflito doméstico e celebração adiada.",
+    "symbols": [
+      "estrutura decorada com quatro bastões"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_5",
+    "name": "5 de Paus",
+    "number": 5,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "5",
+    "element": "fogo",
+    "numerology": 5,
+    "image": "minor_arcana_wands_5.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "competição",
+      "conflito e desafio"
+    ],
+    "meaning_upright": "Representa competição e conflito e desafio.",
+    "meaning_reversed": "Invertida, indica conflito evitado e tensão interna e desorganização.",
+    "symbols": [
+      "cinco figuras em disputa com bastões"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_6",
+    "name": "6 de Paus",
+    "number": 6,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "6",
+    "element": "fogo",
+    "numerology": 6,
+    "image": "minor_arcana_wands_6.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "vitória",
+      "reconhecimento e confiança"
+    ],
+    "meaning_upright": "Representa vitória e reconhecimento e confiança.",
+    "meaning_reversed": "Invertida, indica falta de reconhecimento e orgulho e vitória atrasada.",
+    "symbols": [
+      "figura montada recebendo reconhecimento"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_7",
+    "name": "7 de Paus",
+    "number": 7,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "7",
+    "element": "fogo",
+    "numerology": 7,
+    "image": "minor_arcana_wands_7.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "defesa",
+      "coragem e posição"
+    ],
+    "meaning_upright": "Representa defesa e coragem e posição.",
+    "meaning_reversed": "Invertida, indica exaustão e rendição e falta de preparo.",
+    "symbols": [
+      "figura defendendo uma posição elevada"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_8",
+    "name": "8 de Paus",
+    "number": 8,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "8",
+    "element": "fogo",
+    "numerology": 8,
+    "image": "minor_arcana_wands_8.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "movimento rápido",
+      "comunicação e progresso"
+    ],
+    "meaning_upright": "Representa movimento rápido e comunicação e progresso.",
+    "meaning_reversed": "Invertida, indica atraso e confusão e falta de direção.",
+    "symbols": [
+      "oito bastões atravessando o céu"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_9",
+    "name": "9 de Paus",
+    "number": 9,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "9",
+    "element": "fogo",
+    "numerology": 9,
+    "image": "minor_arcana_wands_9.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "resiliência",
+      "cautela e perseverança"
+    ],
+    "meaning_upright": "Representa resiliência e cautela e perseverança.",
+    "meaning_reversed": "Invertida, indica cansaço e paranoia e defensividade.",
+    "symbols": [
+      "figura ferida guardando bastões"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_10",
+    "name": "10 de Paus",
+    "number": 10,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "10",
+    "element": "fogo",
+    "numerology": 10,
+    "image": "minor_arcana_wands_10.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "responsabilidade",
+      "carga e conclusão"
+    ],
+    "meaning_upright": "Representa responsabilidade e carga e conclusão.",
+    "meaning_reversed": "Invertida, indica sobrecarga e delegação e incapacidade de continuar.",
+    "symbols": [
+      "figura carregando dez bastões"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_page",
+    "name": "Pajem de Paus",
+    "number": 11,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "page",
+    "element": "fogo",
+    "numerology": 11,
+    "image": "minor_arcana_wands_page.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "entusiasmo",
+      "descoberta e mensagem criativa"
+    ],
+    "meaning_upright": "Representa entusiasmo e descoberta e mensagem criativa.",
+    "meaning_reversed": "Invertida, indica falta de direção e impulsividade e imaturidade.",
+    "symbols": [
+      "figura segurando um bastão e observando-o"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_knight",
+    "name": "Cavaleiro de Paus",
+    "number": 12,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "knight",
+    "element": "fogo",
+    "numerology": 12,
+    "image": "minor_arcana_wands_knight.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "paixão",
+      "ação",
+      "aventura e impulso"
+    ],
+    "meaning_upright": "Representa paixão, ação e aventura e impulso.",
+    "meaning_reversed": "Invertida, indica impulsividade e pressa e instabilidade.",
+    "symbols": [
+      "cavaleiro avançando com energia"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_queen",
+    "name": "Rainha de Paus",
+    "number": 13,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "queen",
+    "element": "fogo",
+    "numerology": 13,
+    "image": "minor_arcana_wands_queen.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "confiança",
+      "criatividade",
+      "independência e magnetismo"
+    ],
+    "meaning_upright": "Representa confiança, criatividade e independência e magnetismo.",
+    "meaning_reversed": "Invertida, indica insegurança e ciúme e dependência de validação.",
+    "symbols": [
+      "figura sentada com girassol e gato"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_wands_king",
+    "name": "Rei de Paus",
+    "number": 14,
+    "arcana": "menor",
+    "suit": "paus",
+    "rank": "king",
+    "element": "fogo",
+    "numerology": 14,
+    "image": "minor_arcana_wands_king.png",
+    "astro": "Elemento Fogo; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "liderança",
+      "visão",
+      "empreendedorismo e inspiração"
+    ],
+    "meaning_upright": "Representa liderança, visão e empreendedorismo e inspiração.",
+    "meaning_reversed": "Invertida, indica autoritarismo e impulsividade e arrogância.",
+    "symbols": [
+      "figura de autoridade cercada por símbolos de fogo"
+    ],
+    "dominant_colors": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_ace",
+    "name": "Ás de Copas",
+    "number": 1,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "ace",
+    "element": "agua",
+    "numerology": 1,
+    "image": "minor_arcana_cups_ace.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "novo sentimento",
+      "abertura emocional e intuição"
+    ],
+    "meaning_upright": "Representa novo sentimento e abertura emocional e intuição.",
+    "meaning_reversed": "Invertida, indica bloqueio emocional e vazio e repressão.",
+    "symbols": [
+      "cálice transbordando com água"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_2",
+    "name": "2 de Copas",
+    "number": 2,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "2",
+    "element": "agua",
+    "numerology": 2,
+    "image": "minor_arcana_cups_2.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "união",
+      "parceria",
+      "reciprocidade e conexão"
+    ],
+    "meaning_upright": "Representa união, parceria e reciprocidade e conexão.",
+    "meaning_reversed": "Invertida, indica desequilíbrio e conflito e separação.",
+    "symbols": [
+      "duas figuras trocando cálices"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_3",
+    "name": "3 de Copas",
+    "number": 3,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "3",
+    "element": "agua",
+    "numerology": 3,
+    "image": "minor_arcana_cups_3.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "celebração",
+      "amizade e comunidade"
+    ],
+    "meaning_upright": "Representa celebração e amizade e comunidade.",
+    "meaning_reversed": "Invertida, indica excesso e isolamento e celebração superficial.",
+    "symbols": [
+      "três figuras celebrando com cálices"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_4",
+    "name": "4 de Copas",
+    "number": 4,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "4",
+    "element": "agua",
+    "numerology": 4,
+    "image": "minor_arcana_cups_4.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "apatia",
+      "contemplação e insatisfação"
+    ],
+    "meaning_upright": "Representa apatia e contemplação e insatisfação.",
+    "meaning_reversed": "Invertida, indica novas oportunidades e despertar e aceitação.",
+    "symbols": [
+      "figura sentada diante de três cálices e um quarto oferecido"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_5",
+    "name": "5 de Copas",
+    "number": 5,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "5",
+    "element": "agua",
+    "numerology": 5,
+    "image": "minor_arcana_cups_5.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "perda",
+      "luto e foco no que falta"
+    ],
+    "meaning_upright": "Representa perda e luto e foco no que falta.",
+    "meaning_reversed": "Invertida, indica aceitação e recuperação e seguir em frente.",
+    "symbols": [
+      "figura diante de cálices derramados e preservados"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_6",
+    "name": "6 de Copas",
+    "number": 6,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "6",
+    "element": "agua",
+    "numerology": 6,
+    "image": "minor_arcana_cups_6.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "nostalgia",
+      "memória",
+      "generosidade e inocência"
+    ],
+    "meaning_upright": "Representa nostalgia, memória e generosidade e inocência.",
+    "meaning_reversed": "Invertida, indica apego ao passado e idealização e imaturidade.",
+    "symbols": [
+      "crianças e flores em cálices"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_7",
+    "name": "7 de Copas",
+    "number": 7,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "7",
+    "element": "agua",
+    "numerology": 7,
+    "image": "minor_arcana_cups_7.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "possibilidades",
+      "imaginação e escolhas"
+    ],
+    "meaning_upright": "Representa possibilidades e imaginação e escolhas.",
+    "meaning_reversed": "Invertida, indica clareza e foco e decisões realistas.",
+    "symbols": [
+      "sete cálices com diferentes visões"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_8",
+    "name": "8 de Copas",
+    "number": 8,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "8",
+    "element": "agua",
+    "numerology": 8,
+    "image": "minor_arcana_cups_8.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "afastamento",
+      "busca de sentido e abandono"
+    ],
+    "meaning_upright": "Representa afastamento e busca de sentido e abandono.",
+    "meaning_reversed": "Invertida, indica medo de partir e estagnação e retorno.",
+    "symbols": [
+      "figura deixando oito cálices"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_9",
+    "name": "9 de Copas",
+    "number": 9,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "9",
+    "element": "agua",
+    "numerology": 9,
+    "image": "minor_arcana_cups_9.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "satisfação",
+      "prazer e desejo realizado"
+    ],
+    "meaning_upright": "Representa satisfação e prazer e desejo realizado.",
+    "meaning_reversed": "Invertida, indica insatisfação e excesso e desejos superficiais.",
+    "symbols": [
+      "figura sentada diante de nove cálices"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_10",
+    "name": "10 de Copas",
+    "number": 10,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "10",
+    "element": "agua",
+    "numerology": 10,
+    "image": "minor_arcana_cups_10.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "felicidade",
+      "família",
+      "harmonia e realização emocional"
+    ],
+    "meaning_upright": "Representa felicidade, família e harmonia e realização emocional.",
+    "meaning_reversed": "Invertida, indica conflito familiar e expectativas e felicidade idealizada.",
+    "symbols": [
+      "família sob arco-íris de cálices"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_page",
+    "name": "Pajem de Copas",
+    "number": 11,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "page",
+    "element": "agua",
+    "numerology": 11,
+    "image": "minor_arcana_cups_page.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "sensibilidade",
+      "intuição",
+      "criatividade e mensagem emocional"
+    ],
+    "meaning_upright": "Representa sensibilidade, intuição e criatividade e mensagem emocional.",
+    "meaning_reversed": "Invertida, indica imaturidade e fuga emocional e sensibilidade excessiva.",
+    "symbols": [
+      "figura observando um peixe em um cálice"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_knight",
+    "name": "Cavaleiro de Copas",
+    "number": 12,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "knight",
+    "element": "agua",
+    "numerology": 12,
+    "image": "minor_arcana_cups_knight.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "romance",
+      "idealismo",
+      "convite e busca emocional"
+    ],
+    "meaning_upright": "Representa romance, idealismo e convite e busca emocional.",
+    "meaning_reversed": "Invertida, indica fantasia e instabilidade e promessas vazias.",
+    "symbols": [
+      "cavaleiro oferecendo um cálice"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_queen",
+    "name": "Rainha de Copas",
+    "number": 13,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "queen",
+    "element": "agua",
+    "numerology": 13,
+    "image": "minor_arcana_cups_queen.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "empatia",
+      "intuição",
+      "compaixão e profundidade"
+    ],
+    "meaning_upright": "Representa empatia, intuição e compaixão e profundidade.",
+    "meaning_reversed": "Invertida, indica dependência emocional e limites frágeis e instabilidade.",
+    "symbols": [
+      "rainha contemplando um cálice ornamentado"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_cups_king",
+    "name": "Rei de Copas",
+    "number": 14,
+    "arcana": "menor",
+    "suit": "copas",
+    "rank": "king",
+    "element": "agua",
+    "numerology": 14,
+    "image": "minor_arcana_cups_king.png",
+    "astro": "Elemento Água; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "maturidade emocional",
+      "equilíbrio e compaixão"
+    ],
+    "meaning_upright": "Representa maturidade emocional e equilíbrio e compaixão.",
+    "meaning_reversed": "Invertida, indica repressão emocional e manipulação e instabilidade.",
+    "symbols": [
+      "rei sentado diante do mar segurando um cálice"
+    ],
+    "dominant_colors": [
+      "Água"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_ace",
+    "name": "Ás de Espadas",
+    "number": 1,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "ace",
+    "element": "ar",
+    "numerology": 1,
+    "image": "minor_arcana_swords_ace.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "clareza",
+      "verdade",
+      "decisão e nova ideia"
+    ],
+    "meaning_upright": "Representa clareza, verdade e decisão e nova ideia.",
+    "meaning_reversed": "Invertida, indica confusão e indecisão e pensamento nebuloso.",
+    "symbols": [
+      "espada erguida com coroa"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_2",
+    "name": "2 de Espadas",
+    "number": 2,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "2",
+    "element": "ar",
+    "numerology": 2,
+    "image": "minor_arcana_swords_2.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "impasse",
+      "equilíbrio e decisão difícil"
+    ],
+    "meaning_upright": "Representa impasse e equilíbrio e decisão difícil.",
+    "meaning_reversed": "Invertida, indica indecisão prolongada e ansiedade e informação ignorada.",
+    "symbols": [
+      "figura vendada segurando duas espadas"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_3",
+    "name": "3 de Espadas",
+    "number": 3,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "3",
+    "element": "ar",
+    "numerology": 3,
+    "image": "minor_arcana_swords_3.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "dor",
+      "separação",
+      "tristeza e verdade difícil"
+    ],
+    "meaning_upright": "Representa dor, separação e tristeza e verdade difícil.",
+    "meaning_reversed": "Invertida, indica cura e perdão e recuperação.",
+    "symbols": [
+      "coração atravessado por três espadas"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_4",
+    "name": "4 de Espadas",
+    "number": 4,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "4",
+    "element": "ar",
+    "numerology": 4,
+    "image": "minor_arcana_swords_4.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "descanso",
+      "recuperação e pausa mental"
+    ],
+    "meaning_upright": "Representa descanso e recuperação e pausa mental.",
+    "meaning_reversed": "Invertida, indica retorno à ação e inquietação e recuperação incompleta.",
+    "symbols": [
+      "figura repousando em um espaço de silêncio"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_5",
+    "name": "5 de Espadas",
+    "number": 5,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "5",
+    "element": "ar",
+    "numerology": 5,
+    "image": "minor_arcana_swords_5.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "conflito",
+      "vitória vazia e estratégia"
+    ],
+    "meaning_upright": "Representa conflito e vitória vazia e estratégia.",
+    "meaning_reversed": "Invertida, indica reconciliação e remorso e conflito evitado.",
+    "symbols": [
+      "figura recolhendo espadas após uma disputa"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_6",
+    "name": "6 de Espadas",
+    "number": 6,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "6",
+    "element": "ar",
+    "numerology": 6,
+    "image": "minor_arcana_swords_6.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "transição",
+      "viagem e passagem para águas mais calmas"
+    ],
+    "meaning_upright": "Representa transição e viagem e passagem para águas mais calmas.",
+    "meaning_reversed": "Invertida, indica resistência à mudança e bagagem emocional e dificuldade de seguir.",
+    "symbols": [
+      "barco atravessando águas"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_7",
+    "name": "7 de Espadas",
+    "number": 7,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "7",
+    "element": "ar",
+    "numerology": 7,
+    "image": "minor_arcana_swords_7.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "estratégia",
+      "independência e astúcia"
+    ],
+    "meaning_upright": "Representa estratégia e independência e astúcia.",
+    "meaning_reversed": "Invertida, indica exposição e culpa e estratégia mal executada.",
+    "symbols": [
+      "figura levando espadas de um acampamento"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_8",
+    "name": "8 de Espadas",
+    "number": 8,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "8",
+    "element": "ar",
+    "numerology": 8,
+    "image": "minor_arcana_swords_8.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "restrição",
+      "medo e sensação de aprisionamento"
+    ],
+    "meaning_upright": "Representa restrição e medo e sensação de aprisionamento.",
+    "meaning_reversed": "Invertida, indica libertação e perspectiva e recuperação de autonomia.",
+    "symbols": [
+      "figura vendada cercada por espadas"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_9",
+    "name": "9 de Espadas",
+    "number": 9,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "9",
+    "element": "ar",
+    "numerology": 9,
+    "image": "minor_arcana_swords_9.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "ansiedade",
+      "preocupação",
+      "culpa e insônia"
+    ],
+    "meaning_upright": "Representa ansiedade, preocupação e culpa e insônia.",
+    "meaning_reversed": "Invertida, indica alívio e recuperação e enfrentamento do medo.",
+    "symbols": [
+      "figura acordada em sofrimento"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_10",
+    "name": "10 de Espadas",
+    "number": 10,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "10",
+    "element": "ar",
+    "numerology": 10,
+    "image": "minor_arcana_swords_10.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "fim doloroso",
+      "encerramento e transformação"
+    ],
+    "meaning_upright": "Representa fim doloroso e encerramento e transformação.",
+    "meaning_reversed": "Invertida, indica recuperação e resistência e fim adiado.",
+    "symbols": [
+      "figura caída com dez espadas"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_page",
+    "name": "Pajem de Espadas",
+    "number": 11,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "page",
+    "element": "ar",
+    "numerology": 11,
+    "image": "minor_arcana_swords_page.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "curiosidade",
+      "vigilância",
+      "ideias e comunicação"
+    ],
+    "meaning_upright": "Representa curiosidade, vigilância e ideias e comunicação.",
+    "meaning_reversed": "Invertida, indica fofoca e impulsividade e falta de maturidade.",
+    "symbols": [
+      "figura segurando uma espada observando o vento"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_knight",
+    "name": "Cavaleiro de Espadas",
+    "number": 12,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "knight",
+    "element": "ar",
+    "numerology": 12,
+    "image": "minor_arcana_swords_knight.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "ação rápida",
+      "ambição",
+      "comunicação e decisão"
+    ],
+    "meaning_upright": "Representa ação rápida, ambição e comunicação e decisão.",
+    "meaning_reversed": "Invertida, indica agressividade e pressa e falta de planejamento.",
+    "symbols": [
+      "cavaleiro avançando com espada"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_queen",
+    "name": "Rainha de Espadas",
+    "number": 13,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "queen",
+    "element": "ar",
+    "numerology": 13,
+    "image": "minor_arcana_swords_queen.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "clareza",
+      "independência",
+      "discernimento e verdade"
+    ],
+    "meaning_upright": "Representa clareza, independência e discernimento e verdade.",
+    "meaning_reversed": "Invertida, indica frieza e amargura e julgamento excessivo.",
+    "symbols": [
+      "rainha segurando uma espada"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_swords_king",
+    "name": "Rei de Espadas",
+    "number": 14,
+    "arcana": "menor",
+    "suit": "espadas",
+    "rank": "king",
+    "element": "ar",
+    "numerology": 14,
+    "image": "minor_arcana_swords_king.png",
+    "astro": "Elemento Ar; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "autoridade mental",
+      "lógica",
+      "estratégia e liderança"
+    ],
+    "meaning_upright": "Representa autoridade mental, lógica e estratégia e liderança.",
+    "meaning_reversed": "Invertida, indica rigidez e manipulação e abuso de autoridade.",
+    "symbols": [
+      "rei sentado com espada"
+    ],
+    "dominant_colors": [
+      "Ar"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_ace",
+    "name": "Ás de Ouros",
+    "number": 1,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "ace",
+    "element": "terra",
+    "numerology": 1,
+    "image": "minor_arcana_pentacles_ace.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "oportunidade material",
+      "prosperidade e novo começo"
+    ],
+    "meaning_upright": "Representa oportunidade material e prosperidade e novo começo.",
+    "meaning_reversed": "Invertida, indica oportunidade perdida e instabilidade e falta de planejamento.",
+    "symbols": [
+      "moeda oferecida por uma mão em um jardim"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_2",
+    "name": "2 de Ouros",
+    "number": 2,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "2",
+    "element": "terra",
+    "numerology": 2,
+    "image": "minor_arcana_pentacles_2.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "equilíbrio",
+      "adaptação e gerenciamento"
+    ],
+    "meaning_upright": "Representa equilíbrio e adaptação e gerenciamento.",
+    "meaning_reversed": "Invertida, indica desorganização e sobrecarga e desequilíbrio.",
+    "symbols": [
+      "figura equilibrando duas moedas"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_3",
+    "name": "3 de Ouros",
+    "number": 3,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "3",
+    "element": "terra",
+    "numerology": 3,
+    "image": "minor_arcana_pentacles_3.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "colaboração",
+      "habilidade e reconhecimento"
+    ],
+    "meaning_upright": "Representa colaboração e habilidade e reconhecimento.",
+    "meaning_reversed": "Invertida, indica falta de colaboração e baixa qualidade e conflitos.",
+    "symbols": [
+      "trabalhadores construindo uma estrutura"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_4",
+    "name": "4 de Ouros",
+    "number": 4,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "4",
+    "element": "terra",
+    "numerology": 4,
+    "image": "minor_arcana_pentacles_4.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "segurança",
+      "controle e conservação"
+    ],
+    "meaning_upright": "Representa segurança e controle e conservação.",
+    "meaning_reversed": "Invertida, indica apego e avareza e medo de perder.",
+    "symbols": [
+      "figura segurando quatro moedas"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_5",
+    "name": "5 de Ouros",
+    "number": 5,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "5",
+    "element": "terra",
+    "numerology": 5,
+    "image": "minor_arcana_pentacles_5.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "dificuldade",
+      "exclusão e escassez"
+    ],
+    "meaning_upright": "Representa dificuldade e exclusão e escassez.",
+    "meaning_reversed": "Invertida, indica recuperação e apoio e melhora.",
+    "symbols": [
+      "duas figuras caminhando na neve"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_6",
+    "name": "6 de Ouros",
+    "number": 6,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "6",
+    "element": "terra",
+    "numerology": 6,
+    "image": "minor_arcana_pentacles_6.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "generosidade",
+      "troca e equilíbrio"
+    ],
+    "meaning_upright": "Representa generosidade e troca e equilíbrio.",
+    "meaning_reversed": "Invertida, indica dívida e dependência e troca desigual.",
+    "symbols": [
+      "figura distribuindo moedas"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_7",
+    "name": "7 de Ouros",
+    "number": 7,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "7",
+    "element": "terra",
+    "numerology": 7,
+    "image": "minor_arcana_pentacles_7.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "paciência",
+      "avaliação e investimento"
+    ],
+    "meaning_upright": "Representa paciência e avaliação e investimento.",
+    "meaning_reversed": "Invertida, indica impaciência e resultados insuficientes e falta de retorno.",
+    "symbols": [
+      "figura observando uma planta de moedas"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_8",
+    "name": "8 de Ouros",
+    "number": 8,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "8",
+    "element": "terra",
+    "numerology": 8,
+    "image": "minor_arcana_pentacles_8.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "dedicação",
+      "prática e aperfeiçoamento"
+    ],
+    "meaning_upright": "Representa dedicação e prática e aperfeiçoamento.",
+    "meaning_reversed": "Invertida, indica perfeccionismo e falta de foco e trabalho sem propósito.",
+    "symbols": [
+      "artesão trabalhando em moedas"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_9",
+    "name": "9 de Ouros",
+    "number": 9,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "9",
+    "element": "terra",
+    "numerology": 9,
+    "image": "minor_arcana_pentacles_9.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "independência",
+      "prosperidade e realização"
+    ],
+    "meaning_upright": "Representa independência e prosperidade e realização.",
+    "meaning_reversed": "Invertida, indica dependência e excesso de luxo e perdas.",
+    "symbols": [
+      "figura em jardim com moedas"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_10",
+    "name": "10 de Ouros",
+    "number": 10,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "10",
+    "element": "terra",
+    "numerology": 10,
+    "image": "minor_arcana_pentacles_10.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "legado",
+      "estabilidade",
+      "família e prosperidade"
+    ],
+    "meaning_upright": "Representa legado, estabilidade e família e prosperidade.",
+    "meaning_reversed": "Invertida, indica instabilidade e perda de legado e conflitos materiais.",
+    "symbols": [
+      "família em ambiente próspero"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_page",
+    "name": "Pajem de Ouros",
+    "number": 11,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "page",
+    "element": "terra",
+    "numerology": 11,
+    "image": "minor_arcana_pentacles_page.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "estudo",
+      "oportunidade",
+      "praticidade e aprendizado"
+    ],
+    "meaning_upright": "Representa estudo, oportunidade e praticidade e aprendizado.",
+    "meaning_reversed": "Invertida, indica falta de progresso e distração e oportunidade perdida.",
+    "symbols": [
+      "figura estudando uma moeda"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_knight",
+    "name": "Cavaleiro de Ouros",
+    "number": 12,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "knight",
+    "element": "terra",
+    "numerology": 12,
+    "image": "minor_arcana_pentacles_knight.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "constância",
+      "responsabilidade",
+      "trabalho e progresso"
+    ],
+    "meaning_upright": "Representa constância, responsabilidade e trabalho e progresso.",
+    "meaning_reversed": "Invertida, indica estagnação e lentidão e rotina sem propósito.",
+    "symbols": [
+      "cavaleiro parado com moeda"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_queen",
+    "name": "Rainha de Ouros",
+    "number": 13,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "queen",
+    "element": "terra",
+    "numerology": 13,
+    "image": "minor_arcana_pentacles_queen.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "nutrição",
+      "praticidade",
+      "abundância e cuidado"
+    ],
+    "meaning_upright": "Representa nutrição, praticidade e abundância e cuidado.",
+    "meaning_reversed": "Invertida, indica desequilíbrio entre trabalho e vida e insegurança e excesso de controle.",
+    "symbols": [
+      "rainha em ambiente fértil contemplando uma moeda"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  },
+  {
+    "id": "minor_arcana_pentacles_king",
+    "name": "Rei de Ouros",
+    "number": 14,
+    "arcana": "menor",
+    "suit": "ouros",
+    "rank": "king",
+    "element": "terra",
+    "numerology": 14,
+    "image": "minor_arcana_pentacles_king.png",
+    "astro": "Elemento Terra; correspondências astrológicas específicas podem variar conforme a tradição.",
+    "keywords": [
+      "sucesso material",
+      "liderança",
+      "segurança e domínio"
+    ],
+    "meaning_upright": "Representa sucesso material, liderança e segurança e domínio.",
+    "meaning_reversed": "Invertida, indica ganância e controle e materialismo.",
+    "symbols": [
+      "rei sentado em ambiente abundante"
+    ],
+    "dominant_colors": [
+      "Terra"
+    ]
+  }
+]

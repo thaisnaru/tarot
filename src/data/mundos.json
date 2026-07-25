@@ -1,0 +1,132 @@
+[
+  {
+    "id": "arcanos-maiores",
+    "name": "Os Arcanos Maiores",
+    "level": "iniciante",
+    "accent": "primary",
+    "itemType": "card",
+    "scope": {
+      "cards": [
+        "major_arcana_fool", "major_arcana_magician", "major_arcana_priestess", "major_arcana_empress",
+        "major_arcana_emperor", "major_arcana_hierophant", "major_arcana_lovers", "major_arcana_chariot",
+        "major_arcana_strength", "major_arcana_hermit", "major_arcana_fortune", "major_arcana_justice",
+        "major_arcana_hanged", "major_arcana_death", "major_arcana_temperance", "major_arcana_devil",
+        "major_arcana_tower", "major_arcana_star", "major_arcana_moon", "major_arcana_sun",
+        "major_arcana_judgement", "major_arcana_world"
+      ]
+    },
+    "skills": ["keywords", "simbolos", "cores"]
+  },
+  {
+    "id": "simbologia",
+    "name": "Simbologia",
+    "level": "iniciante",
+    "accent": "secondary",
+    "itemType": "symbol",
+    "skills": ["simbolo"]
+  },
+  {
+    "id": "cores",
+    "name": "Cores",
+    "level": "iniciante",
+    "accent": "accent-warm",
+    "itemType": "color",
+    "skills": ["cor"]
+  },
+  {
+    "id": "numerologia",
+    "name": "Numerologia",
+    "level": "iniciante",
+    "accent": "success",
+    "itemType": "number",
+    "skills": ["numero"]
+  },
+  {
+    "id": "naipes",
+    "name": "Naipes",
+    "level": "iniciante",
+    "accent": "primary",
+    "itemType": "suit",
+    "skills": ["naipe"]
+  },
+  {
+    "id": "copas",
+    "name": "Copas",
+    "level": "iniciante",
+    "accent": "secondary",
+    "itemType": "card",
+    "scope": {
+      "cards": [
+        "minor_arcana_cups_ace", "minor_arcana_cups_2", "minor_arcana_cups_3", "minor_arcana_cups_4",
+        "minor_arcana_cups_5", "minor_arcana_cups_6", "minor_arcana_cups_7", "minor_arcana_cups_8",
+        "minor_arcana_cups_9", "minor_arcana_cups_10", "minor_arcana_cups_page", "minor_arcana_cups_knight",
+        "minor_arcana_cups_queen", "minor_arcana_cups_king"
+      ]
+    },
+    "skills": ["keywords", "numerologia"]
+  },
+  {
+    "id": "ouros",
+    "name": "Ouros",
+    "level": "iniciante",
+    "accent": "accent-warm",
+    "itemType": "card",
+    "scope": {
+      "cards": [
+        "minor_arcana_pentacles_ace", "minor_arcana_pentacles_2", "minor_arcana_pentacles_3", "minor_arcana_pentacles_4",
+        "minor_arcana_pentacles_5", "minor_arcana_pentacles_6", "minor_arcana_pentacles_7", "minor_arcana_pentacles_8",
+        "minor_arcana_pentacles_9", "minor_arcana_pentacles_10", "minor_arcana_pentacles_page", "minor_arcana_pentacles_knight",
+        "minor_arcana_pentacles_queen", "minor_arcana_pentacles_king"
+      ]
+    },
+    "skills": ["keywords", "numerologia"]
+  },
+  {
+    "id": "espadas",
+    "name": "Espadas",
+    "level": "iniciante",
+    "accent": "success",
+    "itemType": "card",
+    "scope": {
+      "cards": [
+        "minor_arcana_swords_ace", "minor_arcana_swords_2", "minor_arcana_swords_3", "minor_arcana_swords_4",
+        "minor_arcana_swords_5", "minor_arcana_swords_6", "minor_arcana_swords_7", "minor_arcana_swords_8",
+        "minor_arcana_swords_9", "minor_arcana_swords_10", "minor_arcana_swords_page", "minor_arcana_swords_knight",
+        "minor_arcana_swords_queen", "minor_arcana_swords_king"
+      ]
+    },
+    "skills": ["keywords", "numerologia"]
+  },
+  {
+    "id": "paus",
+    "name": "Paus",
+    "level": "iniciante",
+    "accent": "primary",
+    "itemType": "card",
+    "scope": {
+      "cards": [
+        "minor_arcana_wands_ace", "minor_arcana_wands_2", "minor_arcana_wands_3", "minor_arcana_wands_4",
+        "minor_arcana_wands_5", "minor_arcana_wands_6", "minor_arcana_wands_7", "minor_arcana_wands_8",
+        "minor_arcana_wands_9", "minor_arcana_wands_10", "minor_arcana_wands_page", "minor_arcana_wands_knight",
+        "minor_arcana_wands_queen", "minor_arcana_wands_king"
+      ]
+    },
+    "skills": ["keywords", "numerologia"]
+  },
+  {
+    "id": "cortes",
+    "name": "Cortes",
+    "level": "intermediario",
+    "accent": "secondary",
+    "itemType": "card",
+    "scope": {
+      "cards": [
+        "minor_arcana_wands_page", "minor_arcana_wands_knight", "minor_arcana_wands_queen", "minor_arcana_wands_king",
+        "minor_arcana_cups_page", "minor_arcana_cups_knight", "minor_arcana_cups_queen", "minor_arcana_cups_king",
+        "minor_arcana_swords_page", "minor_arcana_swords_knight", "minor_arcana_swords_queen", "minor_arcana_swords_king",
+        "minor_arcana_pentacles_page", "minor_arcana_pentacles_knight", "minor_arcana_pentacles_queen", "minor_arcana_pentacles_king"
+      ]
+    },
+    "skills": ["keywords", "numerologia"]
+  }
+]
