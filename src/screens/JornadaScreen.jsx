@@ -1,44 +1,50 @@
 import { mundos } from '../engine/deck.js';
 import { getMundoItems } from '../engine/sessionBuilder.js';
 import { getItemAverage, getSkillsForCard, isDominado } from '../engine/mastery.js';
+import { CATEGORY_LABELS, CATEGORY_ORDER, RANK_LABELS, RANK_ORDER } from '../engine/groupLabels.js';
 import { useNavigation } from '../navigation.jsx';
 import MundoCard from '../components/MundoCard.jsx';
 import MasteryRow from '../components/MasteryRow.jsx';
 import CardImage from '../components/CardImage.jsx';
 
-const SUIT_EMOJI = { paus: '🔥', copas: '💧', espadas: '💨', ouros: '🪙' };
+// Naipe do Tarot → naipe clássico de baralho: Paus/Wands=Paus♣️,
+// Copas/Cups=Copas♥️, Espadas/Swords=Espadas♠️, Ouros/Pentacles=Ouros♦️.
+const SUIT_EMOJI = { paus: '♣️', copas: '♥️', espadas: '♠️', ouros: '♦️' };
+
+const NUMBER_EMOJI = {
+  ace: '1️⃣',
+  '2': '2️⃣',
+  '3': '3️⃣',
+  '4': '4️⃣',
+  '5': '5️⃣',
+  '6': '6️⃣',
+  '7': '7️⃣',
+  '8': '8️⃣',
+  '9': '9️⃣',
+  '10': '🔟',
+  page: '🫅🏼',
+  knight: '🧔🏽‍♂️',
+  queen: '👸🏼',
+  king: '🤴🏼',
+};
 
 const MUNDO_ICON = {
   'arcanos-maiores': '🌟',
   simbologia: '✨',
-  cores: '🎨',
   numerologia: '🔢',
   naipes: '🧭',
-  copas: '💧',
-  ouros: '🪙',
-  espadas: '💨',
-  paus: '🔥',
+  copas: SUIT_EMOJI.copas,
+  ouros: SUIT_EMOJI.ouros,
+  espadas: SUIT_EMOJI.espadas,
+  paus: SUIT_EMOJI.paus,
   cortes: '👑',
 };
-
-const CATEGORY_LABELS = {
-  celestial: 'Corpos celestes',
-  fauna: 'Fauna',
-  flora: 'Flora',
-  'figura-humana': 'Figuras humanas',
-  objeto: 'Objetos',
-  vestimenta: 'Vestimentas',
-  arquitetura: 'Arquitetura',
-  paisagem: 'Paisagem',
-};
-const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS);
-
-const RANK_LABELS = { page: 'Pajens', knight: 'Cavaleiros', queen: 'Rainhas', king: 'Reis' };
-const RANK_ORDER = ['page', 'knight', 'queen', 'king'];
 
 // Agrupa os itens de um mundo em Submundos, quando o mundo define
 // `groupBy` (categoria de símbolo, ou rank pras Cortes). Sem `groupBy`,
 // devolve um grupo único sem rótulo — comportamento igual ao de antes.
+// Cada grupo carrega `value` (o valor cru, ex: "celestial") além do
+// `label` — é o que a sessão de prática por grupo usa pra filtrar.
 function groupItems(mundo, items) {
   if (mundo.groupBy === 'category') {
     const byCat = {};
@@ -46,7 +52,7 @@ function groupItems(mundo, items) {
       const cat = item.category ?? 'outro';
       (byCat[cat] ??= []).push(item);
     });
-    return CATEGORY_ORDER.filter((c) => byCat[c]).map((c) => ({ label: CATEGORY_LABELS[c], items: byCat[c] }));
+    return CATEGORY_ORDER.filter((c) => byCat[c]).map((c) => ({ label: CATEGORY_LABELS[c], value: c, items: byCat[c] }));
   }
   if (mundo.groupBy === 'rank') {
     const byRank = {};
@@ -54,9 +60,9 @@ function groupItems(mundo, items) {
       const rank = item.rank ?? 'outro';
       (byRank[rank] ??= []).push(item);
     });
-    return RANK_ORDER.filter((r) => byRank[r]).map((r) => ({ label: RANK_LABELS[r], items: byRank[r] }));
+    return RANK_ORDER.filter((r) => byRank[r]).map((r) => ({ label: RANK_LABELS[r], value: r, items: byRank[r] }));
   }
-  return [{ label: null, items }];
+  return [{ label: null, value: null, items }];
 }
 
 function skillsFor(mundo, item) {
@@ -71,11 +77,11 @@ function ItemIcon({ mundo, item }) {
   if (mundo.itemType === 'symbol') {
     return <span className="text-lg">{item.emoji}</span>;
   }
-  if (mundo.itemType === 'color') {
-    return <span className="w-5 h-5 rounded-full border border-white/10" style={{ backgroundColor: item.hex }} />;
-  }
   if (mundo.itemType === 'suit') {
     return <span className="text-lg">{SUIT_EMOJI[item.id] ?? '✦'}</span>;
+  }
+  if (mundo.itemType === 'number') {
+    return <span className="text-lg">{NUMBER_EMOJI[item.id] ?? '🔢'}</span>;
   }
   return <span className="text-xs text-text-muted">{item.name}</span>;
 }
@@ -106,6 +112,11 @@ function MundoSection({ mundo, index }) {
   const { navigate } = useNavigation();
   const items = getMundoItems(mundo);
   const groups = groupItems(mundo, items);
+  // Símbolos são simples demais (1 habilidade só) pra justificar uma
+  // sessão focada num item específico — isso é o que virava "submundo de
+  // um símbolo só" (ver pedido do usuário). Grupo (categoria) é a unidade
+  // de prática certa aqui; item individual só mostra progresso.
+  const allowItemFocus = mundo.itemType !== 'symbol';
 
   const scores = items.map((item) => getItemAverage(item.id, skillsFor(mundo, item)) ?? 0);
   const overall = scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0;
@@ -127,9 +138,18 @@ function MundoSection({ mundo, index }) {
         </button>
       </div>
       {groups.map((group, gi) => (
-        <div key={group.label ?? gi} className={gi > 0 ? 'mt-4' : ''}>
+        <div key={group.value ?? gi} className={gi > 0 ? 'mt-4' : ''}>
           {group.label && (
-            <p className="text-xs font-semibold text-text-muted mb-2 uppercase tracking-wide">{group.label}</p>
+            <div className="flex items-center justify-between mb-2">
+              <p className="text-xs font-semibold text-text-muted uppercase tracking-wide">{group.label}</p>
+              <button
+                type="button"
+                onClick={() => navigate('licao', { mundoId: mundo.id, groupValue: group.value })}
+                className="min-h-[28px] px-3 rounded-full bg-surface text-primary text-[11px] font-medium border border-primary/30"
+              >
+                Praticar grupo
+              </button>
+            </div>
           )}
           <div className="flex flex-col">
             {group.items.map((item, i) => {
@@ -140,7 +160,7 @@ function MundoSection({ mundo, index }) {
                     icon={<ItemIcon mundo={mundo} item={item} />}
                     name={item.name}
                     score={score}
-                    onClick={() => navigate('licao', { mundoId: mundo.id, focusItemId: item.id })}
+                    onClick={allowItemFocus ? () => navigate('licao', { mundoId: mundo.id, focusItemId: item.id }) : undefined}
                   />
                 </TimelineNode>
               );

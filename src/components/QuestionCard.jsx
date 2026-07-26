@@ -3,8 +3,6 @@ import CardImage from './CardImage.jsx';
 import AnswerOption from './AnswerOption.jsx';
 import PareamentoBoard from './PareamentoBoard.jsx';
 
-const SUIT_EMOJI = { paus: '🔥', copas: '💧', espadas: '💨', ouros: '🪙' };
-
 function QuestionText({ prompt }) {
   if (!prompt.question) return null;
   return (
@@ -51,10 +49,16 @@ function PromptHeader({ prompt }) {
   if (prompt.kind === 'naipe') {
     return (
       <div className="flex flex-col items-center gap-2 py-8">
-        <span className="text-5xl" aria-hidden>
-          {SUIT_EMOJI[prompt.suit.id] ?? '✦'}
-        </span>
         <span className="text-2xl font-semibold text-text-primary">{prompt.suit.name}</span>
+      </div>
+    );
+  }
+  if (prompt.kind === 'naipe-pair') {
+    return (
+      <div className="flex items-center justify-center gap-4 py-8">
+        <span className="text-xl font-semibold text-text-primary">{prompt.suitA.name}</span>
+        <span className="text-text-muted text-sm">vs</span>
+        <span className="text-xl font-semibold text-text-primary">{prompt.suitB.name}</span>
       </div>
     );
   }

@@ -30,6 +30,15 @@ export function sessionReducer(state, action) {
       }
       return { ...state, index: nextIndex, phase: 'question', selection: null };
     }
+    // Reinjeta uma pergunta de reforço mais adiante na fila da sessão atual
+    // (item que o jogador acabou de errar) — nunca antes do índice atual,
+    // pra não sobrepor a pergunta em andamento.
+    case 'INSERT_FOLLOWUP': {
+      const insertAt = Math.max(state.index + 1, Math.min(action.atIndex, state.questions.length));
+      const questions = [...state.questions];
+      questions.splice(insertAt, 0, action.question);
+      return { ...state, questions };
+    }
     default:
       return state;
   }

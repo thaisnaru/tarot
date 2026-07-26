@@ -45,6 +45,26 @@ export default function CardDetailScreen({ cardId }) {
           {card.numerology != null && ` · ${card.numerology}`}
         </p>
 
+        {card.keywords?.length > 0 && (
+          <div className="flex gap-2 flex-wrap justify-center mb-5">
+            {card.keywords.map((kw) => (
+              <span key={kw} className="text-xs bg-surface rounded-full px-3 py-1 text-text-secondary">
+                {kw}
+              </span>
+            ))}
+          </div>
+        )}
+
+        <section className="mb-4">
+          <h2 className="text-sm font-semibold text-text-secondary mb-1">Significado (normal)</h2>
+          <p className="text-sm text-text-primary/90">{card.meaning_upright}</p>
+        </section>
+
+        <section className="mb-4">
+          <h2 className="text-sm font-semibold text-text-secondary mb-1">Significado (invertida)</h2>
+          <p className="text-sm text-text-primary/90">{card.meaning_reversed}</p>
+        </section>
+
         <section className="mb-5">
           <div className="flex items-center justify-between mb-1">
             <span
@@ -74,26 +94,6 @@ export default function CardDetailScreen({ cardId }) {
               );
             })}
           </div>
-        </section>
-
-        {card.keywords?.length > 0 && (
-          <div className="flex gap-2 flex-wrap justify-center mb-5">
-            {card.keywords.map((kw) => (
-              <span key={kw} className="text-xs bg-surface rounded-full px-3 py-1 text-text-secondary">
-                {kw}
-              </span>
-            ))}
-          </div>
-        )}
-
-        <section className="mb-4">
-          <h2 className="text-sm font-semibold text-text-secondary mb-1">Significado (normal)</h2>
-          <p className="text-sm text-text-primary/90">{card.meaning_upright}</p>
-        </section>
-
-        <section className="mb-4">
-          <h2 className="text-sm font-semibold text-text-secondary mb-1">Significado (invertida)</h2>
-          <p className="text-sm text-text-primary/90">{card.meaning_reversed}</p>
         </section>
 
         {card.symbols?.length > 0 && (
