@@ -21,6 +21,44 @@ const MUNDO_ICON = {
   cortes: '👑',
 };
 
+const CATEGORY_LABELS = {
+  celestial: 'Corpos celestes',
+  fauna: 'Fauna',
+  flora: 'Flora',
+  'figura-humana': 'Figuras humanas',
+  objeto: 'Objetos',
+  vestimenta: 'Vestimentas',
+  arquitetura: 'Arquitetura',
+  paisagem: 'Paisagem',
+};
+const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS);
+
+const RANK_LABELS = { page: 'Pajens', knight: 'Cavaleiros', queen: 'Rainhas', king: 'Reis' };
+const RANK_ORDER = ['page', 'knight', 'queen', 'king'];
+
+// Agrupa os itens de um mundo em Submundos, quando o mundo define
+// `groupBy` (categoria de símbolo, ou rank pras Cortes). Sem `groupBy`,
+// devolve um grupo único sem rótulo — comportamento igual ao de antes.
+function groupItems(mundo, items) {
+  if (mundo.groupBy === 'category') {
+    const byCat = {};
+    items.forEach((item) => {
+      const cat = item.category ?? 'outro';
+      (byCat[cat] ??= []).push(item);
+    });
+    return CATEGORY_ORDER.filter((c) => byCat[c]).map((c) => ({ label: CATEGORY_LABELS[c], items: byCat[c] }));
+  }
+  if (mundo.groupBy === 'rank') {
+    const byRank = {};
+    items.forEach((item) => {
+      const rank = item.rank ?? 'outro';
+      (byRank[rank] ??= []).push(item);
+    });
+    return RANK_ORDER.filter((r) => byRank[r]).map((r) => ({ label: RANK_LABELS[r], items: byRank[r] }));
+  }
+  return [{ label: null, items }];
+}
+
 function skillsFor(mundo, item) {
   if (mundo.itemType === 'card') return getSkillsForCard(item);
   return mundo.skills;
@@ -67,6 +105,7 @@ function TimelineNode({ score, isLast, children }) {
 function MundoSection({ mundo, index }) {
   const { navigate } = useNavigation();
   const items = getMundoItems(mundo);
+  const groups = groupItems(mundo, items);
 
   const scores = items.map((item) => getItemAverage(item.id, skillsFor(mundo, item)) ?? 0);
   const overall = scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0;
@@ -87,21 +126,28 @@ function MundoSection({ mundo, index }) {
           Praticar
         </button>
       </div>
-      <div className="flex flex-col">
-        {items.map((item, i) => {
-          const score = getItemAverage(item.id, skillsFor(mundo, item)) ?? 0;
-          return (
-            <TimelineNode key={item.id} score={score} isLast={i === items.length - 1}>
-              <MasteryRow
-                icon={<ItemIcon mundo={mundo} item={item} />}
-                name={item.name}
-                score={score}
-                onClick={() => navigate('licao', { mundoId: mundo.id, focusItemId: item.id })}
-              />
-            </TimelineNode>
-          );
-        })}
-      </div>
+      {groups.map((group, gi) => (
+        <div key={group.label ?? gi} className={gi > 0 ? 'mt-4' : ''}>
+          {group.label && (
+            <p className="text-xs font-semibold text-text-muted mb-2 uppercase tracking-wide">{group.label}</p>
+          )}
+          <div className="flex flex-col">
+            {group.items.map((item, i) => {
+              const score = getItemAverage(item.id, skillsFor(mundo, item)) ?? 0;
+              return (
+                <TimelineNode key={item.id} score={score} isLast={i === group.items.length - 1}>
+                  <MasteryRow
+                    icon={<ItemIcon mundo={mundo} item={item} />}
+                    name={item.name}
+                    score={score}
+                    onClick={() => navigate('licao', { mundoId: mundo.id, focusItemId: item.id })}
+                  />
+                </TimelineNode>
+              );
+            })}
+          </div>
+        </div>
+      ))}
     </MundoCard>
   );
 }

@@ -3,6 +3,7 @@ import { pickDistractors } from '../distractors.js';
 import { pickOne, shuffle } from '../shuffle.js';
 
 export const id = 'numero-tema';
+export const difficulty = 'medio';
 
 export function isApplicable(pool) {
   return pool.some((c) => c.rank && allNumbers.some((n) => n.id === c.rank)) && allNumbers.length >= 2;

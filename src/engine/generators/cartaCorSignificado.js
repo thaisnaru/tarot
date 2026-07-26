@@ -6,6 +6,7 @@ import { pickOne, shuffle } from '../shuffle.js';
 // "Nesta carta, o que significa a cor amarela?" — em vez da cor isolada
 // sem contexto (ver cor-significado). Mais específico, menos abstrato.
 export const id = 'carta-cor-significado';
+export const difficulty = 'medio';
 
 export function isApplicable(pool) {
   return pool.some((c) => colorsOfCard(c).length >= 1);

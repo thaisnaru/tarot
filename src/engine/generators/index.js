@@ -9,6 +9,16 @@ import * as naipeSignificado from './naipeSignificado.js';
 import * as naipeElemento from './naipeElemento.js';
 import * as cartaSimboloSignificado from './cartaSimboloSignificado.js';
 import * as cartaCorSignificado from './cartaCorSignificado.js';
+import * as reconhecimentoCarta from './reconhecimentoCarta.js';
+import * as cartaConceito from './cartaConceito.js';
+import * as reconhecimentoSimbolo from './reconhecimentoSimbolo.js';
+import * as simboloCarta from './simboloCarta.js';
+import * as corCarta from './corCarta.js';
+import * as numeroCartaMaior from './numeroCartaMaior.js';
+import * as naipeCarta from './naipeCarta.js';
+import * as uprightReversed from './uprightReversed.js';
+import * as significadoCarta from './significadoCarta.js';
+import * as detetiveSimbolos from './detetiveSimbolos.js';
 
 export const GENERATORS = [
   simboloSignificado,
@@ -22,6 +32,16 @@ export const GENERATORS = [
   naipeElemento,
   cartaSimboloSignificado,
   cartaCorSignificado,
+  reconhecimentoCarta,
+  cartaConceito,
+  reconhecimentoSimbolo,
+  simboloCarta,
+  corCarta,
+  numeroCartaMaior,
+  naipeCarta,
+  uprightReversed,
+  significadoCarta,
+  detetiveSimbolos,
 ];
 
 export const GENERATORS_BY_ID = Object.fromEntries(GENERATORS.map((g) => [g.id, g]));

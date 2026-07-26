@@ -2,6 +2,7 @@ import { symbolsForPool } from '../deck.js';
 import { shuffle } from '../shuffle.js';
 
 export const id = 'pareamento';
+export const difficulty = 'medio';
 
 export function isApplicable(pool) {
   return symbolsForPool(pool).length >= 4;

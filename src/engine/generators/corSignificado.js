@@ -3,6 +3,7 @@ import { pickDistractors } from '../distractors.js';
 import { pickOne, shuffle } from '../shuffle.js';
 
 export const id = 'cor-significado';
+export const difficulty = 'facil';
 
 export function isApplicable(pool) {
   return colorsForPool(pool).length >= 1 && allColors.length >= 2;

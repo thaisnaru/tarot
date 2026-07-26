@@ -28,11 +28,28 @@ export function getMundoItems(mundo) {
   }
 }
 
+// Escolhe entre alguns geradores candidatos (o primeiro cujo isApplicable
+// aceita o pool dado), retornando null se nenhum servir — o chamador tenta
+// outro item/skill em vez de travar a sessão.
+function generateFromCandidates(candidateIds, pool, targetId) {
+  const usable = shuffle(candidateIds).filter((gid) => GENERATORS_BY_ID[gid].isApplicable(pool));
+  if (usable.length === 0) return null;
+  const chosen = usable[0];
+  return GENERATORS_BY_ID[chosen].generate(pool, targetId);
+}
+
 // Tenta gerar uma pergunta testando `item` numa `skill` específica do mundo.
-// Retorna { question, masteryTarget } ou null se não der pra gerar (o
-// chamador tenta outro item/skill em vez de travar a sessão).
+// Retorna { question, masteryTarget } ou null se não der pra gerar.
 function buildQuestionFor(mundo, item, skill) {
   if (mundo.itemType === 'card') {
+    if (skill === 'reconhecimento') {
+      const question = generateFromCandidates(['reconhecimento-carta', 'reconhecimento-simbolo'], cards, item.id);
+      return question ? { question, masteryTarget: { itemId: item.id, skill } } : null;
+    }
+    if (skill === 'significado') {
+      const question = generateFromCandidates(['carta-conceito', 'upright-reversed'], cards, item.id);
+      return question ? { question, masteryTarget: { itemId: item.id, skill } } : null;
+    }
     if (skill === 'keywords') {
       if (!GENERATORS_BY_ID['carta-keywords'].isApplicable([item])) return null;
       return {
@@ -41,9 +58,13 @@ function buildQuestionFor(mundo, item, skill) {
       };
     }
     if (skill === 'numerologia') {
-      if (!GENERATORS_BY_ID['numero-tema'].isApplicable([item])) return null;
+      // Maiores usam a numeração 0-21 (numero-carta-maior); menores usam o
+      // rank ace-king (numero-tema) — são dois sistemas de numerologia
+      // diferentes, não dá pra misturar no mesmo gerador.
+      const genId = item.arcana === 'maior' ? 'numero-carta-maior' : 'numero-tema';
+      if (!GENERATORS_BY_ID[genId].isApplicable([item])) return null;
       return {
-        question: GENERATORS_BY_ID['numero-tema'].generate(cards, item.id),
+        question: GENERATORS_BY_ID[genId].generate(cards, item.id),
         masteryTarget: { itemId: item.id, skill },
       };
     }
@@ -61,18 +82,17 @@ function buildQuestionFor(mundo, item, skill) {
   }
 
   if (mundo.itemType === 'symbol') {
-    const gen = pickOne(['simbolo-significado', 'significado-simbolo']);
-    return {
-      question: GENERATORS_BY_ID[gen].generate(cards, item.id),
-      masteryTarget: { itemId: item.id, skill },
-    };
+    const question = generateFromCandidates(
+      ['simbolo-significado', 'significado-simbolo', 'simbolo-carta'],
+      cards,
+      item.id
+    );
+    return question ? { question, masteryTarget: { itemId: item.id, skill } } : null;
   }
 
   if (mundo.itemType === 'color') {
-    return {
-      question: GENERATORS_BY_ID['cor-significado'].generate(cards, item.id),
-      masteryTarget: { itemId: item.id, skill },
-    };
+    const question = generateFromCandidates(['cor-significado', 'cor-carta'], cards, item.id);
+    return question ? { question, masteryTarget: { itemId: item.id, skill } } : null;
   }
 
   if (mundo.itemType === 'number') {
@@ -87,33 +107,31 @@ function buildQuestionFor(mundo, item, skill) {
   }
 
   if (mundo.itemType === 'suit') {
-    const gen = pickOne(['naipe-significado', 'naipe-elemento']);
-    return {
-      question: GENERATORS_BY_ID[gen].generate(suits, item.id),
-      masteryTarget: { itemId: item.id, skill },
-    };
+    const question = generateFromCandidates(['naipe-significado', 'naipe-elemento', 'naipe-carta'], suits, item.id);
+    return question ? { question, masteryTarget: { itemId: item.id, skill } } : null;
   }
 
   return null;
 }
 
-// 'simbolos' de uma carta: na maioria das vezes pergunta sobre um símbolo
-// específico DELA (carta-simbolo-significado, contextualizado); de vez em
-// quando varia pro pareamento (mecânica diferente, mesma carta).
+// 'simbolos' de uma carta: alterna entre pergunta sobre um símbolo
+// específico dela (contextualizado), detetive de múltiplos símbolos, e
+// pareamento (mecânica diferente, mesma carta).
 function buildSimbolosQuestionForCard(card) {
   const cardSymbols = symbolsForPool([card]);
   if (cardSymbols.length === 0) return null;
 
-  if (cardSymbols.length >= 4 && Math.random() < 0.25 && GENERATORS_BY_ID['pareamento'].isApplicable([card])) {
-    return {
-      question: GENERATORS_BY_ID['pareamento'].generate([card]),
-      masteryTarget: { itemId: card.id, skill: 'simbolos' },
-    };
-  }
+  const candidates = ['carta-simbolo-significado'];
+  if (cardSymbols.length >= 3) candidates.push('detetive-simbolos');
+  if (cardSymbols.length >= 4) candidates.push('pareamento');
 
-  if (!GENERATORS_BY_ID['carta-simbolo-significado'].isApplicable([card])) return null;
+  const chosenId = pickOne(candidates);
+  const pool = chosenId === 'pareamento' ? [card] : cards;
+  const targetId = chosenId === 'pareamento' ? undefined : card.id;
+  if (!GENERATORS_BY_ID[chosenId].isApplicable([card])) return null;
+
   return {
-    question: GENERATORS_BY_ID['carta-simbolo-significado'].generate(cards, card.id),
+    question: GENERATORS_BY_ID[chosenId].generate(pool, targetId),
     masteryTarget: { itemId: card.id, skill: 'simbolos' },
   };
 }
@@ -173,8 +191,10 @@ export function buildAdaptiveSession(mundo, { focusItemId } = {}, size = 10) {
 function skillsForItem(mundo, item) {
   if (mundo.itemType !== 'card') return mundo.skills;
   return mundo.skills.filter((skill) => {
+    if (skill === 'reconhecimento') return true;
+    if (skill === 'significado') return Boolean(item.meaning_upright && item.meaning_reversed);
     if (skill === 'keywords') return item.keywords?.length >= 2;
-    if (skill === 'numerologia') return Boolean(item.rank);
+    if (skill === 'numerologia') return item.arcana === 'maior' ? item.number != null : Boolean(item.rank);
     if (skill === 'cores') return colorsOfCard(item).length > 0;
     if (skill === 'simbolos') return symbolsForPool([item]).length > 0;
     return true;
