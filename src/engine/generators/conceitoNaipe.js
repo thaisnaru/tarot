@@ -2,15 +2,11 @@ import { suits as allSuits, suitsById } from '../deck.js';
 import { pickDistractors } from '../distractors.js';
 import { pickOne, shuffle } from '../shuffle.js';
 
-// Pergunta sobre o naipe em si (sem mostrar carta nenhuma) — "quais temas
-// este naipe representa?". Ver Log de decisões da SPEC.md: substitui
-// carta-naipe como conteúdo do Mundo Naipes, que era reconhecimento trivial
-// de imagem.
-// Usa `sphere` (não `meaning`) nas opções: `meaning` começa com "O naipe de
-// X fala de..." — colocar esse texto como opção entregaria a resposta pelo
-// próprio nome do naipe embutido no texto.
-export const id = 'naipe-significado';
-export const difficulty = 'facil';
+// Direção inversa de naipe-significado: mostra a esfera de vida (sem citar
+// o nome do naipe) e pede pra identificar o naipe. Opções são só nomes —
+// texto puro, sem emoji/spoiler.
+export const id = 'conceito-naipe';
+export const difficulty = 'medio';
 
 export function isApplicable(pool) {
   return pool.length >= 2;
@@ -27,17 +23,17 @@ export function generate(pool, targetId) {
 
   const options = shuffle([correct, ...distractors]).map((s) => ({
     id: s.id,
-    label: s.sphere,
+    label: s.name,
     correct: s.id === correct.id,
   }));
 
   return {
     type: id,
     mode: 'single',
-    prompt: { kind: 'naipe', suit: correct, question: 'Qual conjunto de temas está mais associado a este naipe?' },
+    prompt: { kind: 'text', text: correct.sphere, question: 'Qual naipe está mais relacionado a este conjunto de temas?' },
     options,
     subject: { kind: 'naipe', id: correct.id },
-    explanation: correct.meaning,
+    explanation: `${correct.sphere} é a esfera de vida associada a ${correct.name}.`,
     focusCardId: null,
   };
 }

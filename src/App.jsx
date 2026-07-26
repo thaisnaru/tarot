@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { NavigationProvider, useNavigation } from './navigation.jsx';
 import BottomNav from './components/BottomNav.jsx';
 import InicioScreen from './screens/InicioScreen.jsx';
@@ -21,7 +22,15 @@ const SCREENS = {
 };
 
 function Shell() {
-  const { stack, isRoot } = useNavigation();
+  const { stack, isRoot, current } = useNavigation();
+
+  // Telas ficam todas montadas (navegação em pilha), então a rolagem é da
+  // janela, não de cada tela — sem isso, ir pra uma tela nova mantém a
+  // posição de scroll de onde a tela anterior estava, mostrando espaço em
+  // branco ou conteúdo cortado até o usuário rolar manualmente.
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [stack.length, current.screen]);
 
   return (
     <div className="relative min-h-screen max-w-[430px] mx-auto bg-bg overflow-x-hidden">

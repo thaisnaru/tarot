@@ -7,10 +7,11 @@ import { isDominado } from '../engine/mastery.js';
 // emoji, swatch de cor...), quem monta decide conforme o itemType.
 export default function MasteryRow({ icon, name, score, onClick }) {
   const dominado = isDominado(score);
+  const Tag = onClick ? 'button' : 'div';
 
   return (
-    <button
-      type="button"
+    <Tag
+      type={onClick ? 'button' : undefined}
       onClick={onClick}
       className="w-full min-h-[44px] flex items-center gap-3 rounded-2xl border border-white/10 bg-surface px-3 py-2.5 text-left"
     >
@@ -29,6 +30,6 @@ export default function MasteryRow({ icon, name, score, onClick }) {
           <Check size={16} />
         </span>
       )}
-    </button>
+    </Tag>
   );
 }

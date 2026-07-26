@@ -7,6 +7,9 @@ import * as numeroTema from './numeroTema.js';
 import * as pareamento from './pareamento.js';
 import * as naipeSignificado from './naipeSignificado.js';
 import * as naipeElemento from './naipeElemento.js';
+import * as conceitoNaipe from './conceitoNaipe.js';
+import * as naipeAplicacao from './naipeAplicacao.js';
+import * as naipeComparacao from './naipeComparacao.js';
 import * as cartaSimboloSignificado from './cartaSimboloSignificado.js';
 import * as cartaCorSignificado from './cartaCorSignificado.js';
 import * as reconhecimentoCarta from './reconhecimentoCarta.js';
@@ -30,6 +33,9 @@ export const GENERATORS = [
   pareamento,
   naipeSignificado,
   naipeElemento,
+  conceitoNaipe,
+  naipeAplicacao,
+  naipeComparacao,
   cartaSimboloSignificado,
   cartaCorSignificado,
   reconhecimentoCarta,

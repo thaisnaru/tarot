@@ -122,9 +122,9 @@ function CoresTab() {
   );
 }
 
-export default function EnciclopediaScreen() {
+export default function EnciclopediaScreen({ initialTab = 'cartas' }) {
   const { goBack } = useNavigation();
-  const [tab, setTab] = useState('cartas');
+  const [tab, setTab] = useState(initialTab);
 
   return (
     <div className="min-h-screen bg-bg text-text-primary pb-10">

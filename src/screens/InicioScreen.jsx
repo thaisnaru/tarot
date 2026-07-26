@@ -4,13 +4,23 @@ import SectionPlaceholder from '../components/SectionPlaceholder.jsx';
 
 const EXPLORE_ITEMS = [
   { id: 'cartas', label: 'Cartas', subtitle: '78 cartas', screen: 'enciclopedia', Icon: BookOpen },
-  { id: 'simbologias', label: 'Simbologias', subtitle: 'Em breve', screen: null, Icon: SparklesIcon },
-  { id: 'tiragens', label: 'Tiragens', subtitle: 'Pratique spreads', screen: 'tiragem', Icon: SparklesIcon },
+  {
+    id: 'simbologias',
+    label: 'Simbologias',
+    subtitle: '78 símbolos',
+    screen: 'enciclopedia',
+    params: { initialTab: 'simbolos' },
+    Icon: SparklesIcon,
+  },
+  // Tiragem é só placeholder por enquanto (Fase 5 ainda não implementada) —
+  // ver CONTEXT.md/SPEC.md. Continua acessível pela aba do rodapé, só não
+  // deve parecer pronta aqui no Início.
+  { id: 'tiragens', label: 'Tiragens', subtitle: 'Em breve', screen: null, Icon: SparklesIcon },
   { id: 'combinacoes', label: 'Combinações', subtitle: 'Em breve', screen: null, Icon: SparklesIcon },
 ];
 
 export default function InicioScreen() {
-  const { navigate, goToRoot } = useNavigation();
+  const { navigate } = useNavigation();
 
   return (
     <div className="min-h-screen bg-bg text-text-primary pb-24 px-4 pt-6">
@@ -26,15 +36,14 @@ export default function InicioScreen() {
 
       <h2 className="text-sm font-semibold text-text-secondary mb-3">Explore</h2>
       <div className="grid grid-cols-2 gap-3">
-        {EXPLORE_ITEMS.map(({ id, label, subtitle, screen, Icon }) => (
+        {EXPLORE_ITEMS.map(({ id, label, subtitle, screen, params, Icon }) => (
           <button
             key={id}
             type="button"
             disabled={!screen}
             onClick={() => {
               if (!screen) return;
-              if (screen === 'tiragem') goToRoot('tiragem');
-              else navigate(screen);
+              navigate(screen, params);
             }}
             className="rounded-2xl bg-surface p-4 text-left min-h-[44px] disabled:opacity-50"
           >

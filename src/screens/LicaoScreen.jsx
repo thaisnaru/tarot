@@ -2,17 +2,22 @@ import { useMemo, useReducer } from 'react';
 import { X } from 'lucide-react';
 import { useNavigation } from '../navigation.jsx';
 import { mundosById } from '../engine/deck.js';
-import { buildAdaptiveSession, getMundoItems } from '../engine/sessionBuilder.js';
+import { buildAdaptiveSession, buildFollowUpQuestion, getMundoItems } from '../engine/sessionBuilder.js';
 import { sessionReducer, initialSessionState, sessionSummary } from '../engine/sessionReducer.js';
 import { recordAnswer } from '../engine/mastery.js';
+import { groupLabelFor } from '../engine/groupLabels.js';
 import ProgressBar from '../components/ProgressBar.jsx';
 import QuestionCard from '../components/QuestionCard.jsx';
 import FeedbackPanel from '../components/FeedbackPanel.jsx';
 import FimDeLicaoScreen from './FimDeLicaoScreen.jsx';
 
 const SESSION_SIZE = 10;
+// Pergunta de reforço (item errado) reaparece daqui a 2-4 perguntas, nunca
+// na próxima imediatamente — dá um respiro antes de testar de novo.
+const FOLLOWUP_MIN_OFFSET = 2;
+const FOLLOWUP_MAX_OFFSET = 4;
 
-export default function LicaoScreen({ mundoId, focusItemId }) {
+export default function LicaoScreen({ mundoId, focusItemId, groupValue }) {
   const { goBack, goToRoot } = useNavigation();
 
   const mundo = mundosById[mundoId];
@@ -23,8 +28,8 @@ export default function LicaoScreen({ mundoId, focusItemId }) {
 
   const questions = useMemo(() => {
     if (!mundo) return [];
-    return buildAdaptiveSession(mundo, { focusItemId }, SESSION_SIZE);
-  }, [mundo, focusItemId]);
+    return buildAdaptiveSession(mundo, { focusItemId, groupValue }, SESSION_SIZE);
+  }, [mundo, focusItemId, groupValue]);
 
   const [state, dispatch] = useReducer(sessionReducer, questions, initialSessionState);
 
@@ -39,13 +44,15 @@ export default function LicaoScreen({ mundoId, focusItemId }) {
     );
   }
 
+  const groupLabel = groupLabelFor(mundo, groupValue);
+
   if (state.phase === 'done') {
     const { correct, total } = sessionSummary(state);
     return (
       <FimDeLicaoScreen
         correct={correct}
         total={total}
-        lessonName={focusItem ? focusItem.name : mundo.name}
+        lessonName={focusItem ? focusItem.name : groupLabel ? `${mundo.name} · ${groupLabel}` : mundo.name}
         onFinish={() => goToRoot('jornada')}
       />
     );
@@ -58,6 +65,14 @@ export default function LicaoScreen({ mundoId, focusItemId }) {
       recordAnswer(question.masteryTarget.itemId, question.masteryTarget.skill, correct);
     }
     dispatch({ type: 'CONFIRM', correct });
+
+    if (!correct) {
+      const followUp = buildFollowUpQuestion(mundo, question);
+      if (followUp) {
+        const offset = FOLLOWUP_MIN_OFFSET + Math.floor(Math.random() * (FOLLOWUP_MAX_OFFSET - FOLLOWUP_MIN_OFFSET + 1));
+        dispatch({ type: 'INSERT_FOLLOWUP', question: followUp, atIndex: state.index + 1 + offset });
+      }
+    }
   }
 
   return (

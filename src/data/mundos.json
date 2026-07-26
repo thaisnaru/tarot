@@ -52,16 +52,6 @@
     "groupBy": "category"
   },
   {
-    "id": "cores",
-    "name": "Cores",
-    "level": "iniciante",
-    "accent": "accent-warm",
-    "itemType": "color",
-    "skills": [
-      "cor"
-    ]
-  },
-  {
     "id": "numerologia",
     "name": "Numerologia",
     "level": "iniciante",
