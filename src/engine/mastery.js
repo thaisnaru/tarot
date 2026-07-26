@@ -42,13 +42,17 @@ export function isDominado(score) {
 // Vale pra qualquer mundo que contenha aquela carta — Cortes e o mundo do
 // naipe específico usam a mesma regra pra cartas menores.
 export function getSkillsForCard(card) {
-  return card.arcana === 'maior' ? ['keywords', 'simbolos', 'cores'] : ['keywords', 'numerologia'];
+  return card.arcana === 'maior'
+    ? ['reconhecimento', 'keywords', 'simbolos', 'cores', 'significado', 'numerologia']
+    : ['reconhecimento', 'keywords', 'numerologia'];
 }
 
 export const SKILL_LABELS = {
+  reconhecimento: 'Reconhecimento',
   keywords: 'Palavras-chave',
   simbolos: 'Símbolos',
   cores: 'Cores',
+  significado: 'Significado',
   numerologia: 'Numerologia',
   simbolo: 'Símbolo',
   cor: 'Cor',

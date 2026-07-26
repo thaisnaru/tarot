@@ -1,11 +1,10 @@
-import { symbols as allSymbols, symbolsForPool, cardsById } from '../deck.js';
-import { pickDistractors } from '../distractors.js';
+import { symbolsForPool, symbols as allSymbols, cardsById } from '../deck.js';
 import { pickOne, shuffle } from '../shuffle.js';
 
-// Mostra a carta inteira e pergunta sobre UM símbolo específico dela —
-// "Nesta carta, o que significa a Rosa branca?" — em vez do símbolo isolado
-// sem contexto (ver simbolo-significado). Mais específico, menos abstrato.
-export const id = 'carta-simbolo-significado';
+// Mostra a carta, pergunta qual símbolo (dentre 4) realmente aparece nela —
+// observação, não significado. 3 distratores são símbolos reais que NÃO
+// estão nesta carta.
+export const id = 'reconhecimento-simbolo';
 export const difficulty = 'medio';
 
 export function isApplicable(pool) {
@@ -18,26 +17,23 @@ export function generate(pool, targetId) {
   const cardSymbols = symbolsForPool([card]);
   const correct = pickOne(cardSymbols);
 
-  const distractors = pickDistractors({
-    pool: allSymbols,
-    correct,
-    groupKey: (s) => s.category,
-    count: 3,
-  });
+  const cardSymbolIds = new Set(cardSymbols.map((s) => s.id));
+  const notOnCard = allSymbols.filter((s) => !cardSymbolIds.has(s.id));
+  const distractors = shuffle(notOnCard).slice(0, 3);
 
   const options = shuffle([correct, ...distractors]).map((s) => ({
     id: s.id,
-    label: s.meaning,
+    symbol: s,
     correct: s.id === correct.id,
   }));
 
   return {
     type: id,
     mode: 'single',
-    prompt: { kind: 'card', card, question: `Nesta carta, o que significa ${correct.emoji} ${correct.name}?` },
+    prompt: { kind: 'card', card, question: 'Qual destes símbolos aparece nesta carta?' },
     options,
     subject: { kind: 'symbol', id: correct.id },
-    explanation: correct.meaning,
+    explanation: `${correct.emoji} ${correct.name} aparece em ${card.name}.`,
     focusCardId: card.id,
   };
 }

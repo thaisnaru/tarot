@@ -6,6 +6,7 @@ import { pickOne, shuffle } from '../shuffle.js';
 // trivial demais — ver Log de decisões da SPEC.md). Mantida como gerador
 // testado; o Mundo Naipes usa naipeSignificado/naipeElemento em vez disso.
 export const id = 'carta-naipe';
+export const difficulty = 'facil';
 
 export function isApplicable(pool) {
   return pool.some((c) => c.suit) && allSuits.length >= 2;

@@ -3,6 +3,7 @@ import { pickDistractors } from '../distractors.js';
 import { pickOne, shuffle } from '../shuffle.js';
 
 export const id = 'significado-simbolo';
+export const difficulty = 'facil';
 
 export function isApplicable(pool) {
   return symbolsForPool(pool).length >= 1;

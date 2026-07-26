@@ -58,6 +58,36 @@ function PromptHeader({ prompt }) {
       </div>
     );
   }
+  if (prompt.kind === 'numero') {
+    return (
+      <div className="flex flex-col items-center gap-2 py-8">
+        <span className="text-6xl font-bold text-primary">{prompt.numero}</span>
+      </div>
+    );
+  }
+  if (prompt.kind === 'card-text') {
+    return (
+      <div>
+        <div className="w-28 mx-auto py-3">
+          <CardImage card={prompt.card} />
+        </div>
+        <div className="mt-2 px-3 py-4 bg-surface rounded-2xl text-center text-text-primary text-base leading-snug">
+          {prompt.text}
+        </div>
+      </div>
+    );
+  }
+  if (prompt.kind === 'emoji-combo') {
+    return (
+      <div className="flex items-center justify-center gap-4 py-8 flex-wrap">
+        {prompt.emojis.map((emoji, i) => (
+          <span key={i} className="text-5xl" aria-hidden>
+            {emoji}
+          </span>
+        ))}
+      </div>
+    );
+  }
   return null;
 }
 

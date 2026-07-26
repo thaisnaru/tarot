@@ -2,6 +2,7 @@ import { cards as allCards, cardsById } from '../deck.js';
 import { pickOne, shuffle } from '../shuffle.js';
 
 export const id = 'carta-keywords';
+export const difficulty = 'medio';
 
 export function isApplicable(pool) {
   return pool.some((c) => c.keywords?.length >= 2);

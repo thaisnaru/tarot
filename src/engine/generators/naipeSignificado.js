@@ -6,6 +6,7 @@ import { pickOne, shuffle } from '../shuffle.js';
 // representa?". Ver Log de decisões da SPEC.md: substitui carta-naipe como
 // conteúdo do Mundo Naipes, que era reconhecimento trivial de imagem.
 export const id = 'naipe-significado';
+export const difficulty = 'facil';
 
 export function isApplicable(pool) {
   return pool.length >= 2;

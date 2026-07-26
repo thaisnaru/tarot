@@ -6,6 +6,7 @@ import { pickOne, shuffle } from '../shuffle.js';
 // sempre as outras 3 opções (igual ao antigo carta-naipe, mas partindo do
 // nome do naipe, não de uma imagem de carta).
 export const id = 'naipe-elemento';
+export const difficulty = 'facil';
 
 export function isApplicable(pool) {
   return pool.length >= 2;
