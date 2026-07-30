@@ -1,13 +1,14 @@
 import { BookOpen, Sparkles as SparklesIcon } from 'lucide-react';
 import { useNavigation } from '../navigation.jsx';
+import { cards, symbols } from '../engine/deck.js';
 import SectionPlaceholder from '../components/SectionPlaceholder.jsx';
 
 const EXPLORE_ITEMS = [
-  { id: 'cartas', label: 'Cartas', subtitle: '78 cartas', screen: 'enciclopedia', Icon: BookOpen },
+  { id: 'cartas', label: 'Cartas', subtitle: `${cards.length} cartas`, screen: 'enciclopedia', Icon: BookOpen },
   {
     id: 'simbologias',
     label: 'Simbologias',
-    subtitle: '78 símbolos',
+    subtitle: `${symbols.length} símbolos`,
     screen: 'enciclopedia',
     params: { initialTab: 'simbolos' },
     Icon: SparklesIcon,

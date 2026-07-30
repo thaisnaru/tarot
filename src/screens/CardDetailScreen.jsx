@@ -27,7 +27,7 @@ export default function CardDetailScreen({ cardId }) {
   const dominado = isDominado(overall);
 
   return (
-    <div className="min-h-screen bg-bg text-text-primary pb-12 overflow-y-auto">
+    <div className="min-h-screen bg-bg text-text-primary pb-12">
       <header className="sticky top-0 bg-bg/95 backdrop-blur px-4 pt-4 pb-2 flex items-center gap-2 z-10">
         <button type="button" onClick={goBack} className="min-w-[44px] min-h-[44px] -ml-2 flex items-center justify-center">
           <ChevronLeft size={22} />
@@ -56,12 +56,14 @@ export default function CardDetailScreen({ cardId }) {
         )}
 
         <section className="mb-4">
-          <h2 className="text-sm font-semibold text-text-secondary mb-1">Significado (normal)</h2>
-          <p className="text-sm text-text-primary/90">{card.meaning_upright}</p>
+          <h2 className="text-sm font-semibold text-text-secondary mb-1">Normal</h2>
+          <p className="text-sm text-text-primary/90 leading-relaxed whitespace-pre-line">
+            {card.meaning_upright_full ?? card.meaning_upright}
+          </p>
         </section>
 
         <section className="mb-4">
-          <h2 className="text-sm font-semibold text-text-secondary mb-1">Significado (invertida)</h2>
+          <h2 className="text-sm font-semibold text-text-secondary mb-1">Invertida</h2>
           <p className="text-sm text-text-primary/90">{card.meaning_reversed}</p>
         </section>
 

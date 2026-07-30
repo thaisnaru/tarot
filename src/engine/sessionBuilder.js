@@ -1,5 +1,6 @@
 import { cards, symbols, colors, numbers, suits, resolveCards, symbolsForPool, colorsOfCard } from './deck.js';
 import { GENERATORS_BY_ID } from './generators/index.js';
+import { canWrapAsBoolean, wrapAsBoolean, VF_PROBABILITY } from './generators/verdadeiroFalso.js';
 import { getItemAverage } from './mastery.js';
 import { pickOne, shuffle } from './shuffle.js';
 
@@ -7,6 +8,17 @@ let counter = 0;
 function nextId(type) {
   counter += 1;
   return `${type}-${counter}-${Math.random().toString(36).slice(2, 7)}`;
+}
+
+// Aplica o id final e, com uma chance, converte a pergunta pro formato
+// Verdadeiro/Falso — vale pra qualquer gerador de escolha única, em
+// qualquer Mundo/Submundo (ver verdadeiroFalso.js).
+function finalizeQuestion(built) {
+  let question = built.question;
+  if (canWrapAsBoolean(question) && Math.random() < VF_PROBABILITY) {
+    question = wrapAsBoolean(question);
+  }
+  return { ...question, id: nextId(question.type), masteryTarget: built.masteryTarget };
 }
 
 // Pool de itens de um mundo, conforme itemType — é sobre isso que a
@@ -70,15 +82,12 @@ function buildQuestionFor(mundo, item, skill) {
       return question ? { question, masteryTarget: { itemId: item.id, skill } } : null;
     }
     if (skill === 'significado') {
-      const question = generateFromCandidates(['carta-conceito', 'upright-reversed'], cards, item.id);
+      const question = generateFromCandidates(['carta-conceito', 'upright-reversed', 'significado-carta'], cards, item.id);
       return question ? { question, masteryTarget: { itemId: item.id, skill } } : null;
     }
     if (skill === 'keywords') {
-      if (!GENERATORS_BY_ID['carta-keywords'].isApplicable([item])) return null;
-      return {
-        question: GENERATORS_BY_ID['carta-keywords'].generate(cards, item.id),
-        masteryTarget: { itemId: item.id, skill },
-      };
+      const question = generateFromCandidates(['carta-keywords', 'completar-frase'], cards, item.id);
+      return question ? { question, masteryTarget: { itemId: item.id, skill } } : null;
     }
     if (skill === 'numerologia') {
       // Maiores usam a numeração 0-21 (numero-carta-maior); menores usam o
@@ -133,15 +142,11 @@ function buildQuestionFor(mundo, item, skill) {
   }
 
   if (mundo.itemType === 'suit') {
+    // naipe-carta saiu por pedido do usuário (pergunta fraca/pouco
+    // interessante) — reconhecer naipe pela carta já era trivial demais
+    // antes, e "qual carta pertence a este naipe" não acrescentou muito.
     const question = generateFromCandidates(
-      [
-        'naipe-significado',
-        'naipe-elemento',
-        'naipe-carta',
-        'conceito-naipe',
-        'naipe-aplicacao',
-        'naipe-comparacao',
-      ],
+      ['naipe-significado', 'naipe-elemento', 'conceito-naipe', 'naipe-aplicacao', 'naipe-comparacao'],
       suits,
       item.id
     );
@@ -252,11 +257,7 @@ export function buildAdaptiveSession(mundo, { focusItemId, groupValue } = {}, si
     const built = buildQuestionFor(mundo, item, skill);
     if (!built) continue;
 
-    questions.push({
-      ...built.question,
-      id: nextId(built.question.type),
-      masteryTarget: built.masteryTarget,
-    });
+    questions.push(finalizeQuestion(built));
   }
 
   return questions;
@@ -278,9 +279,5 @@ export function buildFollowUpQuestion(mundo, question) {
   const built = buildQuestionFor(mundo, item, target.skill);
   if (!built) return null;
 
-  return {
-    ...built.question,
-    id: nextId(built.question.type),
-    masteryTarget: built.masteryTarget,
-  };
+  return finalizeQuestion(built);
 }

@@ -1,57 +1,35 @@
-import { suits as allSuits, suitsById } from '../deck.js';
-import { pickOne, shuffle } from '../shuffle.js';
+import { suits as allSuits } from '../deck.js';
+import { shuffle } from '../shuffle.js';
 
-// Compara dois naipes ao mesmo tempo — "qual a diferença entre a energia de
-// Copas e Espadas?" — em vez de perguntar sobre um naipe isolado. Todas as
-// opções citam os dois nomes, então nenhuma entrega a resposta só pelo texto
-// mencionar o naipe certo (o que muda é qual esfera vai com qual naipe).
+// Pareamento dos 4 naipes com as 4 esferas de vida — pedido do usuário pra
+// virar "estilo pareamento" em vez de escolha única (a comparação direta
+// entre 2 naipes tinha pouca variedade de distratores plausíveis). Usa
+// sempre os 4 naipes de uma vez, igual ao pareamento de símbolos.
 export const id = 'naipe-comparacao';
 export const difficulty = 'dificil';
 
 export function isApplicable(pool) {
-  return pool.length >= 2;
+  return pool.length >= 4;
 }
 
-function pairLabel(a, b, sphereA, sphereB) {
-  return `${a.name} está mais ligado a ${sphereA.toLowerCase()}; ${b.name}, a ${sphereB.toLowerCase()}.`;
-}
+export function generate() {
+  const suits = shuffle(allSuits);
 
-export function generate(pool, targetId) {
-  const a = targetId ? suitsById[targetId] : pickOne(pool.length ? pool : allSuits);
-  const others = allSuits.filter((s) => s.id !== a.id);
-  const b = pickOne(others);
+  const leftItems = suits.map((s) => ({ id: `left::${s.id}`, suitId: s.id, label: s.name }));
+  const rightItemsUnshuffled = suits.map((s) => ({ id: `right::${s.id}`, suitId: s.id, label: s.sphere }));
+  const rightItems = shuffle(rightItemsUnshuffled);
 
-  const correctLabel = pairLabel(a, b, a.sphere, b.sphere);
-  const spheres = allSuits.map((s) => s.sphere);
-  const wrongCombos = [];
-  spheres.forEach((sphereA) => {
-    spheres.forEach((sphereB) => {
-      if (sphereA === sphereB) return;
-      if (sphereA === a.sphere && sphereB === b.sphere) return;
-      wrongCombos.push([sphereA, sphereB]);
-    });
-  });
-  const distractorLabels = shuffle(wrongCombos)
-    .slice(0, 3)
-    .map(([sphereA, sphereB]) => pairLabel(a, b, sphereA, sphereB));
-
-  const options = shuffle([
-    { id: 'correct', label: correctLabel, correct: true },
-    ...distractorLabels.map((label, i) => ({ id: `wrong-${i}`, label, correct: false })),
-  ]);
+  const correctPairs = Object.fromEntries(leftItems.map((l) => [l.id, `right::${l.suitId}`]));
 
   return {
     type: id,
-    mode: 'single',
-    prompt: {
-      kind: 'naipe-pair',
-      suitA: a,
-      suitB: b,
-      question: `Qual é a principal diferença entre a energia de ${a.name} e ${b.name}?`,
-    },
-    options,
-    subject: { kind: 'naipe', id: a.id },
-    explanation: correctLabel,
+    mode: 'pairs',
+    prompt: { kind: 'pairs' },
+    leftItems,
+    rightItems,
+    correctPairs,
+    subject: null,
+    explanation: 'Cada naipe tem uma esfera de vida própria dentro do Tarot.',
     focusCardId: null,
   };
 }

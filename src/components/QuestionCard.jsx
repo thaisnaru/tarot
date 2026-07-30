@@ -75,19 +75,34 @@ function PromptHeader({ prompt }) {
         <div className="w-28 mx-auto py-3">
           <CardImage card={prompt.card} />
         </div>
-        <div className="mt-2 px-3 py-4 bg-surface rounded-2xl text-center text-text-primary text-base leading-snug">
-          {prompt.text}
+        <div className="mt-2 px-4 py-3 border-l-4 border-primary/50 text-center text-text-secondary text-base leading-snug italic">
+          "{prompt.text}"
         </div>
+      </div>
+    );
+  }
+  if (prompt.kind === 'complete') {
+    return (
+      <div className="py-4 px-2 text-center">
+        <div className="w-24 mx-auto mb-3">
+          <CardImage card={prompt.card} />
+        </div>
+        <p className="text-lg text-text-primary leading-snug">
+          <span className="font-semibold">{prompt.card.name}</span> está relacionado a {prompt.blanksText}.
+        </p>
       </div>
     );
   }
   if (prompt.kind === 'emoji-combo') {
     return (
       <div className="flex items-center justify-center gap-4 py-8 flex-wrap">
-        {prompt.emojis.map((emoji, i) => (
-          <span key={i} className="text-5xl" aria-hidden>
-            {emoji}
-          </span>
+        {prompt.clues.map((clue, i) => (
+          <div key={i} className="flex flex-col items-center gap-1">
+            <span className="text-5xl" aria-hidden>
+              {clue.emoji}
+            </span>
+            <span className="text-text-secondary text-xs">{clue.name}</span>
+          </div>
         ))}
       </div>
     );
@@ -132,11 +147,21 @@ export default function QuestionCard({ question, phase, onAnswer }) {
     );
   }
 
+  const isBoolean = question.mode === 'boolean';
+
   return (
     <div>
       <QuestionText prompt={question.prompt} />
       <PromptHeader prompt={question.prompt} />
-      <div className="flex flex-col gap-2">
+      {isBoolean && (
+        <div className="text-center">
+          <p className="text-xs text-text-muted mb-1">Esta é a resposta certa?</p>
+          <div className="mx-4 px-4 py-4 border-l-4 border-primary/50 text-text-primary text-base leading-snug italic">
+            "{question.prompt.statement}"
+          </div>
+        </div>
+      )}
+      <div className={isBoolean ? 'flex flex-row gap-3 mt-4' : 'flex flex-col gap-2'}>
         {question.options.map((option) => (
           <AnswerOption
             key={option.id}
@@ -144,6 +169,7 @@ export default function QuestionCard({ question, phase, onAnswer }) {
             selected={selectedIds.includes(option.id)}
             revealed={revealed}
             disabled={disabled}
+            centered={isBoolean}
             onClick={() =>
               question.mode === 'multi' ? handleMultiToggle(option) : handleSingleClick(option)
             }

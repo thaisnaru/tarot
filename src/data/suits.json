@@ -4,31 +4,55 @@
     "name": "Paus",
     "element": "fogo",
     "sphere": "Ação, criatividade, trabalho e paixão",
-    "keywords": ["ação", "criatividade", "iniciativa", "energia", "paixão"],
-    "meaning": "O naipe de Paus fala da energia vital: vontade, iniciativa, criatividade e a vontade de agir no mundo. É o naipe do impulso — carreira, projetos, desejo e paixão."
+    "keywords": [
+      "ação",
+      "criatividade",
+      "iniciativa",
+      "energia",
+      "paixão"
+    ],
+    "meaning": "Representa a energia vital, a iniciativa e o desejo de agir. É a faísca que transforma uma ideia em movimento e o impulso que nos faz buscar aquilo que desejamos.\nFala sobre criatividade, paixão, coragem, ambição, carreira e projetos. Paus mostra como colocamos nossa energia no mundo — e o que nos inspira a começar, criar e conquistar."
   },
   {
     "id": "copas",
     "name": "Copas",
     "element": "agua",
     "sphere": "Emoções, relacionamentos e intuição",
-    "keywords": ["emoção", "intuição", "relacionamento", "sentimento", "conexão"],
-    "meaning": "O naipe de Copas fala do mundo emocional: sentimentos, relacionamentos, intuição e vínculos afetivos. É o naipe do coração — amor, amizade e vida interior."
+    "keywords": [
+      "emoção",
+      "intuição",
+      "relacionamento",
+      "sentimento",
+      "conexão"
+    ],
+    "meaning": "Representa o mundo dos sentimentos, das emoções e dos vínculos que criamos. É o naipe do coração: fala sobre como sentimos, amamos, nos conectamos e nos relacionamos com os outros e com nós mesmos.\nTambém está ligado à intuição, imaginação, empatia, amor, amizade e vida interior. Copas nos convida a olhar para aquilo que acontece dentro de nós."
   },
   {
     "id": "espadas",
     "name": "Espadas",
     "element": "ar",
     "sphere": "Pensamento, comunicação e conflito",
-    "keywords": ["mente", "verdade", "conflito", "clareza", "decisão"],
-    "meaning": "O naipe de Espadas fala do intelecto: pensamento, comunicação, verdade e decisão. É o naipe do desafio mental — clareza, conflito e a busca pela verdade."
+    "keywords": [
+      "mente",
+      "verdade",
+      "conflito",
+      "clareza",
+      "decisão"
+    ],
+    "meaning": "Representa o intelecto, o pensamento e a comunicação. É a mente que analisa, questiona e busca compreender a verdade.\nSuas cartas podem falar sobre clareza, decisões, conflitos, desafios, comunicação e dilemas. Espadas nos lembra que nossos pensamentos podem ser tanto ferramentas de transformação quanto fontes de conflito."
   },
   {
     "id": "ouros",
     "name": "Ouros",
     "element": "terra",
     "sphere": "Trabalho, dinheiro e mundo material",
-    "keywords": ["material", "trabalho", "segurança", "corpo", "recursos"],
-    "meaning": "O naipe de Ouros fala do mundo material: dinheiro, trabalho, corpo e segurança prática. É o naipe da manifestação concreta — recursos, saúde e estabilidade."
+    "keywords": [
+      "material",
+      "trabalho",
+      "segurança",
+      "corpo",
+      "recursos"
+    ],
+    "meaning": "Representa o mundo material e tudo aquilo que construímos de forma concreta. Fala sobre nossos recursos, nosso trabalho, nosso corpo e a segurança que buscamos na vida.\nEstá ligado a dinheiro, carreira, saúde, estabilidade, prosperidade, rotina e resultados. Ouros nos lembra que sonhos também precisam de tempo, cuidado e recursos para se manifestarem."
   }
 ]

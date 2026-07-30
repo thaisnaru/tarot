@@ -44,7 +44,11 @@ export function generate(pool, targetId) {
   return {
     type: id,
     mode: 'single',
-    prompt: { kind: 'emoji-combo', emojis: clues.map((s) => s.emoji), question: 'Qual carta reúne todos estes elementos?' },
+    prompt: {
+      kind: 'emoji-combo',
+      clues: clues.map((s) => ({ emoji: s.emoji, name: s.name })),
+      question: 'Qual carta reúne todos estes elementos?',
+    },
     options,
     subject: { kind: 'card', id: card.id },
     explanation: `${clues.map((s) => `${s.emoji} ${s.name}`).join(', ')} aparecem em ${card.name}.`,
