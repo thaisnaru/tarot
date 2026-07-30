@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react';
 import { ChevronLeft } from 'lucide-react';
 import { useNavigation } from '../navigation.jsx';
-import { cards, symbols, colors } from '../engine/deck.js';
+import { cards, symbols, colors, suitsById } from '../engine/deck.js';
 import { getItemAverage, getSkillsForCard, isDominado } from '../engine/mastery.js';
+import { CATEGORY_LABELS, CATEGORY_ORDER } from '../engine/groupLabels.js';
 import CardImage from '../components/CardImage.jsx';
 import AccordionRow from '../components/AccordionRow.jsx';
 
@@ -20,6 +21,26 @@ const TABS = [
   { id: 'simbolos', label: 'Símbolos' },
   { id: 'cores', label: 'Cores' },
 ];
+
+// Só os Arcanos Maiores não têm um "naipe" de onde puxar o texto geral —
+// suits.json já cobre Paus/Copas/Espadas/Ouros com o campo `meaning`.
+const MAIORES_MEANING =
+  'Os 22 Arcanos Maiores contam a jornada do Louco (0) ao Mundo (21) — os grandes arquétipos e temas de vida: amor, poder, perda, transformação, fé.\n' +
+  'Diferente dos Arcanos Menores, que descrevem situações e emoções do dia a dia dentro de um naipe, cada Maior marca uma força ou fase maior que atua além do controle cotidiano — por isso costumam pesar mais numa leitura.';
+
+function GeneralMeaningBox({ filter }) {
+  if (filter === 'todos') return null;
+  const label = CARD_FILTERS.find((f) => f.id === filter)?.label;
+  const text = filter === 'maior' ? MAIORES_MEANING : suitsById[filter]?.meaning;
+  if (!text) return null;
+
+  return (
+    <div className="mb-4 p-4 rounded-2xl bg-surface border border-white/10">
+      <h2 className="text-xs font-semibold text-text-muted uppercase tracking-wide mb-2">Sobre {label}</h2>
+      <p className="text-sm text-text-primary/90 leading-relaxed whitespace-pre-line">{text}</p>
+    </div>
+  );
+}
 
 function CartasTab() {
   const [filter, setFilter] = useState('todos');
@@ -56,6 +77,7 @@ function CartasTab() {
           </button>
         ))}
       </div>
+      <GeneralMeaningBox filter={filter} />
       <div className="grid grid-cols-3 gap-3">
         {filtered.map((card) => {
           const score = getItemAverage(card.id, getSkillsForCard(card)) ?? 0;
@@ -78,22 +100,41 @@ function CartasTab() {
 }
 
 function SimbolosTab() {
+  const grouped = useMemo(() => {
+    const byCategory = {};
+    symbols.forEach((s) => {
+      const cat = s.category ?? 'outro';
+      (byCategory[cat] ??= []).push(s);
+    });
+    return CATEGORY_ORDER.filter((c) => byCategory[c]).map((c) => ({
+      label: CATEGORY_LABELS[c],
+      items: byCategory[c],
+    }));
+  }, []);
+
   return (
-    <div className="flex flex-col gap-2">
-      {symbols.map((s) => (
-        <AccordionRow
-          key={s.id}
-          header={
-            <>
-              <span className="text-2xl shrink-0" aria-hidden>
-                {s.emoji}
-              </span>
-              <span className="text-sm font-medium text-text-primary">{s.name}</span>
-            </>
-          }
-        >
-          {s.meaning}
-        </AccordionRow>
+    <div className="flex flex-col gap-5">
+      {grouped.map((group) => (
+        <div key={group.label}>
+          <p className="text-xs font-semibold text-text-muted uppercase tracking-wide mb-2">{group.label}</p>
+          <div className="flex flex-col gap-2">
+            {group.items.map((s) => (
+              <AccordionRow
+                key={s.id}
+                header={
+                  <>
+                    <span className="text-2xl shrink-0" aria-hidden>
+                      {s.emoji}
+                    </span>
+                    <span className="text-sm font-medium text-text-primary">{s.name}</span>
+                  </>
+                }
+              >
+                {s.meaning}
+              </AccordionRow>
+            ))}
+          </div>
+        </div>
       ))}
     </div>
   );

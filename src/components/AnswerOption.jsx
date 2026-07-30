@@ -1,7 +1,7 @@
 import { Check, X } from 'lucide-react';
 
 // Estado de acerto/erro sempre com ícone + cor, nunca só cor.
-export default function AnswerOption({ option, selected, revealed, onClick, disabled }) {
+export default function AnswerOption({ option, selected, revealed, onClick, disabled, centered = false }) {
   let stateClasses = 'border-white/10 bg-surface text-text-primary';
   let Icon = null;
 
@@ -20,14 +20,18 @@ export default function AnswerOption({ option, selected, revealed, onClick, disa
       type="button"
       onClick={onClick}
       disabled={disabled}
-      className={`w-full min-h-[44px] flex items-center gap-3 rounded-2xl border px-4 py-3 text-left transition-colors ${stateClasses}`}
+      className={`min-h-[44px] flex items-center gap-3 rounded-2xl border px-4 py-3 transition-colors ${
+        centered ? 'flex-1 justify-center text-center' : 'w-full text-left'
+      } ${stateClasses}`}
     >
       {option.symbol && (
         <span className="text-2xl leading-none shrink-0" aria-hidden>
           {option.symbol.emoji}
         </span>
       )}
-      <span className="flex-1 text-sm">{option.symbol ? option.symbol.name : option.label}</span>
+      <span className={centered ? 'text-sm font-medium' : 'flex-1 text-sm'}>
+        {option.symbol ? option.symbol.name : option.label}
+      </span>
       {Icon && <Icon size={18} className="shrink-0" />}
     </button>
   );

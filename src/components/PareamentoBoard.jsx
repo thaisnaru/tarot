@@ -60,10 +60,12 @@ export default function PareamentoBoard({ question, onComplete, disabled }) {
                   : 'border-white/10 bg-surface'
               }`}
             >
-              <span className="text-xl" aria-hidden>
-                {item.symbol.emoji}
-              </span>
-              <span className="text-sm flex-1">{item.symbol.name}</span>
+              {item.symbol && (
+                <span className="text-xl" aria-hidden>
+                  {item.symbol.emoji}
+                </span>
+              )}
+              <span className="text-sm flex-1">{item.symbol ? item.symbol.name : item.label}</span>
               {isMatched && <Check size={16} />}
             </button>
           );

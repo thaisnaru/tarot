@@ -18,7 +18,7 @@
       "potencial"
     ],
     "meaning_upright": "Representa novos começos, liberdade, espontaneidade, aventura e potencial.",
-    "meaning_reversed": "Invertida, indica imprudência, ingenuidade, falta de planejamento e riscos desnecessários.",
+    "meaning_reversed": "Indica imprudência, ingenuidade, falta de planejamento e riscos desnecessários.",
     "symbols": [
       "Cachorro",
       "Precipício",
@@ -30,10 +30,11 @@
     ],
     "dominant_colors": [
       "Amarelo",
-      "Verde",
+      "Azul",
       "Vermelho",
       "Branco"
-    ]
+    ],
+    "meaning_upright_full": "O Louco está prestes a dar um passo para o desconhecido, com uma trouxa leve nas costas e um cachorrinho a seu lado. Ele não carrega planos nem garantias, só disposição para começar. \nEssa carta representa o momento anterior à primeira decisão: o impulso puro de viver uma experiência nova antes de calcular todos os riscos. \nNa prática, aparece quando vale mais confiar no processo do que exigir um mapa completo do caminho. É o convite para agir com espontaneidade e fé no próprio potencial, mesmo sem saber exatamente onde vai dar."
   },
   {
     "id": "major_arcana_magician",
@@ -54,20 +55,22 @@
       "ação"
     ],
     "meaning_upright": "Representa manifestação, iniciativa, habilidade, recursos e ação.",
-    "meaning_reversed": "Invertida, indica manipulação, talento desperdiçado, engano e falta de direção.",
+    "meaning_reversed": "Indica manipulação, talento desperdiçado, engano e falta de direção.",
     "symbols": [
       "Mesa",
       "Quatro símbolos",
       "Bastão levantado",
       "Mão apontando para baixo",
-      "Infinito",
+      "Símbolo do infinito",
       "Rosas e lírios"
     ],
     "dominant_colors": [
       "Vermelho",
       "Branco",
-      "Amarelo"
-    ]
+      "Amarelo",
+      "Verde"
+    ],
+    "meaning_upright_full": "O Mago está diante de uma mesa com os quatro instrumentos do Tarot (bastão, copa, espada e moeda) prontos para serem usados: ele já tem tudo o que precisa, falta só agir. Uma mão aponta para o céu e a outra para a terra, mostrando que ele é o canal entre a ideia e a realização concreta. \nÉ a carta da vontade em movimento: represento o momento em que talento, recursos e intenção se alinham para manifestar algo real no mundo, desde que a pessoa tome a iniciativa."
   },
   {
     "id": "major_arcana_priestess",
@@ -88,7 +91,7 @@
       "silêncio"
     ],
     "meaning_upright": "Representa intuição, mistério, sabedoria interior, inconsciente e silêncio.",
-    "meaning_reversed": "Invertida, indica segredos ocultos, intuição bloqueada, confusão e informação reprimida.",
+    "meaning_reversed": "Indica segredos ocultos, intuição bloqueada, confusão e informação reprimida.",
     "symbols": [
       "Pilares",
       "Véu",
@@ -99,8 +102,9 @@
     "dominant_colors": [
       "Azul",
       "Branco",
-      "Cinza"
-    ]
+      "Preto"
+    ],
+    "meaning_upright_full": "A Sacerdotisa está sentada entre dois pilares, com um véu bordado atrás dela escondendo o que ainda não pode ser revelado. Ela guarda um livro fechado no colo — conhecimento que não se aprende por fora, só se acessa por dentro, em silêncio. \nEssa carta fala do saber que vem da intuição e da escuta interior, não da lógica ou da pressa; costuma aparecer quando a resposta certa ainda está amadurecendo e o melhor a fazer é observar, sentir e esperar antes de agir."
   },
   {
     "id": "major_arcana_empress",
@@ -121,19 +125,22 @@
       "natureza"
     ],
     "meaning_upright": "Representa abundância, fertilidade, criatividade, nutrição e natureza.",
-    "meaning_reversed": "Invertida, indica bloqueio criativo, dependência, excesso e negligência.",
+    "meaning_reversed": "Indica bloqueio criativo, dependência, excesso e negligência.",
     "symbols": [
       "Coroa de estrelas",
       "Trigo",
       "Floresta",
       "Rio",
-      "Coração/escudo"
+      "Escudo",
+      "Romãs"
     ],
     "dominant_colors": [
       "Verde",
       "Vermelho",
-      "Dourado"
-    ]
+      "Dourado",
+      "Branco"
+    ],
+    "meaning_upright_full": "A Imperatriz está sentada num trono ao ar livre, cercada de trigo maduro e vegetação farta — uma mulher grávida de possibilidades, em sintonia total com os ciclos da natureza. \nEla representa a criação em seu sentido mais amplo: gerar, cuidar e fazer crescer, seja um projeto, uma relação ou algo mais literal. \nÉ a carta da fartura conquistada com paciência, do prazer sensorial e do cuidado que nutre — ensina que florescer também é uma forma de produtividade."
   },
   {
     "id": "major_arcana_emperor",
@@ -154,19 +161,22 @@
       "disciplina"
     ],
     "meaning_upright": "Representa estrutura, autoridade, estabilidade, liderança e disciplina.",
-    "meaning_reversed": "Invertida, indica rigidez, controle, autoritarismo e falta de flexibilidade.",
+    "meaning_reversed": "Indica rigidez, controle, autoritarismo e falta de flexibilidade.",
     "symbols": [
       "Trono",
       "Carneiros",
       "Armadura",
       "Montanhas",
-      "Cetro e esfera"
+      "Cetro e esfera",
+      "Barba Branca"
     ],
     "dominant_colors": [
       "Vermelho",
       "Cinza",
-      "Dourado"
-    ]
+      "Dourado",
+      "Azul"
+    ],
+    "meaning_upright_full": "O Imperador está sentado num trono de pedra ornado com cabeças de carneiro, símbolo de Áries — ele construiu sua autoridade com disciplina, não por acaso. Segura um cetro que representa poder ativo, não decorativo: tudo em volta dele existe porque foi estruturado com intenção.  Essa carta fala de ordem, liderança e limites claros; costuma aparecer quando é hora de assumir responsabilidade, criar regras ou dar uma base sólida para algo que ainda estava instável."
   },
   {
     "id": "major_arcana_hierophant",
@@ -187,18 +197,21 @@
       "orientação"
     ],
     "meaning_upright": "Representa tradição, ensinamento, instituições, valores e orientação.",
-    "meaning_reversed": "Invertida, indica dogma, rebeldia, restrição e questionamento de autoridades.",
+    "meaning_reversed": "Indica dogma, rebeldia, restrição e questionamento de autoridades.",
     "symbols": [
       "Chaves",
       "Pilares",
       "Coroa",
-      "Discípulos"
+      "Discípulos",
+      "Trono",
+      "Rosas e lírios"
     ],
     "dominant_colors": [
       "Vermelho",
       "Branco",
       "Cinza"
-    ]
+    ],
+    "meaning_upright_full": "O Hierofante está entre dois pilares, numa posição semelhante à de um líder religioso, com dois discípulos ajoelhados diante dele recebendo orientação. Ele representa a tradição institucionalizada — o que é ensinado, transmitido e validado por uma comunidade, e não inventado sozinho.  Essa carta aparece quando vale buscar orientação de quem já trilhou o caminho, seguir uma estrutura reconhecida ou se conectar a um grupo, uma crença ou um sistema de valores compartilhado."
   },
   {
     "id": "major_arcana_lovers",
@@ -219,18 +232,20 @@
       "alinhamento"
     ],
     "meaning_upright": "Representa escolha, união, valores, relacionamento e alinhamento.",
-    "meaning_reversed": "Invertida, indica desalinhamento, conflito, indecisão e escolha baseada em desejo.",
+    "meaning_reversed": "Indica desalinhamento, conflito, indecisão e escolha baseada em desejo.",
     "symbols": [
       "Árvore",
       "Serpente",
-      "Montanha",
-      "Anjo"
+      "Montanhas",
+      "Anjo",
+      "Nuvem"
     ],
     "dominant_colors": [
       "Vermelho",
       "Verde",
       "Amarelo"
-    ]
+    ],
+    "meaning_upright_full": "Os Enamorados mostra um homem e uma mulher nus diante de um anjo, cada um com uma árvore atrás — ele com a árvore da vida em chamas, ela com a árvore do conhecimento e uma serpente.  É a cena da primeira escolha consciente, não só sobre amor romântico: representa qualquer decisão que exige alinhar a ação aos próprios valores mais profundos. Aparece quando é preciso escolher entre caminhos, unir-se a algo ou alguém de forma genuína, ou reconhecer o que realmente importa antes de seguir em frente."
   },
   {
     "id": "major_arcana_chariot",
@@ -251,18 +266,23 @@
       "direção"
     ],
     "meaning_upright": "Representa determinação, vitória, movimento, controle e direção.",
-    "meaning_reversed": "Invertida, indica falta de direção, perda de controle, agressividade e obstáculos.",
+    "meaning_reversed": "Indica falta de direção, perda de controle, agressividade e obstáculos.",
     "symbols": [
       "Esfinges",
       "Carruagem",
       "Estrelas",
-      "Armadura"
+      "Armadura",
+      "Muro",
+      "Torres",
+      "Bastões"
     ],
     "dominant_colors": [
       "Azul",
-      "Preto e branco",
+      "Preto",
+      "Branco",
       "Amarelo"
-    ]
+    ],
+    "meaning_upright_full": "O Carro é conduzido por uma figura armada que segura as rédeas de duas esfinges — uma preta e uma branca — que puxam em direções opostas sem sequer estarem amarradas ao carro. \nA vitória aqui vem da vontade, não da força bruta: é preciso manter duas forças contrárias sob controle através de foco e determinação. \nEssa carta representa avançar apesar dos obstáculos, tomar as rédeas de uma situação dividida e seguir em frente com disciplina mental, não apenas ímpeto."
   },
   {
     "id": "major_arcana_strength",
@@ -283,18 +303,21 @@
       "força interior"
     ],
     "meaning_upright": "Representa coragem, compaixão, autocontrole, resiliência e força interior.",
-    "meaning_reversed": "Invertida, indica insegurança, exaustão, brutalidade e falta de confiança.",
+    "meaning_reversed": "Indica insegurança, exaustão, brutalidade e falta de confiança.",
     "symbols": [
       "Leão",
       "Símbolo do infinito",
       "Flores",
-      "Mulher tocando o leão"
+      "Mulher tocando o leão",
+      "Montanhas"
     ],
     "dominant_colors": [
       "Amarelo",
       "Branco",
-      "Vermelho"
-    ]
+      "Vermelho",
+      "Verde"
+    ],
+    "meaning_upright_full": "A Força mostra uma mulher acariciando suavemente a boca de um leão, sem luta, sem armas — sobre sua cabeça, o símbolo do infinito, marca da energia que não se esgota. A verdadeira força aqui não é dominar pela violência, mas conter e guiar o instinto com gentileza e paciência.  Essa carta ensina que coragem também é suavidade sustentada: representa autocontrole emocional, compaixão diante do próprio lado mais selvagem e a certeza tranquila de quem já não precisa provar nada com agressividade."
   },
   {
     "id": "major_arcana_hermit",
@@ -315,18 +338,21 @@
       "orientação"
     ],
     "meaning_upright": "Representa introspecção, sabedoria, solidão, busca interior e orientação.",
-    "meaning_reversed": "Invertida, indica isolamento, solidão excessiva, retraimento e recusa de ajuda.",
+    "meaning_reversed": "Indica isolamento, solidão excessiva, retraimento e recusa de ajuda.",
     "symbols": [
       "Lanterna",
       "Cajado",
-      "Montanha",
-      "Manto"
+      "Montanhas",
+      "Manto",
+      "Estrelas",
+      "Barba Branca"
     ],
     "dominant_colors": [
       "Cinza",
       "Branco",
       "Azul"
-    ]
+    ],
+    "meaning_upright_full": "O Eremita caminha sozinho no alto de uma montanha, envolto num manto, segurando uma lanterna que ilumina só o espaço à sua frente. Ele já deixou o barulho do mundo para trás em busca de uma verdade que só se encontra em silêncio e distância.  Essa carta representa a introspecção necessária antes de dar o próximo passo: aparece quando é hora de se afastar, refletir sozinho e confiar na própria luz interior em vez de procurar respostas fora."
   },
   {
     "id": "major_arcana_fortune",
@@ -347,18 +373,20 @@
       "movimento"
     ],
     "meaning_upright": "Representa mudança, ciclos, destino, oportunidade e movimento.",
-    "meaning_reversed": "Invertida, indica resistência à mudança, azar temporário, repetição de padrões e falta de controle.",
+    "meaning_reversed": "Indica resistência à mudança, azar temporário, repetição de padrões e falta de controle.",
     "symbols": [
       "Roda",
-      "Esfinge",
+      "Esfinges",
       "Serpente",
-      "Quatro criaturas"
+      "Quatro criaturas fixas"
     ],
     "dominant_colors": [
       "Azul",
       "Vermelho",
-      "Amarelo"
-    ]
+      "Amarelo",
+      "Branco"
+    ],
+    "meaning_upright_full": "A Roda da Fortuna gira no centro da carta, cercada por criaturas simbólicas e figuras místicas que sobem e descem conforme o movimento — ninguém fica no topo ou no fundo para sempre.  Ela representa os ciclos que estão além do controle direto: mudanças de sorte, viradas de página, o momento em que uma fase realmente termina e outra começa.  Essa carta lembra que altos e baixos fazem parte do mesmo movimento contínuo, e que reconhecer o ciclo é mais útil do que resistir a ele."
   },
   {
     "id": "major_arcana_justice",
@@ -379,18 +407,19 @@
       "decisão"
     ],
     "meaning_upright": "Representa equilíbrio, verdade, responsabilidade, consequência e decisão.",
-    "meaning_reversed": "Invertida, indica injustiça, desequilíbrio, negação e falta de responsabilidade.",
+    "meaning_reversed": "Indica injustiça, desequilíbrio, negação e falta de responsabilidade.",
     "symbols": [
       "Balança",
       "Espada",
       "Coroa",
-      "Colunas"
+      "Pilares"
     ],
     "dominant_colors": [
       "Vermelho",
       "Amarelo",
       "Cinza"
-    ]
+    ],
+    "meaning_upright_full": "A Justiça está sentada entre dois pilares, segurando uma balança numa mão e uma espada ereta na outra — pesar com cuidado antes de agir com precisão. \nEssa carta fala de causa e efeito: toda escolha tem uma consequência proporcional, e a verdade tende a vir à tona mais cedo ou mais tarde. \nAparece quando é hora de decisões justas, de assumir responsabilidade pelos próprios atos ou de buscar um desfecho equilibrado — legal, ético ou pessoal — sem se deixar levar pela emoção do momento."
   },
   {
     "id": "major_arcana_hanged",
@@ -411,7 +440,7 @@
       "suspensão"
     ],
     "meaning_upright": "Representa pausa, entrega, nova perspectiva, sacrifício e suspensão.",
-    "meaning_reversed": "Invertida, indica resistência, estagnação, sacrifício inútil e adiamento.",
+    "meaning_reversed": "Indica resistência, estagnação, sacrifício inútil e adiamento.",
     "symbols": [
       "Árvore",
       "Halo",
@@ -422,7 +451,8 @@
       "Azul",
       "Vermelho",
       "Verde"
-    ]
+    ],
+    "meaning_upright_full": "O Enforcado está pendurado de cabeça para baixo por um dos pés, preso a uma árvore viva, mas seu rosto permanece calmo, quase iluminado — não é punição, é uma pausa deliberada. Ao inverter o próprio ponto de vista, ele enxerga o que antes era invisível. \nEssa carta representa a entrega consciente: soltar o controle, aceitar um momento de espera ou sacrifício, e permitir que uma perspectiva completamente nova apareça exatamente porque a pessoa parou de forçar uma solução"
   },
   {
     "id": "major_arcana_death",
@@ -443,18 +473,21 @@
       "liberação"
     ],
     "meaning_upright": "Representa transformação, fim, renascimento, transição e liberação.",
-    "meaning_reversed": "Invertida, indica resistência, apego, estagnação e mudança adiada.",
+    "meaning_reversed": "Indica resistência, apego, estagnação e mudança adiada.",
     "symbols": [
       "Esqueleto",
       "Cavalo",
       "Bandeira",
-      "Sol entre torres"
+      "Sol entre torres",
+      "Rio",
+      "Água"
     ],
     "dominant_colors": [
       "Preto",
       "Branco",
       "Vermelho"
-    ]
+    ],
+    "meaning_upright_full": "A Morte cavalga sobre um cavalo branco, portando uma bandeira com uma rosa — símbolo de que, apesar da aparência sombria, o que essa carta traz é vida se renovando, não um fim literal. Reis, bispos e crianças aparecem diante dela: ninguém escapa da transformação, ela é democrática. \nEssa carta representa o encerramento necessário de um ciclo para que outro possa começar — libertação através da mudança, mesmo quando ela chega sem aviso e exige deixar algo importante para trás.."
   },
   {
     "id": "major_arcana_temperance",
@@ -475,7 +508,7 @@
       "paciência"
     ],
     "meaning_upright": "Representa equilíbrio, moderação, integração, cura e paciência.",
-    "meaning_reversed": "Invertida, indica excesso, desequilíbrio, impaciência e falta de integração.",
+    "meaning_reversed": "Indica excesso, desequilíbrio, impaciência e falta de integração.",
     "symbols": [
       "Anjo",
       "Dois cálices",
@@ -487,7 +520,8 @@
       "Azul",
       "Branco",
       "Vermelho"
-    ]
+    ],
+    "meaning_upright_full": "A Temperança mostra um anjo com um pé na terra e outro na água, misturando o conteúdo de dois cálices num fluxo contínuo entre eles — nem tudo de um lado, nem tudo do outro, só o equilíbrio encontrado no meio do caminho. \nEssa carta representa a arte de combinar opostos sem forçar nenhum deles: paciência, moderação e a cura que vem de integrar partes que pareciam incompatíveis. Aparece quando o caminho certo é ajustar aos poucos, não reagir por impulso."
   },
   {
     "id": "major_arcana_devil",
@@ -508,7 +542,7 @@
       "tentação"
     ],
     "meaning_upright": "Representa apego, desejo, sombra, materialismo e tentação.",
-    "meaning_reversed": "Invertida, indica libertação, consciência, quebra de padrões e recuperação de poder.",
+    "meaning_reversed": "Indica libertação, consciência, quebra de padrões e recuperação de poder.",
     "symbols": [
       "Bode",
       "Correntes",
@@ -520,7 +554,8 @@
       "Preto",
       "Vermelho",
       "Cinza"
-    ]
+    ],
+    "meaning_upright_full": "O Diabo aparece sentado num pedestal, com um casal acorrentado a seus pés — mas as correntes estão frouxas o bastante para serem removidas, se eles quisessem. É a carta do apego que se disfarça de necessidade: vícios, dependências, relações ou padrões que prendem mais pela ilusão do que pela realidade. \nRepresenta a hora de reconhecer onde a liberdade foi trocada por conforto ou medo, e lembrar que sair da prisão exige primeiro admitir que ela nunca esteve totalmente trancada."
   },
   {
     "id": "major_arcana_tower",
@@ -541,7 +576,7 @@
       "libertação"
     ],
     "meaning_upright": "Representa ruptura, revelação, crise, mudança súbita e libertação.",
-    "meaning_reversed": "Invertida, indica evitar mudança, crise adiada, medo da ruptura e instabilidade interna.",
+    "meaning_reversed": "Indica evitar mudança, crise adiada, medo da ruptura e instabilidade interna.",
     "symbols": [
       "Torre",
       "Raio",
@@ -553,7 +588,8 @@
       "Vermelho",
       "Preto",
       "Amarelo"
-    ]
+    ],
+    "meaning_upright_full": "A Torre é atingida por um raio, sua coroa é arrancada pelo impacto e duas figuras caem de uma altura considerável — é a imagem mais abrupta do baralho, uma estrutura que desmorona de repente. Mas o que cai era construído sobre uma base falsa, ilusória ou frágil demais para durar. \nEssa carta representa a crise reveladora: um colapso repentino que, por mais desconfortável que seja, expõe a verdade e abre espaço para reconstruir algo real no lugar do que só parecia sólido."
   },
   {
     "id": "major_arcana_star",
@@ -574,18 +610,21 @@
       "renovação"
     ],
     "meaning_upright": "Representa esperança, cura, inspiração, fé e renovação.",
-    "meaning_reversed": "Invertida, indica desânimo, perda de fé, desconexão e pessimismo.",
+    "meaning_reversed": "Indica desânimo, perda de fé, desconexão e pessimismo.",
     "symbols": [
       "Estrelas",
       "Água",
       "Árvore",
-      "Pássaro"
+      "Pássaro",
+      "Um pé na terra e outro na água",
+      "Rio"
     ],
     "dominant_colors": [
       "Azul",
       "Amarelo",
       "Verde"
-    ]
+    ],
+    "meaning_upright_full": "A Estrela mostra uma mulher ajoelhada à beira de uma lagoa, despejando água de dois jarros — um na terra, outro na água — sob um céu com sete estrelas menores e uma grande, brilhando mesmo depois da tempestade da Torre. \nEssa carta chega logo após a crise, trazendo esperança que não é ingênua, mas conquistada. Representa fé renovada, inspiração e a sensação de que, apesar de tudo, ainda existe um caminho de cura e clareza à frente."
   },
   {
     "id": "major_arcana_moon",
@@ -606,7 +645,7 @@
       "incerteza"
     ],
     "meaning_upright": "Representa inconsciente, ilusão, intuição, medo e incerteza.",
-    "meaning_reversed": "Invertida, indica clareza, verdade revelada, medos superados e confusão diminuindo.",
+    "meaning_reversed": "Indica clareza, verdade revelada, medos superados e confusão diminuindo.",
     "symbols": [
       "Lua",
       "Cão e lobo",
@@ -618,7 +657,8 @@
       "Azul",
       "Amarelo",
       "Cinza"
-    ]
+    ],
+    "meaning_upright_full": "A Lua ilumina um caminho sinuoso entre duas torres, onde um cão e um lobo uivam e um lagostim emerge das águas escuras — nada aqui é totalmente claro, tudo se move nas sombras do inconsciente. \nEssa carta representa a zona cinzenta entre o que se sabe e o que se teme: intuição, sonhos, ilusões e medos que ainda não foram nomeados. Aparece quando é preciso caminhar com cautela por um terreno incerto, confiando no instinto mais do que na lógica, até a claridade voltar."
   },
   {
     "id": "major_arcana_sun",
@@ -639,7 +679,7 @@
       "verdade"
     ],
     "meaning_upright": "Representa alegria, clareza, sucesso, vitalidade e verdade.",
-    "meaning_reversed": "Invertida, indica alegria bloqueada, atraso, otimismo excessivo e falta de clareza.",
+    "meaning_reversed": "Indica alegria bloqueada, atraso, otimismo excessivo e falta de clareza.",
     "symbols": [
       "Sol",
       "Criança",
@@ -651,7 +691,8 @@
       "Amarelo",
       "Vermelho",
       "Branco"
-    ]
+    ],
+    "meaning_upright_full": "O Sol brilha grande e constante sobre uma criança montada num cavalo branco, com girassóis ao fundo — não há sombra, não há dúvida, só vitalidade franca e alegria sem disfarce. \nEssa carta representa clareza total: sucesso reconhecido, verdade exposta sem medo e a energia de quem se sente seguro para ser exatamente quem é. É um dos momentos mais positivos do baralho, ligado a realização, boas notícias e a simplicidade de uma felicidade genuína."
   },
   {
     "id": "major_arcana_judgement",
@@ -672,18 +713,20 @@
       "perdão"
     ],
     "meaning_upright": "Representa despertar, renascimento, avaliação, chamado e perdão.",
-    "meaning_reversed": "Invertida, indica autocrítica, culpa, resistência ao chamado e julgamento precipitado.",
+    "meaning_reversed": "Indica autocrítica, culpa, resistência ao chamado e julgamento precipitado.",
     "symbols": [
       "Anjo",
       "Trombeta",
       "Pessoas ressurgindo",
-      "Montanhas"
+      "Montanhas",
+      "Água"
     ],
     "dominant_colors": [
       "Vermelho",
       "Branco",
       "Azul"
-    ]
+    ],
+    "meaning_upright_full": "O Julgamento mostra um anjo tocando uma trombeta enquanto figuras ressurgem de caixões abertos, de braços erguidos, respondendo a um chamado que não pode ser ignorado. \nEssa carta representa um momento de avaliação honesta sobre a própria vida — olhar para trás sem se punir, reconhecer o que precisa mudar e aceitar o convite para renascer de forma mais alinhada com quem a pessoa realmente é. É também perdão: consigo mesmo e com o passado que trouxe até aqui."
   },
   {
     "id": "major_arcana_world",
@@ -704,10 +747,10 @@
       "celebração"
     ],
     "meaning_upright": "Representa conclusão, realização, integração, completude e celebração.",
-    "meaning_reversed": "Invertida, indica ciclo incompleto, atraso, falta de fechamento e dificuldade de concluir.",
+    "meaning_reversed": "Indica ciclo incompleto, atraso, falta de fechamento e dificuldade de concluir.",
     "symbols": [
       "Coroa de louros",
-      "Quatro figuras",
+      "Quatro criaturas fixas",
       "Dançarina",
       "Bastões"
     ],
@@ -716,7 +759,8 @@
       "Vermelho",
       "Azul",
       "Amarelo"
-    ]
+    ],
+    "meaning_upright_full": "O Mundo mostra uma figura dançando dentro de uma grinalda, cercada pelos quatro símbolos que representam totalidade — leão, touro, águia e um ser humano, os quatro elementos reunidos em harmonia. \nEssa carta marca a conclusão bem-sucedida de um ciclo completo: tudo o que foi trabalhado, aprendido e integrado ao longo do caminho finalmente se encaixa. \nRepresenta realização plena, celebração merecida e o tipo de fechamento que já contém, dentro de si, a semente de um novo começo."
   },
   {
     "id": "minor_arcana_wands_ace",
@@ -733,14 +777,13 @@
       "potencial criativo",
       "impulso e nova iniciativa"
     ],
-    "meaning_upright": "Representa potencial criativo e impulso e nova iniciativa.",
-    "meaning_reversed": "Invertida, indica bloqueio criativo e atraso e falta de energia.",
-    "symbols": [
-      "uma mão emerge oferecendo um bastão"
-    ],
+    "meaning_upright": "Potencial criativo e impulso e nova iniciativa.",
+    "meaning_reversed": "Bloqueio criativo e atraso e falta de energia.",
+    "symbols": [],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Verde"
+    ],
+    "meaning_upright_full": "Uma mão surge de uma nuvem segurando firme um bastão brotando folhas novas — a força vital do naipe de Paus em seu ponto mais puro, ainda sem direção definida. \nÉ a carta da inspiração criativa. É o momento em que você sente uma onda de motivação, como uma ideia brilhante que surge do nada."
   },
   {
     "id": "minor_arcana_wands_2",
@@ -757,14 +800,19 @@
       "planejamento",
       "visão e escolha de direção"
     ],
-    "meaning_upright": "Representa planejamento e visão e escolha de direção.",
-    "meaning_reversed": "Invertida, indica medo do desconhecido e falta de planejamento e indecisão.",
+    "meaning_upright": "Planejamento e visão e escolha de direção.",
+    "meaning_reversed": "Medo do desconhecido e falta de planejamento e indecisão.",
     "symbols": [
-      "figura observando o horizonte com o mundo em mãos"
+      "Rosas e lírios",
+      "Muro",
+      "Montanhas"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Vermelho",
+      "Amarelo",
+      "Cinza"
+    ],
+    "meaning_upright_full": "Um homem observa o horizonte do alto de uma muralha, segurando um globo numa mão enquanto outro bastão fica fixo ao seu lado — ele já deu o primeiro passo, agora precisa decidir o próximo. \nEssa carta representa o momento de planejamento entre a ideia inicial e a ação em maior escala: avaliar opções, expandir a visão além do próprio território e escolher conscientemente que direção seguir a partir daqui."
   },
   {
     "id": "minor_arcana_wands_3",
@@ -781,14 +829,17 @@
       "expansão",
       "expectativa e visão de futuro"
     ],
-    "meaning_upright": "Representa expansão e expectativa e visão de futuro.",
-    "meaning_reversed": "Invertida, indica atraso e frustração e falta de progresso.",
+    "meaning_upright": "Expansão e expectativa e visão de futuro.",
+    "meaning_reversed": "Atraso e frustração e falta de progresso.",
     "symbols": [
-      "figura observando navios no horizonte"
+      "Montanhas"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Vermelho",
+      "Amarelo",
+      "Azul"
+    ],
+    "meaning_upright_full": "Um homem observa navios partindo ao longe, do alto de um penhasco, com três bastões plantados firmemente atrás dele — o que ele começou já está em movimento, navegando rumo a novos horizontes. \nEssa carta representa a fase de expansão: os primeiros resultados de um esforço começam a aparecer, mas ainda exigem paciência e visão de longo prazo enquanto se desenrolam em outro lugar, fora do alcance imediato."
   },
   {
     "id": "minor_arcana_wands_4",
@@ -805,14 +856,16 @@
       "celebração",
       "estabilidade e comunidade"
     ],
-    "meaning_upright": "Representa celebração e estabilidade e comunidade.",
-    "meaning_reversed": "Invertida, indica instabilidade e conflito doméstico e celebração adiada.",
+    "meaning_upright": "Celebração e estabilidade e comunidade.",
+    "meaning_reversed": "Instabilidade e conflito doméstico e celebração adiada.",
     "symbols": [
-      "estrutura decorada com quatro bastões"
+      "Flores"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Amarelo",
+      "Verde"
+    ],
+    "meaning_upright_full": "Uma grinalda de flores é erguida entre quatro bastões enquanto duas figuras celebram diante de uma casa ao fundo — é uma cena de festa, chegada e comunidade reunida. \nEssa carta representa uma conquista compartilhada: a estabilidade alcançada depois de esforço, um motivo genuíno de comemoração, seja uma casa, uma união ou qualquer marco que mereça ser celebrado com quem esteve junto na caminhada."
   },
   {
     "id": "minor_arcana_wands_5",
@@ -829,14 +882,16 @@
       "competição",
       "conflito e desafio"
     ],
-    "meaning_upright": "Representa competição e conflito e desafio.",
-    "meaning_reversed": "Invertida, indica conflito evitado e tensão interna e desorganização.",
+    "meaning_upright": "Competição e conflito e desafio.",
+    "meaning_reversed": "Conflito evitado e tensão interna e desorganização.",
     "symbols": [
-      "cinco figuras em disputa com bastões"
+      "Bastões"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Amarelo",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "Cinco jovens brandem seus bastões uns contra os outros, num confronto que parece mais treino do que guerra de verdade — ninguém está realmente ferido, mas a tensão é real. \nEssa carta representa competição, atrito de ideias ou pequenos conflitos que surgem quando várias vontades tentam se impor ao mesmo tempo. \nÉ um lembrete de que nem todo desafio é uma ameaça — às vezes é só o ruído necessário antes de um acordo."
   },
   {
     "id": "minor_arcana_wands_6",
@@ -853,14 +908,17 @@
       "vitória",
       "reconhecimento e confiança"
     ],
-    "meaning_upright": "Representa vitória e reconhecimento e confiança.",
-    "meaning_reversed": "Invertida, indica falta de reconhecimento e orgulho e vitória atrasada.",
+    "meaning_upright": "Vitória e reconhecimento e confiança.",
+    "meaning_reversed": "Falta de reconhecimento e orgulho e vitória atrasada.",
     "symbols": [
-      "figura montada recebendo reconhecimento"
+      "Coroa de louros",
+      "Cavalo"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Verde",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "Um cavaleiro laureado avança montado, cercado por apoiadores a pé, exibindo um bastão com uma coroa de louros — o reconhecimento público por um esforço que deu certo. \nEssa carta representa vitória visível: não é uma conquista silenciosa, é aquela que os outros também celebram e validam. \nAparece quando o trabalho começa a gerar resultado reconhecido, trazendo de volta a confiança de que o esforço valeu a pena."
   },
   {
     "id": "minor_arcana_wands_7",
@@ -877,14 +935,16 @@
       "defesa",
       "coragem e posição"
     ],
-    "meaning_upright": "Representa defesa e coragem e posição.",
-    "meaning_reversed": "Invertida, indica exaustão e rendição e falta de preparo.",
+    "meaning_upright": "Defesa e coragem e posição.",
+    "meaning_reversed": "Exaustão e rendição e falta de preparo.",
     "symbols": [
-      "figura defendendo uma posição elevada"
+      "Montanhas"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Verde",
+      "Amarelo"
+    ],
+    "meaning_upright_full": "Um homem se posiciona no alto de um terreno irregular, defendendo sua posição com um bastão enquanto seis outros são erguidos contra ele vindos de baixo — ele está em vantagem, mesmo cercado. \nEssa carta representa a coragem de manter uma posição sob pressão, defender um ponto de vista ou um espaço conquistado mesmo quando parece que todos estão questionando. \nA vantagem existe, mas exige firmeza para não ser perdida."
   },
   {
     "id": "minor_arcana_wands_8",
@@ -901,14 +961,17 @@
       "movimento rápido",
       "comunicação e progresso"
     ],
-    "meaning_upright": "Representa movimento rápido e comunicação e progresso.",
-    "meaning_reversed": "Invertida, indica atraso e confusão e falta de direção.",
+    "meaning_upright": "Movimento rápido e comunicação e progresso.",
+    "meaning_reversed": "Atraso e confusão e falta de direção.",
     "symbols": [
-      "oito bastões atravessando o céu"
+      "Bastões"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Amarelo",
+      "Verde",
+      "Azul"
+    ],
+    "meaning_upright_full": "Oito bastões cruzam o céu em pleno voo, quase chegando ao chão — não há figura humana na cena, só movimento puro e velocidade. \nEssa carta representa aceleração repentina: notícias, viagens ou decisões que se movem rápido depois de um período mais parado. \nÉ a sensação de que algo, finalmente, está indo direto ao ponto sem obstáculos no caminho."
   },
   {
     "id": "minor_arcana_wands_9",
@@ -925,14 +988,16 @@
       "resiliência",
       "cautela e perseverança"
     ],
-    "meaning_upright": "Representa resiliência e cautela e perseverança.",
-    "meaning_reversed": "Invertida, indica cansaço e paranoia e defensividade.",
+    "meaning_upright": "Resiliência e cautela e perseverança.",
+    "meaning_reversed": "Cansaço e paranoia e defensividade.",
     "symbols": [
-      "figura ferida guardando bastões"
+      "Bastões"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Azul",
+      "Amarelo"
+    ],
+    "meaning_upright_full": "Um homem ferido se apoia em seu bastão, olhando com cautela por cima do ombro, cercado por outros oito bastões erguidos como uma paliçada — ele já enfrentou batalhas antes e aprendeu a se proteger. \nEssa carta representa resiliência desgastada, mas ainda de pé: a força de continuar guardando o que foi conquistado, mesmo cansado, porque desistir agora significaria perder tudo o que já foi resistido até aqui."
   },
   {
     "id": "minor_arcana_wands_10",
@@ -949,14 +1014,16 @@
       "responsabilidade",
       "carga e conclusão"
     ],
-    "meaning_upright": "Representa responsabilidade e carga e conclusão.",
-    "meaning_reversed": "Invertida, indica sobrecarga e delegação e incapacidade de continuar.",
+    "meaning_upright": "Responsabilidade e carga e conclusão.",
+    "meaning_reversed": "Sobrecarga e delegação e incapacidade de continuar.",
     "symbols": [
-      "figura carregando dez bastões"
+      "Bastões"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Amarelo",
+      "Verde"
+    ],
+    "meaning_upright_full": "Um homem caminha curvado sob o peso de dez bastões, quase sem conseguir ver o caminho à frente, rumo a uma cidade que mal se distingue no horizonte. \nEssa carta representa a sobrecarga que vem de assumir responsabilidade demais sozinho — mesmo quando a intenção é boa e o objetivo está próximo, carregar tudo sem ajuda cobra um preço alto demais para ser sustentável por muito mais tempo."
   },
   {
     "id": "minor_arcana_wands_page",
@@ -973,14 +1040,14 @@
       "entusiasmo",
       "descoberta e mensagem criativa"
     ],
-    "meaning_upright": "Representa entusiasmo e descoberta e mensagem criativa.",
-    "meaning_reversed": "Invertida, indica falta de direção e impulsividade e imaturidade.",
-    "symbols": [
-      "figura segurando um bastão e observando-o"
-    ],
+    "meaning_upright": "Entusiasmo e descoberta e mensagem criativa.",
+    "meaning_reversed": "Falta de direção e impulsividade e imaturidade.",
+    "symbols": [],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Amarelo",
+      "Azul"
+    ],
+    "meaning_upright_full": "Um jovem em pé, em pleno deserto, segura um bastão brotando folhas e observa-o com curiosidade genuína e disposição para aprender — ele está no começo de sua própria jornada com o fogo interior. \nEssa carta representa entusiasmo inexperiente, mas verdadeiro: uma mensagem, uma ideia nova ou o primeiro impulso criativo de alguém que ainda está descobrindo do que é capaz."
   },
   {
     "id": "minor_arcana_wands_knight",
@@ -998,14 +1065,18 @@
       "ação",
       "aventura e impulso"
     ],
-    "meaning_upright": "Representa paixão, ação e aventura e impulso.",
-    "meaning_reversed": "Invertida, indica impulsividade e pressa e instabilidade.",
+    "meaning_upright": "Paixão, ação e aventura e impulso.",
+    "meaning_reversed": "Impulsividade e pressa e instabilidade.",
     "symbols": [
-      "cavaleiro avançando com energia"
+      "Cavalo",
+      "Armadura"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Amarelo",
+      "Vermelho",
+      "Azul"
+    ],
+    "meaning_upright_full": "Um cavaleiro avança montado num cavalo empinado, vestindo trajes ornados com salamandras — símbolo do elemento fogo — pronto para agir sem hesitar. \nEssa carta representa impulso e paixão em movimento: coragem para ir atrás do que se deseja com intensidade, mesmo que isso signifique agir antes de ter todos os detalhes resolvidos. \nÉ energia que não sabe ficar parada."
   },
   {
     "id": "minor_arcana_wands_queen",
@@ -1023,14 +1094,20 @@
       "criatividade",
       "independência e magnetismo"
     ],
-    "meaning_upright": "Representa confiança, criatividade e independência e magnetismo.",
-    "meaning_reversed": "Invertida, indica insegurança e ciúme e dependência de validação.",
+    "meaning_upright": "Confiança, criatividade e independência e magnetismo.",
+    "meaning_reversed": "Insegurança e ciúme e dependência de validação.",
     "symbols": [
-      "figura sentada com girassol e gato"
+      "Bastões",
+      "Girassóis",
+      "Trono",
+      "Coroa",
+      "Leão"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Amarelo",
+      "Preto"
+    ],
+    "meaning_upright_full": "A Rainha de Paus está sentada em seu trono decorado com leões e girassóis voltados para ela, com um gato preto aos seus pés — magnética, confiante, dona de si mesma sem depender da aprovação alheia. \nEssa carta representa a criatividade que já amadureceu em autoconfiança: alguém que lidera pelo exemplo, atrai apoio naturalmente e não hesita em seguir seu próprio brilho."
   },
   {
     "id": "minor_arcana_wands_king",
@@ -1048,14 +1125,18 @@
       "visão",
       "empreendedorismo e inspiração"
     ],
-    "meaning_upright": "Representa liderança, visão e empreendedorismo e inspiração.",
-    "meaning_reversed": "Invertida, indica autoritarismo e impulsividade e arrogância.",
+    "meaning_upright": "Liderança, visão e empreendedorismo e inspiração.",
+    "meaning_reversed": "Autoritarismo e impulsividade e arrogância.",
     "symbols": [
-      "figura de autoridade cercada por símbolos de fogo"
+      "Leão",
+      "Trono",
+      "Coroa"
     ],
     "dominant_colors": [
-      "Fogo"
-    ]
+      "Amarelo",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "O Rei de Paus está sentado em seu trono adornado com leões e salamandras, segurando um bastão em flor — sua autoridade vem da visão e da capacidade de inspirar, não do medo. \nEssa carta representa liderança criativa madura: alguém com experiência suficiente para empreender com ousadia, guiar outros com entusiasmo genuíno e transformar ideias grandes em resultados reais."
   },
   {
     "id": "minor_arcana_cups_ace",
@@ -1072,14 +1153,18 @@
       "novo sentimento",
       "abertura emocional e intuição"
     ],
-    "meaning_upright": "Representa novo sentimento e abertura emocional e intuição.",
-    "meaning_reversed": "Invertida, indica bloqueio emocional e vazio e repressão.",
+    "meaning_upright": "Novo sentimento e abertura emocional e intuição.",
+    "meaning_reversed": "Bloqueio emocional e vazio e repressão.",
     "symbols": [
-      "cálice transbordando com água"
+      "Água",
+      "Pássaro"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Azul",
+      "Dourado",
+      "Branco"
+    ],
+    "meaning_upright_full": "Uma mão emerge de uma nuvem segurando uma taça transbordando de água, com uma pomba descendo para depositar uma hóstia dentro dela — é a fonte emocional em seu estado mais puro e generoso. \nEssa carta representa a abertura de um novo sentimento: amor, empatia ou uma conexão que começa a nascer, transbordando antes mesmo de ser direcionada para algo ou alguém específico."
   },
   {
     "id": "minor_arcana_cups_2",
@@ -1097,14 +1182,19 @@
       "parceria",
       "reciprocidade e conexão"
     ],
-    "meaning_upright": "Representa união, parceria e reciprocidade e conexão.",
-    "meaning_reversed": "Invertida, indica desequilíbrio e conflito e separação.",
+    "meaning_upright": "União, parceria e reciprocidade e conexão.",
+    "meaning_reversed": "Desequilíbrio e conflito e separação.",
     "symbols": [
-      "duas figuras trocando cálices"
+      "Serpente",
+      "Leão",
+      "Casal"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Vermelho",
+      "Amarelo",
+      "Branco"
+    ],
+    "meaning_upright_full": "Um jovem e uma jovem trocam taças em sinal de compromisso, enquanto acima deles um caduceu alado com uma cabeça de leão simboliza a união de forças que se equilibram. \nEssa carta representa reciprocidade genuína: uma conexão em que as duas partes dão e recebem igualmente, seja em amizade, parceria ou amor — o encontro de duas energias que se completam sem que uma precise se anular pela outra."
   },
   {
     "id": "minor_arcana_cups_3",
@@ -1121,14 +1211,15 @@
       "celebração",
       "amizade e comunidade"
     ],
-    "meaning_upright": "Representa celebração e amizade e comunidade.",
-    "meaning_reversed": "Invertida, indica excesso e isolamento e celebração superficial.",
-    "symbols": [
-      "três figuras celebrando com cálices"
-    ],
+    "meaning_upright": "Celebração e amizade e comunidade.",
+    "meaning_reversed": "Excesso e isolamento e celebração superficial.",
+    "symbols": [],
     "dominant_colors": [
-      "Água"
-    ]
+      "Vermelho",
+      "Amarelo",
+      "Branco"
+    ],
+    "meaning_upright_full": "Três mulheres erguem suas taças num brinde alegre, dançando juntas num jardim farto — não há solidão aqui, só celebração compartilhada. \nEssa carta representa amizade, comunidade e alegria coletiva: o tipo de felicidade que cresce quando é dividida com outras pessoas, seja numa festa, numa conquista em grupo ou simplesmente no prazer de estar acompanhado."
   },
   {
     "id": "minor_arcana_cups_4",
@@ -1145,14 +1236,17 @@
       "apatia",
       "contemplação e insatisfação"
     ],
-    "meaning_upright": "Representa apatia e contemplação e insatisfação.",
-    "meaning_reversed": "Invertida, indica novas oportunidades e despertar e aceitação.",
+    "meaning_upright": "Apatia e contemplação e insatisfação.",
+    "meaning_reversed": "Novas oportunidades e despertar e aceitação.",
     "symbols": [
-      "figura sentada diante de três cálices e um quarto oferecido"
+      "Árvore"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Verde",
+      "Azul",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "Um jovem está sentado sob uma árvore, olhando com desinteresse para três taças à sua frente, sem perceber que uma quarta lhe é oferecida por uma mão saída de uma nuvem. \nEssa carta representa a apatia que vem do excesso ou da rotina: quando algo bom já não desperta entusiasmo, é fácil deixar passar uma nova oportunidade só porque ela chegou disfarçada de mais do mesmo."
   },
   {
     "id": "minor_arcana_cups_5",
@@ -1169,14 +1263,18 @@
       "perda",
       "luto e foco no que falta"
     ],
-    "meaning_upright": "Representa perda e luto e foco no que falta.",
-    "meaning_reversed": "Invertida, indica aceitação e recuperação e seguir em frente.",
+    "meaning_upright": "Perda e luto e foco no que falta.",
+    "meaning_reversed": "Aceitação e recuperação e seguir em frente.",
     "symbols": [
-      "figura diante de cálices derramados e preservados"
+      "Manto",
+      "Rio",
+      "Água"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Preto",
+      "Cinza"
+    ],
+    "meaning_upright_full": "Uma figura de capa escura olha para três taças derramadas no chão, de costas para duas que ainda estão de pé atrás dela — o luto ocupa tanto espaço que é difícil enxergar o que ainda resta. \nEssa carta representa perda real, mas também o convite silencioso para se virar e notar que nem tudo foi perdido, mesmo que a dor do momento torne isso difícil de ver."
   },
   {
     "id": "minor_arcana_cups_6",
@@ -1194,14 +1292,17 @@
       "memória",
       "generosidade e inocência"
     ],
-    "meaning_upright": "Representa nostalgia, memória e generosidade e inocência.",
-    "meaning_reversed": "Invertida, indica apego ao passado e idealização e imaturidade.",
+    "meaning_upright": "Nostalgia, memória e generosidade e inocência.",
+    "meaning_reversed": "Apego ao passado e idealização e imaturidade.",
     "symbols": [
-      "crianças e flores em cálices"
+      "Criança",
+      "Flores"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Amarelo",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "Duas crianças trocam taças cheias de flores num jardim antigo, numa cena que evoca inocência, memória afetiva e um tempo mais simples. \nEssa carta representa nostalgia e conexão com o passado, lembranças, pessoas ou lugares de outros tempos que voltam a se fazer presentes, trazendo tanto conforto quanto um convite gentil para revisitar quem a pessoa já foi."
   },
   {
     "id": "minor_arcana_cups_7",
@@ -1218,14 +1319,18 @@
       "possibilidades",
       "imaginação e escolhas"
     ],
-    "meaning_upright": "Representa possibilidades e imaginação e escolhas.",
-    "meaning_reversed": "Invertida, indica clareza e foco e decisões realistas.",
-    "symbols": [
-      "sete cálices com diferentes visões"
-    ],
+    "meaning_upright": "Possibilidades e imaginação e escolhas.",
+    "meaning_reversed": "Clareza e foco e decisões realistas.",
+    "symbols": [],
     "dominant_colors": [
-      "Água"
-    ]
+      "Cinza",
+      "Azul",
+      "Preto",
+      "Vermelho",
+      "Amarelo",
+      "Verde"
+    ],
+    "meaning_upright_full": "Uma silhueta observa sete taças suspensas numa nuvem, cada uma revelando uma visão diferente — um castelo, joias, uma serpente, uma figura radiante — sem que nenhuma seja mais real do que as outras. \nEssa carta representa o excesso de possibilidades imaginadas: sonhar é importante, mas essa carta lembra que só a ação escolhe qual visão vale a pena perseguir de verdade."
   },
   {
     "id": "minor_arcana_cups_8",
@@ -1242,14 +1347,18 @@
       "afastamento",
       "busca de sentido e abandono"
     ],
-    "meaning_upright": "Representa afastamento e busca de sentido e abandono.",
-    "meaning_reversed": "Invertida, indica medo de partir e estagnação e retorno.",
+    "meaning_upright": "Afastamento e busca de sentido e abandono.",
+    "meaning_reversed": "Medo de partir e estagnação e retorno.",
     "symbols": [
-      "figura deixando oito cálices"
+      "Lua",
+      "Montanhas",
+      "Rio"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Vermelho",
+      "Azul"
+    ],
+    "meaning_upright_full": "Um homem se afasta durante a noite, deixando para trás oito taças cuidadosamente empilhadas, rumo às montanhas — ele desiste de algo que, à primeira vista, parecia completo. \nEssa carta representa a coragem de abandonar aquilo que já não satisfaz emocionalmente, mesmo que pareça bem-sucedido por fora, em busca de um sentido mais profundo que ainda não foi encontrado."
   },
   {
     "id": "minor_arcana_cups_9",
@@ -1266,14 +1375,14 @@
       "satisfação",
       "prazer e desejo realizado"
     ],
-    "meaning_upright": "Representa satisfação e prazer e desejo realizado.",
-    "meaning_reversed": "Invertida, indica insatisfação e excesso e desejos superficiais.",
-    "symbols": [
-      "figura sentada diante de nove cálices"
-    ],
+    "meaning_upright": "Satisfação e prazer e desejo realizado.",
+    "meaning_reversed": "Insatisfação e excesso e desejos superficiais.",
+    "symbols": [],
     "dominant_colors": [
-      "Água"
-    ]
+      "Azul",
+      "Amarelo"
+    ],
+    "meaning_upright_full": "Um homem satisfeito está sentado com os braços cruzados diante de nove taças dispostas em arco atrás dele, como troféus de uma vida bem vivida. \nEssa carta representa contentamento genuíno: o prazer de colher os frutos do próprio esforço e sentir, mesmo que por um momento, que os desejos pessoais foram realmente atendidos."
   },
   {
     "id": "minor_arcana_cups_10",
@@ -1291,14 +1400,17 @@
       "família",
       "harmonia e realização emocional"
     ],
-    "meaning_upright": "Representa felicidade, família e harmonia e realização emocional.",
-    "meaning_reversed": "Invertida, indica conflito familiar e expectativas e felicidade idealizada.",
+    "meaning_upright": "Felicidade, família e harmonia e realização emocional.",
+    "meaning_reversed": "Conflito familiar e expectativas e felicidade idealizada.",
     "symbols": [
-      "família sob arco-íris de cálices"
+      "Criança",
+      "Casal"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Azul",
+      "Verde"
+    ],
+    "meaning_upright_full": "Um casal ergue os braços em êxtase diante de um arco-íris formado por dez taças, enquanto duas crianças dançam ao lado, alheias ao milagre — a cena de felicidade doméstica mais completa do baralho. \nEssa carta representa harmonia emocional plena: relações estáveis, um lar em paz e a sensação rara de que, naquele momento, tudo está exatamente como deveria estar."
   },
   {
     "id": "minor_arcana_cups_page",
@@ -1316,14 +1428,16 @@
       "intuição",
       "criatividade e mensagem emocional"
     ],
-    "meaning_upright": "Representa sensibilidade, intuição e criatividade e mensagem emocional.",
-    "meaning_reversed": "Invertida, indica imaturidade e fuga emocional e sensibilidade excessiva.",
+    "meaning_upright": "Sensibilidade, intuição e criatividade e mensagem emocional.",
+    "meaning_reversed": "Imaturidade e fuga emocional e sensibilidade excessiva.",
     "symbols": [
-      "figura observando um peixe em um cálice"
+      "Água"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Azul",
+      "Branco"
+    ],
+    "meaning_upright_full": "Um jovem contempla, curioso, um peixe que aparece dentro de uma taça em suas mãos — uma imagem que representa a imaginação ganhando forma diante dos olhos. \nEssa carta representa sensibilidade criativa: uma mensagem emocional, uma nova inspiração artística ou a abertura de alguém que ainda está aprendendo a confiar na própria intuição."
   },
   {
     "id": "minor_arcana_cups_knight",
@@ -1341,14 +1455,19 @@
       "idealismo",
       "convite e busca emocional"
     ],
-    "meaning_upright": "Representa romance, idealismo e convite e busca emocional.",
-    "meaning_reversed": "Invertida, indica fantasia e instabilidade e promessas vazias.",
+    "meaning_upright": "Romance, idealismo e convite e busca emocional.",
+    "meaning_reversed": "Fantasia e instabilidade e promessas vazias.",
     "symbols": [
-      "cavaleiro oferecendo um cálice"
+      "Cavalo",
+      "Armadura",
+      "Rio",
+      "Montanhas"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Azul",
+      "Cinza"
+    ],
+    "meaning_upright_full": "Um cavaleiro avança devagar, com elegância, oferecendo uma taça como quem estende um convite — não há pressa nem agressividade, só romantismo e boas intenções. \nEssa carta representa uma proposta movida pelo coração: uma aproximação romântica, uma ideia inspirada ou o convite para seguir um sonho movido mais pela emoção do que pela lógica."
   },
   {
     "id": "minor_arcana_cups_queen",
@@ -1366,14 +1485,19 @@
       "intuição",
       "compaixão e profundidade"
     ],
-    "meaning_upright": "Representa empatia, intuição e compaixão e profundidade.",
-    "meaning_reversed": "Invertida, indica dependência emocional e limites frágeis e instabilidade.",
+    "meaning_upright": "Empatia, intuição e compaixão e profundidade.",
+    "meaning_reversed": "Dependência emocional e limites frágeis e instabilidade.",
     "symbols": [
-      "rainha contemplando um cálice ornamentado"
+      "Coroa",
+      "Trono",
+      "Anjo",
+      "Água"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Azul",
+      "Branco"
+    ],
+    "meaning_upright_full": "A Rainha de Copas contempla uma taça ornamentada e fechada, tão absorta que parece enxergar mundos inteiros dentro dela — sensível, mas não passiva, ela sente profundamente e ainda assim mantém os pés no chão. \nEssa carta representa empatia madura: a capacidade de acolher as próprias emoções e as dos outros sem se perder nelas, cuidando com compaixão e discernimento ao mesmo tempo."
   },
   {
     "id": "minor_arcana_cups_king",
@@ -1390,14 +1514,19 @@
       "maturidade emocional",
       "equilíbrio e compaixão"
     ],
-    "meaning_upright": "Representa maturidade emocional e equilíbrio e compaixão.",
-    "meaning_reversed": "Invertida, indica repressão emocional e manipulação e instabilidade.",
+    "meaning_upright": "Maturidade emocional e equilíbrio e compaixão.",
+    "meaning_reversed": "Repressão emocional e manipulação e instabilidade.",
     "symbols": [
-      "rei sentado diante do mar segurando um cálice"
+      "Trono",
+      "Água",
+      "Cetro e esfera"
     ],
     "dominant_colors": [
-      "Água"
-    ]
+      "Azul",
+      "Cinza",
+      "Amarelo"
+    ],
+    "meaning_upright_full": "O Rei de Copas está sentado em seu trono sobre o mar agitado, mantendo-se calmo em meio à instabilidade das águas ao redor — ele sente tudo, mas não se deixa arrastar pela maré. \nEssa carta representa maturidade emocional: alguém que equilibra sensibilidade e razão, oferece apoio estável aos outros e sabe conter a própria intensidade sem reprimi-la."
   },
   {
     "id": "minor_arcana_swords_ace",
@@ -1415,14 +1544,17 @@
       "verdade",
       "decisão e nova ideia"
     ],
-    "meaning_upright": "Representa clareza, verdade e decisão e nova ideia.",
-    "meaning_reversed": "Invertida, indica confusão e indecisão e pensamento nebuloso.",
+    "meaning_upright": "Clareza, verdade e decisão e nova ideia.",
+    "meaning_reversed": "Confusão e indecisão e pensamento nebuloso.",
     "symbols": [
-      "espada erguida com coroa"
+      "Coroa",
+      "Montanhas"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Cinza",
+      "Dourado"
+    ],
+    "meaning_upright_full": "Uma mão emerge de uma nuvem empunhando uma espada erguida, coroada e envolta por um ramo de palma e oliveira — clareza mental cortando direto ao ponto, sem rodeios. \nEssa carta representa uma nova ideia, uma verdade reconhecida ou uma decisão tomada com precisão. É o momento em que a mente enxerga com nitidez o que precisa ser feito, mesmo que a execução ainda esteja por vir."
   },
   {
     "id": "minor_arcana_swords_2",
@@ -1439,14 +1571,17 @@
       "impasse",
       "equilíbrio e decisão difícil"
     ],
-    "meaning_upright": "Representa impasse e equilíbrio e decisão difícil.",
-    "meaning_reversed": "Invertida, indica indecisão prolongada e ansiedade e informação ignorada.",
+    "meaning_upright": "Impasse e equilíbrio e decisão difícil.",
+    "meaning_reversed": "Indecisão prolongada e ansiedade e informação ignorada.",
     "symbols": [
-      "figura vendada segurando duas espadas"
+      "Água",
+      "Lua"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Branco",
+      "Cinza"
+    ],
+    "meaning_upright_full": "Uma mulher vendada equilibra duas espadas cruzadas sobre os ombros, sentada de costas para o mar sob uma lua minguante — ela não pode ver, então precisa decidir baseada em outra coisa que não os olhos. \nEssa carta representa um impasse: duas opções em tensão, uma decisão difícil sendo adiada porque enxergar claramente, por enquanto, não é possível."
   },
   {
     "id": "minor_arcana_swords_3",
@@ -1464,14 +1599,16 @@
       "separação",
       "tristeza e verdade difícil"
     ],
-    "meaning_upright": "Representa dor, separação e tristeza e verdade difícil.",
-    "meaning_reversed": "Invertida, indica cura e perdão e recuperação.",
+    "meaning_upright": "Dor, separação e tristeza e verdade difícil.",
+    "meaning_reversed": "Cura e perdão e recuperação.",
     "symbols": [
-      "coração atravessado por três espadas"
+      "Nuvem"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Cinza",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "Três espadas atravessam um coração vermelho suspenso no ar, sob um céu cinzento carregado de chuva — a dor aqui é direta, sem metáfora suavizante. \nEssa carta representa mágoa, separação ou uma verdade dolorosa que precisa ser enfrentada. Por mais desconfortável que seja, nomear a dor com clareza é o primeiro passo para começar a atravessá-la."
   },
   {
     "id": "minor_arcana_swords_4",
@@ -1488,14 +1625,15 @@
       "descanso",
       "recuperação e pausa mental"
     ],
-    "meaning_upright": "Representa descanso e recuperação e pausa mental.",
-    "meaning_reversed": "Invertida, indica retorno à ação e inquietação e recuperação incompleta.",
+    "meaning_upright": "Descanso e recuperação e pausa mental.",
+    "meaning_reversed": "Retorno à ação e inquietação e recuperação incompleta.",
     "symbols": [
-      "figura repousando em um espaço de silêncio"
+      "Armadura"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Cinza"
+    ],
+    "meaning_upright_full": "A efígie de um cavaleiro repousa deitada sobre seu túmulo, em posição de oração, com três espadas penduradas na parede e uma quarta apoiada abaixo dele. \nEssa carta representa um descanso necessário: uma pausa consciente para recuperar forças depois do esforço ou do conflito, um momento de retiro mental antes de voltar à ação com mais clareza."
   },
   {
     "id": "minor_arcana_swords_5",
@@ -1512,14 +1650,18 @@
       "conflito",
       "vitória vazia e estratégia"
     ],
-    "meaning_upright": "Representa conflito e vitória vazia e estratégia.",
-    "meaning_reversed": "Invertida, indica reconciliação e remorso e conflito evitado.",
+    "meaning_upright": "Conflito e vitória vazia e estratégia.",
+    "meaning_reversed": "Reconciliação e remorso e conflito evitado.",
     "symbols": [
-      "figura recolhendo espadas após uma disputa"
+      "Água",
+      "Montanhas",
+      "Nuvem"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Amarelo",
+      "Cinza"
+    ],
+    "meaning_upright_full": "Um homem recolhe as espadas do chão com um leve sorriso de desdém, enquanto duas figuras se afastam derrotadas e abatidas ao fundo — ele venceu, mas a vitória parece vazia. \nEssa carta representa conflitos em que ganhar custa caro demais: uma disputa resolvida à força, deixando ressentimento no lugar de uma solução verdadeira para todos os envolvidos."
   },
   {
     "id": "minor_arcana_swords_6",
@@ -1536,14 +1678,16 @@
       "transição",
       "viagem e passagem para águas mais calmas"
     ],
-    "meaning_upright": "Representa transição e viagem e passagem para águas mais calmas.",
-    "meaning_reversed": "Invertida, indica resistência à mudança e bagagem emocional e dificuldade de seguir.",
+    "meaning_upright": "Transição e viagem e passagem para águas mais calmas.",
+    "meaning_reversed": "Resistência à mudança e bagagem emocional e dificuldade de seguir.",
     "symbols": [
-      "barco atravessando águas"
+      "Água"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Cinza",
+      "Azul"
+    ],
+    "meaning_upright_full": "Um barqueiro conduz calmamente uma mulher e uma criança por águas tranquilas, rumo a uma margem mais serena, deixando para trás as espadas cravadas no barco. \nEssa carta representa uma transição necessária: deixar para trás uma fase difícil e seguir, com esforço mas sem drama, em direção a um lugar emocionalmente mais estável."
   },
   {
     "id": "minor_arcana_swords_7",
@@ -1560,14 +1704,15 @@
       "estratégia",
       "independência e astúcia"
     ],
-    "meaning_upright": "Representa estratégia e independência e astúcia.",
-    "meaning_reversed": "Invertida, indica exposição e culpa e estratégia mal executada.",
-    "symbols": [
-      "figura levando espadas de um acampamento"
-    ],
+    "meaning_upright": "Estratégia e independência e astúcia.",
+    "meaning_reversed": "Exposição e culpa e estratégia mal executada.",
+    "symbols": [],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Verde",
+      "Vermelho",
+      "Amarelo"
+    ],
+    "meaning_upright_full": "Um homem se afasta furtivamente de um acampamento carregando cinco espadas, deixando duas para trás — uma ação astuta, mas também moralmente ambígua. \nEssa carta representa estratégia e independência, às vezes às custas de um atalho questionável. Pode ser um plano inteligente ou um aviso para reconsiderar se o método escolhido é realmente honesto."
   },
   {
     "id": "minor_arcana_swords_8",
@@ -1584,14 +1729,17 @@
       "restrição",
       "medo e sensação de aprisionamento"
     ],
-    "meaning_upright": "Representa restrição e medo e sensação de aprisionamento.",
-    "meaning_reversed": "Invertida, indica libertação e perspectiva e recuperação de autonomia.",
+    "meaning_upright": "Restrição e medo e sensação de aprisionamento.",
+    "meaning_reversed": "Libertação e perspectiva e recuperação de autonomia.",
     "symbols": [
-      "figura vendada cercada por espadas"
+      "Véu",
+      "Torres"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Vermelho",
+      "Cinza"
+    ],
+    "meaning_upright_full": "Uma mulher amarrada e vendada está cercada por oito espadas cravadas ao seu redor — mas, olhando bem, o espaço entre elas permite movimento; a prisão é, em parte, mental. \nEssa carta representa a sensação de estar preso por medo ou por uma percepção limitada da própria situação, mesmo quando existe mais liberdade disponível do que a pessoa consegue enxergar no momento."
   },
   {
     "id": "minor_arcana_swords_9",
@@ -1609,14 +1757,14 @@
       "preocupação",
       "culpa e insônia"
     ],
-    "meaning_upright": "Representa ansiedade, preocupação e culpa e insônia.",
-    "meaning_reversed": "Invertida, indica alívio e recuperação e enfrentamento do medo.",
-    "symbols": [
-      "figura acordada em sofrimento"
-    ],
+    "meaning_upright": "Ansiedade, preocupação e culpa e insônia.",
+    "meaning_reversed": "Alívio e recuperação e enfrentamento do medo.",
+    "symbols": [],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Preto",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "Uma mulher acorda no meio da noite, sentada na cama com o rosto nas mãos, enquanto nove espadas pairam na escuridão acima dela; é a imagem da ansiedade que não deixa dormir. \nEssa carta representa preocupação, culpa ou medo que parecem maiores durante a noite do que realmente são à luz do dia — sofrimento real, mas frequentemente amplificado pela própria mente."
   },
   {
     "id": "minor_arcana_swords_10",
@@ -1633,14 +1781,17 @@
       "fim doloroso",
       "encerramento e transformação"
     ],
-    "meaning_upright": "Representa fim doloroso e encerramento e transformação.",
-    "meaning_reversed": "Invertida, indica recuperação e resistência e fim adiado.",
+    "meaning_upright": "Fim doloroso e encerramento e transformação.",
+    "meaning_reversed": "Recuperação e resistência e fim adiado.",
     "symbols": [
-      "figura caída com dez espadas"
+      "Montanhas"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Preto",
+      "Amarelo",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "Uma figura está prostrada no chão, atravessada por dez espadas, sob um céu que começa a clarear no horizonte — o pior já aconteceu, e é justamente por isso que só resta melhorar a partir daqui. \nEssa carta representa um fim doloroso e definitivo, mas não sem esperança: encerramentos difíceis costumam abrir espaço para um recomeço que só era possível depois desse ponto mais baixo."
   },
   {
     "id": "minor_arcana_swords_page",
@@ -1658,14 +1809,17 @@
       "vigilância",
       "ideias e comunicação"
     ],
-    "meaning_upright": "Representa curiosidade, vigilância e ideias e comunicação.",
-    "meaning_reversed": "Invertida, indica fofoca e impulsividade e falta de maturidade.",
+    "meaning_upright": "Curiosidade, vigilância e ideias e comunicação.",
+    "meaning_reversed": "Fofoca e impulsividade e falta de maturidade.",
     "symbols": [
-      "figura segurando uma espada observando o vento"
+      "Montanhas",
+      "Nuvem"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Amarelo",
+      "Azul"
+    ],
+    "meaning_upright_full": "Um jovem alerta caminha rapidamente segurando a espada erguida com as duas mãos, atento a tudo ao redor num terreno onde as nuvens se movem de forma instável. \nEssa carta representa vigilância e curiosidade mental: alguém observador, ainda aprendendo a usar as próprias ideias com cuidado, capaz de captar informações importantes antes de qualquer outra pessoa perceber."
   },
   {
     "id": "minor_arcana_swords_knight",
@@ -1683,14 +1837,19 @@
       "ambição",
       "comunicação e decisão"
     ],
-    "meaning_upright": "Representa ação rápida, ambição e comunicação e decisão.",
-    "meaning_reversed": "Invertida, indica agressividade e pressa e falta de planejamento.",
+    "meaning_upright": "Ação rápida, ambição e comunicação e decisão.",
+    "meaning_reversed": "Agressividade e pressa e falta de planejamento.",
     "symbols": [
-      "cavaleiro avançando com espada"
+      "Cavalo",
+      "Armadura",
+      "Nuvem"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Cinza",
+      "Branco",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "Um cavaleiro avança a toda velocidade, espada erguida, como se estivesse dispersando inimigos com pura determinação — não há hesitação em seu avanço. \nEssa carta representa ação rápida e decidida: coragem mental para enfrentar de frente um problema, ainda que o ímpeto, sem cuidado, também possa se transformar em precipitação."
   },
   {
     "id": "minor_arcana_swords_queen",
@@ -1708,14 +1867,20 @@
       "independência",
       "discernimento e verdade"
     ],
-    "meaning_upright": "Representa clareza, independência e discernimento e verdade.",
-    "meaning_reversed": "Invertida, indica frieza e amargura e julgamento excessivo.",
+    "meaning_upright": "Clareza, independência e discernimento e verdade.",
+    "meaning_reversed": "Frieza e amargura e julgamento excessivo.",
     "symbols": [
-      "rainha segurando uma espada"
+      "Trono",
+      "Coroa",
+      "Pássaro",
+      "Anjo",
+      "Nuvem"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Cinza",
+      "Azul"
+    ],
+    "meaning_upright_full": "A Rainha de Espadas está sentada em seu trono de perfil, segurando a espada ereta com o semblante sério — ela já conheceu a dor e aprendeu a enxergar com clareza justamente por causa disso. \nEssa carta representa discernimento afiado: alguém que valoriza a verdade acima do conforto, comunica-se com honestidade direta e não se deixa enganar por aparências."
   },
   {
     "id": "minor_arcana_swords_king",
@@ -1733,14 +1898,18 @@
       "lógica",
       "estratégia e liderança"
     ],
-    "meaning_upright": "Representa autoridade mental, lógica e estratégia e liderança.",
-    "meaning_reversed": "Invertida, indica rigidez e manipulação e abuso de autoridade.",
+    "meaning_upright": "Autoridade mental, lógica e estratégia e liderança.",
+    "meaning_reversed": "Rigidez e manipulação e abuso de autoridade.",
     "symbols": [
-      "rei sentado com espada"
+      "Trono",
+      "Coroa",
+      "Nuvem"
     ],
     "dominant_colors": [
-      "Ar"
-    ]
+      "Cinza",
+      "Azul"
+    ],
+    "meaning_upright_full": "O Rei de Espadas está sentado em seu trono, segurando a espada ereta diante de si, em posição de julgamento — sua autoridade vem da lógica e da imparcialidade, não da emoção. \nEssa carta representa liderança baseada em clareza mental: alguém que toma decisões justas com base em fatos, comunica-se com precisão e espera o mesmo padrão de honestidade dos outros."
   },
   {
     "id": "minor_arcana_pentacles_ace",
@@ -1757,14 +1926,18 @@
       "oportunidade material",
       "prosperidade e novo começo"
     ],
-    "meaning_upright": "Representa oportunidade material e prosperidade e novo começo.",
-    "meaning_reversed": "Invertida, indica oportunidade perdida e instabilidade e falta de planejamento.",
+    "meaning_upright": "Oportunidade material e prosperidade e novo começo.",
+    "meaning_reversed": "Oportunidade perdida e instabilidade e falta de planejamento.",
     "symbols": [
-      "moeda oferecida por uma mão em um jardim"
+      "Rosas e lírios",
+      "Caminho",
+      "Montanhas"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Verde",
+      "Dourado"
+    ],
+    "meaning_upright_full": "Uma mão emerge de uma nuvem oferecendo um pentáculo dourado sobre um jardim florido, com um caminho que leva a colinas ao longe — uma oportunidade concreta, ao alcance da mão. \nEssa carta representa o início de algo materialmente promissor: um novo trabalho, uma fonte de renda ou um projeto prático que, se cultivado com cuidado, tem potencial real de crescer."
   },
   {
     "id": "minor_arcana_pentacles_2",
@@ -1781,14 +1954,17 @@
       "equilíbrio",
       "adaptação e gerenciamento"
     ],
-    "meaning_upright": "Representa equilíbrio e adaptação e gerenciamento.",
-    "meaning_reversed": "Invertida, indica desorganização e sobrecarga e desequilíbrio.",
+    "meaning_upright": "Equilíbrio e adaptação e gerenciamento.",
+    "meaning_reversed": "Desorganização e sobrecarga e desequilíbrio.",
     "symbols": [
-      "figura equilibrando duas moedas"
+      "Água"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Vermelho",
+      "Verde",
+      "Azul"
+    ],
+    "meaning_upright_full": "Um jovem equilibra dois pentáculos entre as mãos, conectados por uma fita infinita, enquanto ao fundo navios balançam num mar agitado. \nEssa carta representa a habilidade de equilibrar múltiplas responsabilidades ao mesmo tempo — não é uma tarefa simples, mas manter o ritmo e a adaptação flexível é exatamente o que sustenta o equilíbrio em meio à instabilidade."
   },
   {
     "id": "minor_arcana_pentacles_3",
@@ -1805,14 +1981,15 @@
       "colaboração",
       "habilidade e reconhecimento"
     ],
-    "meaning_upright": "Representa colaboração e habilidade e reconhecimento.",
-    "meaning_reversed": "Invertida, indica falta de colaboração e baixa qualidade e conflitos.",
+    "meaning_upright": "Colaboração e habilidade e reconhecimento.",
+    "meaning_reversed": "Falta de colaboração e baixa qualidade e conflitos.",
     "symbols": [
-      "trabalhadores construindo uma estrutura"
+      "Lanterna"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Cinza"
+    ],
+    "meaning_upright_full": "Um escultor trabalha com dedicação numa catedral, sendo observado e orientado por outras duas figuras — seu talento individual só ganha forma completa dentro de um esforço coletivo. \nEssa carta representa colaboração reconhecida: habilidade técnica que se aprimora com feedback, trabalho em equipe e o reconhecimento de que os melhores resultados raramente são construídos sozinhos."
   },
   {
     "id": "minor_arcana_pentacles_4",
@@ -1829,14 +2006,17 @@
       "segurança",
       "controle e conservação"
     ],
-    "meaning_upright": "Representa segurança e controle e conservação.",
-    "meaning_reversed": "Invertida, indica apego e avareza e medo de perder.",
+    "meaning_upright": "Segurança e controle e conservação.",
+    "meaning_reversed": "Apego e avareza e medo de perder.",
     "symbols": [
-      "figura segurando quatro moedas"
+      "Coroa"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Cinza",
+      "Vermelho",
+      "Dourado"
+    ],
+    "meaning_upright_full": "Uma figura coroada segura um pentáculo junto ao peito com os dois braços, mantém outro equilibrado sobre a cabeça e dois mais debaixo dos pés — ele está cercado de recursos, mas também preso a eles pelo próprio medo de perdê-los. \nEssa carta representa a necessidade de segurança material, que é saudável até o ponto em que vira apego rígido demais para permitir qualquer risco ou mudança."
   },
   {
     "id": "minor_arcana_pentacles_5",
@@ -1853,14 +2033,15 @@
       "dificuldade",
       "exclusão e escassez"
     ],
-    "meaning_upright": "Representa dificuldade e exclusão e escassez.",
-    "meaning_reversed": "Invertida, indica recuperação e apoio e melhora.",
-    "symbols": [
-      "duas figuras caminhando na neve"
-    ],
+    "meaning_upright": "Dificuldade e exclusão e escassez.",
+    "meaning_reversed": "Recuperação e apoio e melhora.",
+    "symbols": [],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Branco",
+      "Azul",
+      "Preto"
+    ],
+    "meaning_upright_full": "Dois mendigos caminham descalços na neve, passando diante de uma janela iluminada de uma igreja sem notá-la — a ajuda está próxima, mas parece inacessível no meio da dificuldade. \nEssa carta representa um período de escassez material ou emocional: a sensação de estar excluído ou desamparado, mesmo quando existe algum tipo de amparo por perto, ainda que difícil de enxergar."
   },
   {
     "id": "minor_arcana_pentacles_6",
@@ -1877,14 +2058,16 @@
       "generosidade",
       "troca e equilíbrio"
     ],
-    "meaning_upright": "Representa generosidade e troca e equilíbrio.",
-    "meaning_reversed": "Invertida, indica dívida e dependência e troca desigual.",
+    "meaning_upright": "Generosidade e troca e equilíbrio.",
+    "meaning_reversed": "Dívida e dependência e troca desigual.",
     "symbols": [
-      "figura distribuindo moedas"
+      "Balança"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Vermelho",
+      "Dourado"
+    ],
+    "meaning_upright_full": "Um comerciante bem-vestido distribui moedas a dois necessitados, segurando uma balança que garante que a divisão seja justa, não apenas generosa. \nEssa carta representa equilíbrio nas trocas: dar e receber ajuda de forma consciente, seja oferecendo recursos a quem precisa ou reconhecendo humildemente quando é a própria vez de aceitar apoio."
   },
   {
     "id": "minor_arcana_pentacles_7",
@@ -1901,14 +2084,16 @@
       "paciência",
       "avaliação e investimento"
     ],
-    "meaning_upright": "Representa paciência e avaliação e investimento.",
-    "meaning_reversed": "Invertida, indica impaciência e resultados insuficientes e falta de retorno.",
+    "meaning_upright": "Paciência e avaliação e investimento.",
+    "meaning_reversed": "Impaciência e resultados insuficientes e falta de retorno.",
     "symbols": [
-      "figura observando uma planta de moedas"
+      "Cajado"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Verde",
+      "Dourado"
+    ],
+    "meaning_upright_full": "Um homem se apoia na própria ferramenta de trabalho, observando pensativo sete pentáculos que já brotaram como frutos de uma videira — ele parou para avaliar se o esforço investido está realmente valendo a pena. \nEssa carta representa paciência estratégica: um momento de pausa para analisar o progresso antes de decidir se vale continuar investindo tempo e energia do mesmo jeito."
   },
   {
     "id": "minor_arcana_pentacles_8",
@@ -1925,14 +2110,14 @@
       "dedicação",
       "prática e aperfeiçoamento"
     ],
-    "meaning_upright": "Representa dedicação e prática e aperfeiçoamento.",
-    "meaning_reversed": "Invertida, indica perfeccionismo e falta de foco e trabalho sem propósito.",
-    "symbols": [
-      "artesão trabalhando em moedas"
-    ],
+    "meaning_upright": "Dedicação e prática e aperfeiçoamento.",
+    "meaning_reversed": "Perfeccionismo e falta de foco e trabalho sem propósito.",
+    "symbols": [],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Azul",
+      "Dourado"
+    ],
+    "meaning_upright_full": "Um artesão concentrado esculpe pentáculos, um após o outro, com precisão crescente, enquanto exemplares já prontos ficam pendurados ao seu redor como prova do seu aperfeiçoamento. \nEssa carta representa dedicação disciplinada: o valor de repetir e refinar uma habilidade até dominá-la de verdade, mesmo que o processo seja lento e pouco chamativo por fora."
   },
   {
     "id": "minor_arcana_pentacles_9",
@@ -1949,14 +2134,17 @@
       "independência",
       "prosperidade e realização"
     ],
-    "meaning_upright": "Representa independência e prosperidade e realização.",
-    "meaning_reversed": "Invertida, indica dependência e excesso de luxo e perdas.",
+    "meaning_upright": "Independência e prosperidade e realização.",
+    "meaning_reversed": "Dependência e excesso de luxo e perdas.",
     "symbols": [
-      "figura em jardim com moedas"
+      "Pássaro"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Amarelo",
+      "Verde",
+      "Dourado"
+    ],
+    "meaning_upright_full": "Uma mulher elegante caminha por um jardim farto de videiras, com um falcão pousado em sua luva — ela conquistou essa abundância sozinha, e agora aproveita o resultado com serenidade. \nEssa carta representa independência financeira e pessoal construída com esforço próprio: o prazer legítimo de colher o que se plantou, sem precisar depender de mais ninguém para isso."
   },
   {
     "id": "minor_arcana_pentacles_10",
@@ -1974,14 +2162,19 @@
       "estabilidade",
       "família e prosperidade"
     ],
-    "meaning_upright": "Representa legado, estabilidade e família e prosperidade.",
-    "meaning_reversed": "Invertida, indica instabilidade e perda de legado e conflitos materiais.",
+    "meaning_upright": "Legado, estabilidade e família e prosperidade.",
+    "meaning_reversed": "Instabilidade e perda de legado e conflitos materiais.",
     "symbols": [
-      "família em ambiente próspero"
+      "Casal",
+      "Criança",
+      "Cachorro",
+      "Muro"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Cinza",
+      "Dourado"
+    ],
+    "meaning_upright_full": "Um homem idoso observa uma família reunida sob um arco decorado com o brasão da linhagem, cercado por cães — riqueza aqui não é só dinheiro, é legado que atravessa gerações. \nEssa carta representa estabilidade duradoura: segurança material construída ao longo do tempo, capaz de sustentar não só uma pessoa, mas uma família inteira por muitos anos."
   },
   {
     "id": "minor_arcana_pentacles_page",
@@ -1999,14 +2192,13 @@
       "oportunidade",
       "praticidade e aprendizado"
     ],
-    "meaning_upright": "Representa estudo, oportunidade e praticidade e aprendizado.",
-    "meaning_reversed": "Invertida, indica falta de progresso e distração e oportunidade perdida.",
-    "symbols": [
-      "figura estudando uma moeda"
-    ],
+    "meaning_upright": "Estudo, oportunidade e praticidade e aprendizado.",
+    "meaning_reversed": "Falta de progresso e distração e oportunidade perdida.",
+    "symbols": [],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Verde"
+    ],
+    "meaning_upright_full": "Um jovem observa atentamente um pentáculo suspenso diante de suas mãos erguidas, parado num campo verdejante, absorto no que aprende. \nEssa carta representa o início de um estudo sério: alguém disposto a aprender com paciência e método, os primeiros passos concretos em direção a um objetivo prático e realista."
   },
   {
     "id": "minor_arcana_pentacles_knight",
@@ -2024,14 +2216,16 @@
       "responsabilidade",
       "trabalho e progresso"
     ],
-    "meaning_upright": "Representa constância, responsabilidade e trabalho e progresso.",
-    "meaning_reversed": "Invertida, indica estagnação e lentidão e rotina sem propósito.",
+    "meaning_upright": "Constância, responsabilidade e trabalho e progresso.",
+    "meaning_reversed": "Estagnação e lentidão e rotina sem propósito.",
     "symbols": [
-      "cavaleiro parado com moeda"
+      "Cavalo"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Preto",
+      "Verde"
+    ],
+    "meaning_upright_full": "Um cavaleiro avança devagar sobre um cavalo parado, quase imóvel, num campo já arado — não há pressa nem brilho, só constância silenciosa. \nEssa carta representa trabalho metódico e confiável: progresso lento, mas seguro, construído por quem prefere terminar bem feito a terminar rápido."
   },
   {
     "id": "minor_arcana_pentacles_queen",
@@ -2049,14 +2243,14 @@
       "praticidade",
       "abundância e cuidado"
     ],
-    "meaning_upright": "Representa nutrição, praticidade e abundância e cuidado.",
-    "meaning_reversed": "Invertida, indica desequilíbrio entre trabalho e vida e insegurança e excesso de controle.",
-    "symbols": [
-      "rainha em ambiente fértil contemplando uma moeda"
-    ],
+    "meaning_upright": "Nutrição, praticidade e abundância e cuidado.",
+    "meaning_reversed": "Desequilíbrio entre trabalho e vida e insegurança e excesso de controle.",
+    "symbols": [],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Verde",
+      "Vermelho"
+    ],
+    "meaning_upright_full": "A Rainha de Ouros está sentada em seu trono em meio a um jardim exuberante, segurando um pentáculo no colo com atenção quase maternal — ela cuida do que tem com praticidade e carinho ao mesmo tempo. \nEssa carta representa abundância que se traduz em cuidado real: alguém que administra bem os próprios recursos e ainda sobra espaço para nutrir quem está por perto."
   },
   {
     "id": "minor_arcana_pentacles_king",
@@ -2074,13 +2268,15 @@
       "liderança",
       "segurança e domínio"
     ],
-    "meaning_upright": "Representa sucesso material, liderança e segurança e domínio.",
-    "meaning_reversed": "Invertida, indica ganância e controle e materialismo.",
+    "meaning_upright": "Sucesso material, liderança e segurança e domínio.",
+    "meaning_reversed": "Ganância e controle e materialismo.",
     "symbols": [
-      "rei sentado em ambiente abundante"
+      "Trono"
     ],
     "dominant_colors": [
-      "Terra"
-    ]
+      "Verde",
+      "Dourado"
+    ],
+    "meaning_upright_full": "O Rei de Ouros está sentado em seu trono decorado com cabeças de touro e videiras fartas, com um castelo próspero ao fundo — ele construiu riqueza sólida através de trabalho constante, não de sorte. \nEssa carta representa domínio material maduro: segurança financeira consolidada, liderança prática e a capacidade de transformar esforço disciplinado em resultado duradouro."
   }
 ]

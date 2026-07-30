@@ -18,8 +18,8 @@ export function generate(pool, targetId) {
   const shownMeaning = showUpright ? card.meaning_upright : card.meaning_reversed;
 
   const options = [
-    { id: 'upright', label: 'Upright (normal)', correct: showUpright },
-    { id: 'reversed', label: 'Reversed (invertida)', correct: !showUpright },
+    { id: 'upright', label: 'Normal', correct: showUpright },
+    { id: 'reversed', label: 'Invertida', correct: !showUpright },
   ];
 
   return {
@@ -29,11 +29,11 @@ export function generate(pool, targetId) {
       kind: 'card-text',
       card,
       text: shownMeaning,
-      question: 'Este significado corresponde à posição Upright ou Reversed?',
+      question: `Este é o significado normal ou invertido de ${card.name}?`,
     },
     options,
     subject: { kind: 'card', id: card.id },
-    explanation: `"${shownMeaning}" é o significado ${showUpright ? 'Upright' : 'Reversed'} de ${card.name}.`,
+    explanation: `"${shownMeaning}" é o significado ${showUpright ? 'normal' : 'invertido'} de ${card.name}.`,
     focusCardId: card.id,
   };
 }

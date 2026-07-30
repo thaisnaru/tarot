@@ -3,6 +3,8 @@ import { pickOne, shuffle } from '../shuffle.js';
 
 // Naipe → qual destas cartas pertence a ele. Distratores vêm um de cada
 // outro naipe (sempre existem exatamente 3 outros naipes). Opções em texto.
+// Removido do Mundo Naipes por feedback do usuário (pergunta fraca) — mantido
+// como gerador testado, igual carta-naipe/cor-significado/cor-carta.
 export const id = 'naipe-carta';
 export const difficulty = 'medio';
 

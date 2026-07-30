@@ -22,6 +22,7 @@ import * as naipeCarta from './naipeCarta.js';
 import * as uprightReversed from './uprightReversed.js';
 import * as significadoCarta from './significadoCarta.js';
 import * as detetiveSimbolos from './detetiveSimbolos.js';
+import * as completarFrase from './completarFrase.js';
 
 export const GENERATORS = [
   simboloSignificado,
@@ -48,6 +49,7 @@ export const GENERATORS = [
   uprightReversed,
   significadoCarta,
   detetiveSimbolos,
+  completarFrase,
 ];
 
 export const GENERATORS_BY_ID = Object.fromEntries(GENERATORS.map((g) => [g.id, g]));

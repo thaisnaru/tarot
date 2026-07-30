@@ -6,8 +6,19 @@
     "category": "paisagem",
     "meaning": "Simboliza o inconsciente, as emoções e o fluxo da vida.",
     "appears_in": [
+      "major_arcana_death",
+      "major_arcana_judgement",
       "major_arcana_star",
-      "major_arcana_temperance"
+      "major_arcana_temperance",
+      "minor_arcana_cups_5",
+      "minor_arcana_cups_ace",
+      "minor_arcana_cups_king",
+      "minor_arcana_cups_page",
+      "minor_arcana_cups_queen",
+      "minor_arcana_pentacles_2",
+      "minor_arcana_swords_2",
+      "minor_arcana_swords_5",
+      "minor_arcana_swords_6"
     ],
     "contrast_with": [
       "fogo"
@@ -16,13 +27,15 @@
   {
     "id": "anjo",
     "name": "Anjo",
-    "emoji": "🪽",
+    "emoji": "👼🏻",
     "category": "celestial",
     "meaning": "Mensageiro divino que representa orientação espiritual, união de opostos e transcendência.",
     "appears_in": [
       "major_arcana_judgement",
       "major_arcana_lovers",
-      "major_arcana_temperance"
+      "major_arcana_temperance",
+      "minor_arcana_cups_queen",
+      "minor_arcana_swords_queen"
     ],
     "contrast_with": [
       "bode"
@@ -36,7 +49,11 @@
     "meaning": "Representa proteção, disciplina e vontade fortalecida diante dos desafios.",
     "appears_in": [
       "major_arcana_chariot",
-      "major_arcana_emperor"
+      "major_arcana_emperor",
+      "minor_arcana_cups_knight",
+      "minor_arcana_swords_4",
+      "minor_arcana_swords_knight",
+      "minor_arcana_wands_knight"
     ],
     "contrast_with": []
   },
@@ -49,7 +66,8 @@
     "appears_in": [
       "major_arcana_hanged",
       "major_arcana_lovers",
-      "major_arcana_star"
+      "major_arcana_star",
+      "minor_arcana_cups_4"
     ],
     "contrast_with": []
   },
@@ -60,14 +78,15 @@
     "category": "objeto",
     "meaning": "Simboliza equilíbrio, justiça e a ponderação imparcial entre causa e efeito.",
     "appears_in": [
-      "major_arcana_justice"
+      "major_arcana_justice",
+      "minor_arcana_pentacles_6"
     ],
     "contrast_with": []
   },
   {
     "id": "bandeira",
     "name": "Bandeira",
-    "emoji": "🚩",
+    "emoji": "🏴‍☠️",
     "category": "objeto",
     "meaning": "Representa a passagem para uma nova fase, um estandarte de transição entre mundos.",
     "appears_in": [
@@ -93,7 +112,13 @@
     "category": "objeto",
     "meaning": "Simbolizam domínio e equilíbrio sobre as ferramentas da criação e da vontade.",
     "appears_in": [
-      "major_arcana_world"
+      "major_arcana_chariot",
+      "major_arcana_world",
+      "minor_arcana_wands_10",
+      "minor_arcana_wands_5",
+      "minor_arcana_wands_8",
+      "minor_arcana_wands_9",
+      "minor_arcana_wands_queen"
     ],
     "contrast_with": []
   },
@@ -117,7 +142,8 @@
     "category": "fauna",
     "meaning": "Simboliza lealdade, instinto protetor e companheirismo leal na jornada.",
     "appears_in": [
-      "major_arcana_fool"
+      "major_arcana_fool",
+      "minor_arcana_pentacles_10"
     ],
     "contrast_with": []
   },
@@ -128,7 +154,8 @@
     "category": "objeto",
     "meaning": "Representa introspecção, sabedoria conquistada e apoio na busca solitária pela verdade.",
     "appears_in": [
-      "major_arcana_hermit"
+      "major_arcana_hermit",
+      "minor_arcana_pentacles_7"
     ],
     "contrast_with": []
   },
@@ -139,7 +166,8 @@
     "category": "paisagem",
     "meaning": "Simboliza a jornada incerta rumo ao desconhecido, entre medos e ilusões.",
     "appears_in": [
-      "major_arcana_moon"
+      "major_arcana_moon",
+      "minor_arcana_pentacles_ace"
     ],
     "contrast_with": []
   },
@@ -183,7 +211,10 @@
     "category": "figura-humana",
     "meaning": "Representam a união de opostos e as escolhas relacionadas ao amor e às tentações mundanas.",
     "appears_in": [
-      "major_arcana_devil"
+      "major_arcana_devil",
+      "minor_arcana_cups_10",
+      "minor_arcana_cups_2",
+      "minor_arcana_pentacles_10"
     ],
     "contrast_with": []
   },
@@ -195,7 +226,12 @@
     "meaning": "Simboliza força, movimento e a energia vital que conduz à transformação.",
     "appears_in": [
       "major_arcana_death",
-      "major_arcana_sun"
+      "major_arcana_sun",
+      "minor_arcana_cups_knight",
+      "minor_arcana_pentacles_knight",
+      "minor_arcana_swords_knight",
+      "minor_arcana_wands_6",
+      "minor_arcana_wands_knight"
     ],
     "contrast_with": []
   },
@@ -206,7 +242,8 @@
     "category": "objeto",
     "meaning": "Símbolos de autoridade e domínio sobre o mundo material.",
     "appears_in": [
-      "major_arcana_emperor"
+      "major_arcana_emperor",
+      "minor_arcana_cups_king"
     ],
     "contrast_with": []
   },
@@ -223,7 +260,7 @@
   },
   {
     "id": "coracao-escudo",
-    "name": "Coração/escudo",
+    "name": "Escudo",
     "emoji": "🛡️",
     "category": "objeto",
     "meaning": "Representa a proteção do amor, a fertilidade e a força criativa feminina.",
@@ -252,7 +289,14 @@
     "appears_in": [
       "major_arcana_hierophant",
       "major_arcana_justice",
-      "major_arcana_tower"
+      "major_arcana_tower",
+      "minor_arcana_cups_queen",
+      "minor_arcana_pentacles_4",
+      "minor_arcana_swords_ace",
+      "minor_arcana_swords_king",
+      "minor_arcana_swords_queen",
+      "minor_arcana_wands_king",
+      "minor_arcana_wands_queen"
     ],
     "contrast_with": []
   },
@@ -274,7 +318,8 @@
     "category": "objeto",
     "meaning": "Simboliza vitória, conquista e a totalidade de um ciclo completado com sucesso.",
     "appears_in": [
-      "major_arcana_world"
+      "major_arcana_world",
+      "minor_arcana_wands_6"
     ],
     "contrast_with": [
       "correntes"
@@ -301,7 +346,10 @@
     "category": "figura-humana",
     "meaning": "Simboliza pureza, alegria espontânea e a inocência renovada pela vitalidade solar.",
     "appears_in": [
-      "major_arcana_sun"
+      "major_arcana_sun",
+      "minor_arcana_cups_10",
+      "minor_arcana_cups_6",
+      "minor_arcana_pentacles_10"
     ],
     "contrast_with": [
       "esqueleto"
@@ -384,6 +432,7 @@
     "meaning": "Simbolizam esperança, inspiração e orientação divina.",
     "appears_in": [
       "major_arcana_chariot",
+      "major_arcana_hermit",
       "major_arcana_star"
     ],
     "contrast_with": []
@@ -391,11 +440,13 @@
   {
     "id": "flores",
     "name": "Flores",
-    "emoji": "🌸",
+    "emoji": "💐",
     "category": "flora",
     "meaning": "Representam o florescimento espiritual, a vitalidade domada e a beleza da força interior.",
     "appears_in": [
-      "major_arcana_strength"
+      "major_arcana_strength",
+      "minor_arcana_cups_6",
+      "minor_arcana_wands_4"
     ],
     "contrast_with": []
   },
@@ -431,7 +482,8 @@
     "category": "flora",
     "meaning": "Representam a alegria plena, a vitalidade e o alinhamento com a luz da consciência.",
     "appears_in": [
-      "major_arcana_sun"
+      "major_arcana_sun",
+      "minor_arcana_wands_queen"
     ],
     "contrast_with": []
   },
@@ -491,7 +543,8 @@
     "category": "objeto",
     "meaning": "Simboliza a busca interior, a sabedoria que guia sozinha através da escuridão.",
     "appears_in": [
-      "major_arcana_hermit"
+      "major_arcana_hermit",
+      "minor_arcana_pentacles_3"
     ],
     "contrast_with": []
   },
@@ -502,7 +555,10 @@
     "category": "fauna",
     "meaning": "Representa a força bruta e os instintos selvagens, domados pela coragem gentil e pela compaixão.",
     "appears_in": [
-      "major_arcana_strength"
+      "major_arcana_strength",
+      "minor_arcana_cups_2",
+      "minor_arcana_wands_king",
+      "minor_arcana_wands_queen"
     ],
     "contrast_with": []
   },
@@ -525,7 +581,9 @@
     "meaning": "Representa o inconsciente, a intuição e os mistérios ocultos da psique.",
     "appears_in": [
       "major_arcana_moon",
-      "major_arcana_priestess"
+      "major_arcana_priestess",
+      "minor_arcana_cups_8",
+      "minor_arcana_swords_2"
     ],
     "contrast_with": [
       "sol"
@@ -538,7 +596,8 @@
     "category": "vestimenta",
     "meaning": "Representa a proteção espiritual e o distanciamento do mundo material durante a introspecção.",
     "appears_in": [
-      "major_arcana_hermit"
+      "major_arcana_hermit",
+      "minor_arcana_cups_5"
     ],
     "contrast_with": []
   },
@@ -586,7 +645,18 @@
       "major_arcana_fool",
       "major_arcana_hermit",
       "major_arcana_judgement",
-      "major_arcana_lovers"
+      "major_arcana_lovers",
+      "major_arcana_strength",
+      "minor_arcana_cups_8",
+      "minor_arcana_cups_knight",
+      "minor_arcana_pentacles_ace",
+      "minor_arcana_swords_10",
+      "minor_arcana_swords_5",
+      "minor_arcana_swords_ace",
+      "minor_arcana_swords_page",
+      "minor_arcana_wands_2",
+      "minor_arcana_wands_3",
+      "minor_arcana_wands_7"
     ],
     "contrast_with": []
   },
@@ -608,18 +678,24 @@
     "category": "arquitetura",
     "meaning": "Simboliza os limites protetores e a estrutura que sustenta a vitalidade e a segurança.",
     "appears_in": [
-      "major_arcana_sun"
+      "major_arcana_chariot",
+      "major_arcana_sun",
+      "minor_arcana_pentacles_10",
+      "minor_arcana_wands_2"
     ],
     "contrast_with": []
   },
   {
     "id": "passaro",
     "name": "Pássaro",
-    "emoji": "🐦",
+    "emoji": "🕊️",
     "category": "fauna",
     "meaning": "Representa a esperança que persiste mesmo em meio à escuridão ou incerteza.",
     "appears_in": [
-      "major_arcana_star"
+      "major_arcana_star",
+      "minor_arcana_cups_ace",
+      "minor_arcana_pentacles_9",
+      "minor_arcana_swords_queen"
     ],
     "contrast_with": []
   },
@@ -630,6 +706,7 @@
     "category": "figura-humana",
     "meaning": "Simboliza o equilíbrio entre consciente e inconsciente, matéria e espírito, unidos com moderação.",
     "appears_in": [
+      "major_arcana_star",
       "major_arcana_temperance"
     ],
     "contrast_with": []
@@ -760,7 +837,12 @@
     "category": "paisagem",
     "meaning": "Representa o fluxo constante da vida, da fertilidade e da abundância emocional.",
     "appears_in": [
-      "major_arcana_empress"
+      "major_arcana_death",
+      "major_arcana_empress",
+      "major_arcana_star",
+      "minor_arcana_cups_5",
+      "minor_arcana_cups_8",
+      "minor_arcana_cups_knight"
     ],
     "contrast_with": []
   },
@@ -782,6 +864,7 @@
     "category": "flora",
     "meaning": "Simbolizam a fertilidade, a abundância e os mistérios femininos ocultos sob o véu.",
     "appears_in": [
+      "major_arcana_empress",
       "major_arcana_priestess"
     ],
     "contrast_with": []
@@ -802,11 +885,14 @@
   {
     "id": "rosas-e-lirios",
     "name": "Rosas e lírios",
-    "emoji": "💮",
+    "emoji": "🏵️",
     "category": "flora",
     "meaning": "Representam o equilíbrio entre a paixão terrena (rosas) e a pureza espiritual (lírios) na manifestação da vontade.",
     "appears_in": [
-      "major_arcana_magician"
+      "major_arcana_hierophant",
+      "major_arcana_magician",
+      "minor_arcana_pentacles_ace",
+      "minor_arcana_wands_2"
     ],
     "contrast_with": []
   },
@@ -818,7 +904,8 @@
     "meaning": "Simboliza tentação, transformação e o conhecimento oculto.",
     "appears_in": [
       "major_arcana_fortune",
-      "major_arcana_lovers"
+      "major_arcana_lovers",
+      "minor_arcana_cups_2"
     ],
     "contrast_with": [
       "rosa-branca"
@@ -827,7 +914,7 @@
   {
     "id": "sol",
     "name": "Sol",
-    "emoji": "☀️",
+    "emoji": "🌞",
     "category": "celestial",
     "meaning": "Representa vitalidade, clareza, consciência e alegria plena.",
     "appears_in": [
@@ -841,7 +928,7 @@
   {
     "id": "sol-entre-torres",
     "name": "Sol entre torres",
-    "emoji": "🌅",
+    "emoji": "🌇",
     "category": "celestial",
     "meaning": "Simboliza a promessa de renovação e vida eterna além da transformação da morte.",
     "appears_in": [
@@ -865,9 +952,11 @@
     "name": "Torres",
     "emoji": "🏰",
     "category": "arquitetura",
-    "meaning": "Representam o portal entre o consciente e o inconsciente, um limiar a ser atravessado com cautela.",
+    "meaning": "Representam limites e proteção, guardando a fronteira e demarcando a passagem entre dois territórios.",
     "appears_in": [
-      "major_arcana_moon"
+      "major_arcana_chariot",
+      "major_arcana_moon",
+      "minor_arcana_swords_8"
     ],
     "contrast_with": []
   },
@@ -900,7 +989,15 @@
     "category": "objeto",
     "meaning": "Representa a autoridade estabelecida, o poder estrutural e a estabilidade do governante.",
     "appears_in": [
-      "major_arcana_emperor"
+      "major_arcana_emperor",
+      "major_arcana_hierophant",
+      "minor_arcana_cups_king",
+      "minor_arcana_cups_queen",
+      "minor_arcana_pentacles_king",
+      "minor_arcana_swords_king",
+      "minor_arcana_swords_queen",
+      "minor_arcana_wands_king",
+      "minor_arcana_wands_queen"
     ],
     "contrast_with": []
   },
@@ -911,7 +1008,37 @@
     "category": "vestimenta",
     "meaning": "Representa o véu do mistério entre o consciente e o inconsciente, o conhecimento ainda oculto e não revelado.",
     "appears_in": [
-      "major_arcana_priestess"
+      "major_arcana_priestess",
+      "minor_arcana_swords_8"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "barba-branca",
+    "name": "Barba Branca",
+    "emoji": "🧔🏼",
+    "category": "figura-humana",
+    "meaning": "Representa a sabedoria conquistada com a idade e a experiência — a marca de quem já viveu o bastante para orientar com autoridade.",
+    "appears_in": [
+      "major_arcana_emperor",
+      "major_arcana_hermit"
+    ],
+    "contrast_with": []
+  },
+  {
+    "id": "nuvem",
+    "name": "Nuvem",
+    "emoji": "☁️",
+    "category": "paisagem",
+    "meaning": "Representa a comunicação saudável e a clareza mental necessária para expressar pensamentos e sentimentos sem gerar conflito.",
+    "appears_in": [
+      "major_arcana_lovers",
+      "minor_arcana_swords_3",
+      "minor_arcana_swords_5",
+      "minor_arcana_swords_page",
+      "minor_arcana_swords_knight",
+      "minor_arcana_swords_queen",
+      "minor_arcana_swords_king"
     ],
     "contrast_with": []
   }
